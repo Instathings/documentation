@@ -8,7 +8,7 @@ Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
 
 ## Lorem
 
-Getting Started 2
+Getting Started
 
 
 Here follows the procedure for using a normal Raspberry Pi as a Gateway of our InstaThings system.
