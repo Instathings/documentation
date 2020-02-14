@@ -8,7 +8,30 @@ Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
 
 ## Lorem
 
-Prima prova
+Getting Started
+
+Here follows the procedure for using a normal Raspberry Pi as a Gateway of our InstaThings system.
+
+Please check Prerequisite for having an idea of what is requested. 
+
+Assuming the Raspberry Pi already installed and updated properly, on the contrary please refer to point 1).
+
+
+
+Prerequisite:
+- Operating System (ver. … or higher) updated and configured properly
+- Docker
+- …
+
+
+
+1) Install the Operating System on your Raspberry Pi 3+ or higher (preferred 4), accordingly to your needs. We suggest the smaller version without the Graphical User Interface (Raspbian Buster Lite).
+Please refer to official site for taking the last version:
+https://www.raspberrypi.org/downloads/raspbian/
+And more in general refer to:
+https://www.raspberrypi.org/documentation/installation/
+
+
 
 ## Mauris In Code
 
