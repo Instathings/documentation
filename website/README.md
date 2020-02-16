@@ -106,7 +106,7 @@ My new content here..
 // Add newly-created-doc to the Getting Started category of docs
 {
   "docs": {
-    "Getting Started": [
+    "Get Started": [
       "quick-start",
       "newly-created-doc" // new doc here
     ],
