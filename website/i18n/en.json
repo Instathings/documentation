@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "A website for testing",
+    "tagline": "Connect any Zigbee device to the cloud",
     "docs": {
       "doc1": {
         "title": "Latin-ish",
@@ -23,10 +23,9 @@
       }
     },
     "links": {
-      "Docs": "Docs",
-      "API": "API",
-      "Help": "Help",
-      "Blog": "Blog"
+      "Get started": "Get started",
+      "Guides": "Guides",
+      "API Reference": "API Reference"
     },
     "categories": {
       "Docusaurus": "Docusaurus",
