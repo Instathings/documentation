@@ -1,15 +1,11 @@
 ---
-id: doc1
-title: Latin-ish
-sidebar_label: Example Page
+id: settings
+title: Settings
 ---
 
 Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
 
-## Lorem
-
-Get Started
-
+## Documentation
 
 Here follows the procedure for using a normal Raspberry Pi as a Gateway of our InstaThings system.
 

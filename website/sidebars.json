@@ -1,10 +1,16 @@
 {
-  "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+  "get-started": {
+    "GetStarted": [
+      "get-started",
+      "connect-raspberry"
+    ]
   },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+  "docs": {
+    "Documentation": [
+      "devices",
+      "automations",
+      "data",
+      "settings"
+    ]
   }
 }

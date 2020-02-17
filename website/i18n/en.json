@@ -5,32 +5,33 @@
     "previous": "Previous",
     "tagline": "Connect any Zigbee device to the cloud",
     "docs": {
-      "doc1": {
-        "title": "Latin-ish",
-        "sidebar_label": "Example Page"
+      "automations": {
+        "title": "Automations"
       },
-      "doc2": {
-        "title": "document number 2"
+      "connect-raspberry": {
+        "title": "Connect a Raspberry Pi to Instathings"
       },
-      "doc3": {
-        "title": "This is document number 3"
+      "data": {
+        "title": "Data"
       },
-      "doc4": {
-        "title": "Other Document"
+      "devices": {
+        "title": "Devices"
       },
-      "doc5": {
-        "title": "Fifth Document"
+      "get-started": {
+        "title": "Get started"
+      },
+      "settings": {
+        "title": "Settings"
       }
     },
     "links": {
       "Get started": "Get started",
-      "Guides": "Guides",
+      "Home": "Home",
       "API Reference": "API Reference"
     },
     "categories": {
-      "Docusaurus": "Docusaurus",
-      "First Category": "First Category",
-      "Second Category": "Second Category"
+      "GetStarted": "GetStarted",
+      "Documentation": "Documentation"
     }
   },
   "pages-strings": {
