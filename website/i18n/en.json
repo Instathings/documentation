@@ -6,7 +6,7 @@
     "tagline": "A website for testing",
     "docs": {
       "doc1": {
-        "title": "Latin-ish",
+        "title": "Getting Started",
         "sidebar_label": "Example Page"
       },
       "doc2": {
