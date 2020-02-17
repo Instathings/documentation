@@ -21,4 +21,4 @@ phases:
 artifacts:
     files:
     - '**/*'
-    base-directory: 'build/instathings'
+    base-directory: 'website/build/instathings'
