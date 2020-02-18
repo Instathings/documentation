@@ -1,6 +1,7 @@
 ---
 id: get-started
-title: Get started
+title: Getting Started
+sidebar_label: Getting started
 ---
 
 In this step by step guide we'll explore the Instathings platform to:

@@ -18,7 +18,8 @@
         "title": "Devices"
       },
       "get-started": {
-        "title": "Get started"
+        "title": "Getting Started",
+        "sidebar_label": "Getting started"
       },
       "settings": {
         "title": "Settings"
