@@ -1,6 +1,6 @@
 {
-  "get-started": {
-    "GetStarted": [
+  "tutorials": {
+    "Tutorials": [
       "get-started",
       "connect-raspberry"
     ]
