@@ -15,25 +15,12 @@ Prerequisite:
 3. …
 
 ---
-
 1) Install the Operating System on your Raspberry Pi 3+ or higher (preferred 4), accordingly to your needs. We suggest the smaller version without the Graphical User Interface (Raspbian Buster Lite).
+
+
 Please refer to official site for taking the last version [Raspbian](https://www.raspberrypi.org/downloads/raspbian/)
 
 And more in general refer to [Installation](https://www.raspberrypi.org/documentation/installation/)
-
-
-Prerequisite:
-- Operating System (ver. … or higher) updated and configured properly
-- Docker
-- …
-
-
-
-1) Install the Operating System on your Raspberry Pi 3+ or higher (preferred 4), accordingly to your needs. We suggest the smaller version without the Graphical User Interface (Raspbian Buster Lite).
-Please refer to official site for taking the last version:
-https://www.raspberrypi.org/downloads/raspbian/
-And more in general refer to:
-https://www.raspberrypi.org/documentation/installation/
 
 ---
 2) Install Docker following these simple steps, as described in [here](https://dev.to/rohansawant/installing-docker-and-docker-compose-on-the-raspberry-pi-in-5-simple-steps-3mgl)
