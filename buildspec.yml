@@ -12,8 +12,8 @@ phases:
         commands:
             - cd website
             - echo Installing source NPM dependencies...
-            - sed -i "s/\"get-started\",/\"get-started\"/g" sidebars.json
-            - sed -i "s/\"connect-raspberry\",/\"connect-raspberry\"/g" sidebars.json
+            - mv sidebars.json sidebars.json.dev 
+            - mv sidebars.json.prod sidebars.json
             - npm install
             - npm run build
 # Include only the files required for your application to run.
