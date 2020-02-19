@@ -13,7 +13,7 @@ phases:
             - cd website
             - echo Installing source NPM dependencies...
             - mv sidebars.json sidebars.json.dev 
-            - mv sidebars.json.prod sidebars.json
+            - if [ "$DEPLOY_ENV" == "production" ]; then mv sidebars.json.prod sidebars.json; fi
             - npm install
             - npm run build
 # Include only the files required for your application to run.
