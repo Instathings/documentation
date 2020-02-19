@@ -1,8 +1,7 @@
 {
   "tutorials": {
     "Tutorials": [
-      "get-started",
-      "connect-raspberry"
+      "get-started"
     ]
   },
   "docs": {

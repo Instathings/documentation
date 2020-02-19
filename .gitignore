@@ -1,2 +1,4 @@
 website/node_modules
 website/build
+.DS_Store
+node_modules
