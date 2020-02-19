@@ -95,7 +95,7 @@ Then you will have to move it to your gateway in the way you prefer: using Drag&
 
 Or with this command with the Terminal.
 
-![Plan](assets/connecting-raspberrypi/ScpCommand_1.png)
+![Plan](assets/connecting-raspberrypi/ScpCommand.png)
 
 If you want to use the command, be sure to customize it with your information.
 We are using scp. If you need any help with it
@@ -104,7 +104,7 @@ please contact us through the chat in the left-bottom corner of the webpage.
 scp -r -i ~/Desktop/id_rsa  device- mendel@wishful-jet.local:~
 ```
 Let's continue with the procedure.
-![Plan](assets/connecting-raspberrypi/ScpCommandCompleted_1.png)
+![Plan](assets/connecting-raspberrypi/ScpCommandCompleted.png)
 
 
 Once executed teh command you'll have a situation like this.
