@@ -1,0 +1,15 @@
+{
+  "tutorials": {
+    "Tutorials": [
+      "get-started"
+    ]
+  },
+  "docs": {
+    "Documentation": [
+      "devices",
+      "automations",
+      "data",
+      "settings"
+    ]
+  }
+}

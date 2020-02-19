@@ -12,6 +12,8 @@ phases:
         commands:
             - cd website
             - echo Installing source NPM dependencies...
+            - mv sidebars.json sidebars.json.dev 
+            - mv sidebars.json.prod sidebars.json
             - npm install
             - npm run build
 # Include only the files required for your application to run.
