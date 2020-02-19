@@ -4,18 +4,6 @@ title: Getting Started
 sidebar_label: Getting started
 ---
 
-In this step by step guide we'll explore the Instathings platform to:
-- create our first Plan
-- create our first Project based on a Plan
-
-After the creation of our first Project we will:
-- list all the Devices connected to the Project
-- start generating some Virtual data
-- explore the data sent by the device 
-
-## Sign up
-
-First, sign up or on the [Instathings Editor](https://editor.instathings.io) with a Google account or with email and password.
 
 ## Your first big choice 
 
