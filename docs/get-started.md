@@ -1,11 +1,9 @@
 ---
-id: doc1
+id: Getting started
 title: Getting Started
-sidebar_label: Example Page
+sidebar_label: Getting started
 ---
 
-
-## Getting Started
 
 Here follows the procedure for using a normal Raspberry Pi as a Gateway of our InstaThings system.
 

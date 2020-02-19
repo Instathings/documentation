@@ -1,0 +1,24 @@
+# Do not change version. This is the version of aws buildspec, not the version of your buldspec file.
+version: 0.2
+env:
+  git-credential-helper: yes #https://stackoverflow.com/questions/57709367/aws-codebuild-and-codecommit-repo-as-npm-dependency
+phases:
+    install:
+        runtime-versions:
+            nodejs: 10
+        commands:
+            - echo Install phase empty...
+    build:
+        commands:
+            - cd website
+            - echo Installing source NPM dependencies...
+            - npm install
+            - npm run build
+# Include only the files required for your application to run.
+# Do not use recursively include artifacts from node_modules directory as it will include unnecessary packages
+# used only for building and testing.
+# ExpressJS apps will need other artifact directories included (bin/*, public/*, routes/*, views/* etc).
+artifacts:
+    files:
+    - '**/*'
+    base-directory: 'website/build/instathings'

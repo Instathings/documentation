@@ -3,35 +3,36 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "A website for testing",
+    "tagline": "Connect any Zigbee device to the cloud",
     "docs": {
-      "doc1": {
+      "automations": {
+        "title": "Automations"
+      },
+      "connect-raspberry": {
+        "title": "Connect a Raspberry Pi to Instathings"
+      },
+      "data": {
+        "title": "Data"
+      },
+      "devices": {
+        "title": "Devices"
+      },
+      "Getting started": {
         "title": "Getting Started",
-        "sidebar_label": "Example Page"
+        "sidebar_label": "Getting started"
       },
-      "doc2": {
-        "title": "document number 2"
-      },
-      "doc3": {
-        "title": "This is document number 3"
-      },
-      "doc4": {
-        "title": "Other Document"
-      },
-      "doc5": {
-        "title": "Fifth Document"
+      "settings": {
+        "title": "Settings"
       }
     },
     "links": {
-      "Docs": "Docs",
-      "API": "API",
-      "Help": "Help",
-      "Blog": "Blog"
+      "Get started": "Get started",
+      "Home": "Home",
+      "API Reference": "API Reference"
     },
     "categories": {
-      "Docusaurus": "Docusaurus",
-      "First Category": "First Category",
-      "Second Category": "Second Category"
+      "GetStarted": "GetStarted",
+      "Documentation": "Documentation"
     }
   },
   "pages-strings": {
