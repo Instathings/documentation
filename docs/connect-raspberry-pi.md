@@ -109,7 +109,7 @@ We are using scp. If you need any help with it please contact us through the cha
 Let's continue with the procedure.
 
 
-Once executed teh command you'll have a situation like this.
+Once executed the command you'll have a situation like this.
 ![Plan](assets/connecting-raspberrypi/Extracted.png)
 
 Now we move inside the device with an SSH Terminal.
