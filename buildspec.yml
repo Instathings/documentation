@@ -19,8 +19,9 @@ phases:
             - echo Installing source NPM dependencies...
             - if [ "$DEPLOY_ENV" == "production" ]; then mv sidebars.json.prod sidebars.json; fi
             - npm install
-            - npm run docgen
             - npm run build
+            - cd ..
+            - npm run docgen
 # Include only the files required for your application to run.
 # Do not use recursively include artifacts from node_modules directory as it will include unnecessary packages
 # used only for building and testing.
