@@ -6,9 +6,14 @@
     "publish-gh-pages": "docusaurus-publish",
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
-    "rename-version": "docusaurus-rename-version"
+    "rename-version": "docusaurus-rename-version",
+    "docgen": "node devices/docgen/docgen.js && cp -R devices/docs/devices docs/ && cp -R devices/docs/images/devices docs/assets"
   },
   "devDependencies": {
-    "docusaurus": "^1.14.4"
+    "docusaurus": "^1.14.4",
+    "zigbee-herdsman-converters": "^12.0.30"
+  },
+  "dependencies": {
+    "json2yaml": "^1.1.0"
   }
 }

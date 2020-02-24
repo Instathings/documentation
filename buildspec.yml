@@ -13,6 +13,7 @@ phases:
             - cd website
             - echo Installing source NPM dependencies...
             - if [ "$DEPLOY_ENV" == "production" ]; then mv sidebars.json.prod sidebars.json; fi
+            - npm run docgen
             - npm install
             - npm run build
 # Include only the files required for your application to run.
