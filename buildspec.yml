@@ -21,6 +21,7 @@ phases:
             - npm install
             - npm run build
             - cd ..
+            - npm install
             - npm run docgen
 # Include only the files required for your application to run.
 # Do not use recursively include artifacts from node_modules directory as it will include unnecessary packages
