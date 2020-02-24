@@ -10,6 +10,11 @@ phases:
             - echo Install phase empty...
     build:
         commands:
+            - cd docs
+            - mkdir devices
+            - cd assets
+            - mkdir devices
+            - cd ../../ 
             - cd website
             - echo Installing source NPM dependencies...
             - if [ "$DEPLOY_ENV" == "production" ]; then mv sidebars.json.prod sidebars.json; fi
