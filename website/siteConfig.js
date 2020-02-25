@@ -36,7 +36,10 @@ const siteConfig = {
       label: 'Home',
     },
     { href: "https://docs.instathings.io/", label: 'API Reference' },
-
+    {
+      doc: 'all-devices',
+      label: 'Supported devices',
+    }
   ],
 
   // If you have users set above, you add it here:

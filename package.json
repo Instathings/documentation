@@ -1,4 +1,5 @@
 {
+  "version": "1.0.0",
   "scripts": {
     "examples": "docusaurus-examples",
     "start": "docusaurus-start",
@@ -6,9 +7,15 @@
     "publish-gh-pages": "docusaurus-publish",
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
-    "rename-version": "docusaurus-rename-version"
+    "rename-version": "docusaurus-rename-version",
+    "docgen": "node devices/docgen/docgen.js && cp -R devices/docs/devices docs/ && cp -R devices/docs/images/devices docs/assets"
   },
   "devDependencies": {
-    "docusaurus": "^1.14.4"
+    "docusaurus": "^1.14.4",
+    "zigbee-herdsman": "0.12.44",
+    "zigbee-herdsman-converters": "12.0.18"
+  },
+  "dependencies": {
+    "json2yaml": "^1.1.0"
   }
 }
