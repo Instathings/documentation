@@ -11,8 +11,8 @@ description: "Integrate your Xiaomi ZNMS12LM via Zigbee2mqtt with whatever smart
 
 | Model | ZNMS12LM  |
 | Vendor  | Xiaomi  |
-| Description | Aqara S2 lock |
-| Supports | open, close, operation (reporting only) |
+| Description | Aqara S2 Lock |
+| Supports | report: open, close, operation |
 | Picture | ![Xiaomi ZNMS12LM](./assets/devices/ZNMS12LM.jpg) |
 
 ## Notes

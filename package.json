@@ -1,4 +1,5 @@
 {
+  "version": "1.0.0",
   "scripts": {
     "examples": "docusaurus-examples",
     "start": "docusaurus-start",
@@ -11,7 +12,8 @@
   },
   "devDependencies": {
     "docusaurus": "^1.14.4",
-    "zigbee-herdsman-converters": "^12.0.30"
+    "zigbee-herdsman": "0.12.44",
+    "zigbee-herdsman-converters": "12.0.18"
   },
   "dependencies": {
     "json2yaml": "^1.1.0"
