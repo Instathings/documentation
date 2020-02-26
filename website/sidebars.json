@@ -12,7 +12,8 @@
       "devices",
       "automations",
       "data",
-      "settings"
+      "settings",
+      "projects"
     ]
   }
 }

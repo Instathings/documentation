@@ -9,7 +9,7 @@
         "title": "Automations"
       },
       "connect-raspberry": {
-        "title": "Configure a gateway device",
+        "title": "Configure a gateway device 🤖",
         "sidebar_label": "Configure a gateway device"
       },
       "control-bulb": {

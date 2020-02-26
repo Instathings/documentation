@@ -1,85 +1,41 @@
 ---
 id: connect-raspberry
-title: Configure a gateway device
-sidebar_label: Configure a gateway device
+title: Configure a gateway device 🤖
+sidebar_label: Configure a gateway device 
 ---
-Here follows the procedure for using a normal Raspberry Pi as a Gateway of our Instathings system.
+In this section we will show the very first steps to build your IoT Instathings world! 
 
-Please check Requirements for having an idea of what is requested. 
+In order to manage all your sensors and devices you will need a gateway with an Internet connection. You can choose a Raspberry Pi (which we used for this tutorial) or any device that is able to install Docker. 
 
-Assuming the Raspberry Pi already installed and updated properly. 
-In this case go directly to point 2), on the contrary please refer to point 1).
+If you have any question about choosing a gateway feel free to contact us on our site! 
 
-Requirements:
-1. Operating System (latest stable version) updated and configured properly
-2. Docker
+## Software Requirements 
+Install Docker 🐳 on your gateway executing the following commands in the command line one by one. <br> They are suitable for Linux, if you have other operating systems please refer to <a href="https://docs.docker.com/install/" class="external-link">Docker documentation</a>.
+ 
 
-
-## Operating System
-Install the Operating System on your Raspberry Pi 3+ or higher (preferred 4), accordingly to your needs. We suggest the smaller O.S. version without the Graphical User Interface (Raspbian Buster Lite).
-
-
-Please refer to official site for taking the latest version [Raspbian](https://www.raspberrypi.org/downloads/raspbian/)
-
-And more in general refer to [Installation](https://www.raspberrypi.org/documentation/installation/)
-
-## Docker
-Install Docker following these simple steps, as described in [here](https://dev.to/rohansawant/installing-docker-and-docker-compose-on-the-raspberry-pi-in-5-simple-steps-3mgl)
-
-
-Install Docker
 ```
 curl -sSL https://get.docker.com | sh
-```
 
-
-Add permission to Pi User to run Docker Commands
-
-```
 sudo usermod -aG docker pi
 ```
 
+## Gateway onboarding
+Your gateway is now ready to be connected to the Instathings Cloud. <br> Log in to Instathings Editor and start by creating a new project on the `Projects` page. Give your project a name and choose a `live` environment. For more information about `Sandbox` and `Live` environments refer to the  <a href="/docs/projects.html" class="external-link">project documentation section</a>.
 
-Test Docker installation
-
-```
-docker run hello-world 
-```
-
-Install proper dependencies 
-```
-sudo apt-get install libffi-dev libssl-dev
-
-sudo apt-get install -y python python-pip
-
-sudo apt-get remove python-configparser
-```
-
-
-
-
-## How to onboard your gateway on Instathings
-
-Click on `Projects` and then the button `New project` on the right side.
-
-![Plan](assets/connecting-raspberrypi/NewProject.png)
-
-Give it a Name.
-
-And select `Live` (on `Environment`), because we want to work with real-existing devices.
-
-Now we can proceed with the creation of the gateway in our Project. Click on `Create a new gateway`.
-
-![Plan](assets/connecting-raspberrypi/NewGateway.png)
-
-Give it a name
-And select the type of device for your gateway (e.g.: `Raspberry - Raspberry - Pi 4 Model B`).
-Click on `Create device`.
 
 
 ![Plan](assets/connecting-raspberrypi/DeviceInfoSelected.png)
 
 As you can see once created the light is yellow: it means that the device isn't connected.
+
+
+
+
+
+
+
+
+
 
 ## Let's generate the certificate
 The Certificate will generated along the procedure for onboarding the Gateway. So proceed with following steps.
