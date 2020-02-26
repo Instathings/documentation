@@ -35,7 +35,10 @@ const siteConfig = {
       doc: 'devices',
       label: 'Home',
     },
-    { href: "https://docs.instathings.io/", label: 'API Reference' },
+    {
+      href: "https://developers.instathings.io/",
+      label: 'API Reference'
+    },
     {
       doc: 'all-devices',
       label: 'Supported devices',

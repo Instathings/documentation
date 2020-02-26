@@ -2,6 +2,7 @@
   "tutorials": {
     "Tutorials": [
       "get-started",
+      "flashing-dongle",
       "connect-raspberry"
     ]
   },
