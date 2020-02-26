@@ -11,6 +11,10 @@
       "connect-raspberry": {
         "title": "Connect a Raspberry Pi to Instathings"
       },
+      "control-bulb": {
+        "title": "Connect and control a Philips Hue bulb",
+        "sidebar_label": "Connect and control a Philips Hue bulb"
+      },
       "data": {
         "title": "Data"
       },

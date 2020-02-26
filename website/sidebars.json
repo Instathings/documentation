@@ -3,7 +3,8 @@
     "Tutorials": [
       "get-started",
       "flashing-dongle",
-      "connect-raspberry"
+      "connect-raspberry",
+      "control-bulb"
     ]
   },
   "docs": {
