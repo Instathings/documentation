@@ -19,3 +19,7 @@
 @media only screen and (min-width: 1400px) {}
 
 @media only screen and (min-width: 1500px) {}
+
+.external-link {
+  text-decoration: underline;
+}

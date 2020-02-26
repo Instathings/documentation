@@ -1,22 +1,26 @@
 ---
 id: flashing-dongle
-title: Configure the CC2531 Zigbee dongle
-sidebar_label: Flash CC2531 dongle
+title: Set up a Zigbee network coordinator
+sidebar_label: Set up a Zigbee network coordinator
 ---
-In order to use a Zigbee device you need to configure the network with a so called *coordinator* device which inizialize the connection and keeps it up. For this purpose we use a USB dongle CC2531, designed by Texas Instrument. <br> However before start using it, the dongle needs to be flashed with a software which allows it to act as a network coordinator. 
+In order to use a Zigbee device you need to configure a network with a so called *coordinator* device which is responsible for creating the network and routing traffic. 
 
-In this tutorial we will show how to correctly configure the USB dongle get it ready for Instathings. It will take just 5 minutes, let's start!
+For this purpose we'll use a USB dongle CC2531, designed by Texas Instrument. <br> However before start using it, the dongle needs to be flashed with a new firmware (a software that allows it to act as a network coordinator). 
+
+This tutorial we will show you how to correctly configure the USB dongle for getting it ready for Instathings. 
+
+It will take just 5 minutes, let's start!
 
 ## Flash the firmware to the USB dongle
 
-### Requirements
-This tutorial is for Mac OS systems and you need the following devices:
+### Hardware requirements
+This tutorial is for MacOS systems and you need the following devices:
 * CC2531 USB Dongle
-* CC Debugger (it is generally provided with all the cables to connect it to the dongle)
+* CC Debugger
 
-### Install Homebrew
+### Software requirements
 
-Fist of all you need to install Homebrew on you Mac. From the command line type the following commads:
+First of all you need to install Homebrew on you Mac. Open the terminal and execute the following commands line by line:
 
 ```
 # install brew
@@ -33,26 +37,32 @@ cd cc-tool
 make
 ```
 
-### Download the firmware
+#### Download the firmware
 
-Download the firmware from the [following link](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/CC2531_DEFAULT_20190608.zip). This software will be flashed in the dongle. 
+Download the firmware from the <a href="https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/CC2531_DEFAULT_20190608.zip" target="_blank" class="external-link">following link</a>. This software will be flashed in the dongle. 
 
 ### Connect the dongle 
 Now you need to connect the dongle to the CC Debugger and then connect the dongle to your pc. The cables connection is shown in the following picture.
 
 Generally the status led on the debugger should be green, if not turn off and on the debbuger. 
 
-<img src="assets/flashing-dongle/CCDebugger.JPG" width="400"/>
- 
+<a href="assets/flashing-dongle/CCDebugger.JPG" target="_blank">
+    <img src="assets/flashing-dongle/CCDebugger.JPG" width="400"/>
+</a>
+
 ### Flash the firmware
 Now, from your command line, execute the following command:
 
-`sudo ./cc-tool -e -w CC2531ZNP-Prod.hex`
+```bash
+sudo ./cc-tool -e -w CC2531ZNP-Prod.hex`
+```
 
 ## Check the connection
-Now let's move from our pc to the device that will use with our Instathings system. For these tutorial we used a Raspberry Pi 4. <br > Connect your USB dongle to your device and type these command to check if it is correctly detected.
+Now let's move from our Mac to the device that will use with our Instathings system. For this tutorial we're using a Raspberry Pi 4. <br > Connect your USB dongle to your device let's execute the following script to check if it is correctly detected.
 
-`sudo nano cc2531.sh`
+```bash
+sudo nano cc2531.sh
+```
 
 Copy the following script and then save it (to save type `Ctrl+X, Y, Enter`)
 
@@ -69,11 +79,10 @@ for sysdevpath in $(find /sys/bus/usb/devices/usb*/ -name dev); do
     )
 done
 ```
-Now give it the permission and exectute it
+Now give it the permission and execute it
 
 ```bash
-sudo chmod 777 cc2531.sh 
-
+sudo chmod +x cc2531.sh 
 ./cc2531.sh
 ```
 If everything worked fine, you should see something like this:
