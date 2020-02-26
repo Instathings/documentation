@@ -1,6 +1,6 @@
 ---
 id: flashing-dongle
-title: Set up a Zigbee network coordinator
+title: Set up a Zigbee network coordinator 🐝
 sidebar_label: Set up a Zigbee network coordinator
 ---
 In order to use a Zigbee device you need to configure a network with a so called *coordinator* device which is responsible for creating the network and routing traffic. 

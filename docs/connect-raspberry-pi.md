@@ -1,6 +1,7 @@
 ---
 id: connect-raspberry
-title: Connect a Raspberry Pi to Instathings
+title: Configure a gateway device
+sidebar_label: Configure a gateway device
 ---
 Here follows the procedure for using a normal Raspberry Pi as a Gateway of our Instathings system.
 
