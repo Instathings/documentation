@@ -61,7 +61,8 @@ Before start controlling the bulb you have to enable API access to your project 
 Enabling API access is a no brainer:
 - go to `Settings` page 
 - click `Enable API access` button. 
-<br>For more information about API access refer to our
+
+For more information about API access refer to our
 <a href="https://developers.instathings.io/" target="_blank" class="external-link">API documentation</a>. 
 
 Anyway you don't need to any have technical background to follow this tutorial.
@@ -75,23 +76,12 @@ You just need to copy the following informations to use them in the next step. T
  - `Client ID`
  - `Client Secret`  
 
- Now go back to the `Devices` page, select your Light Bulb subdevice and copy the `device ID`, you will need it in the following step togheter with the settings information. 
-
  Now you are ready to control the bulb! 
 
 ### Change bulb state 
- Go to the Light Bulb Demo Application and fill the form with the information of your project and your device.
- 
- Then set the payload with the parameters you want to control, for example using the following payload the light will turn into blue!
- 
- ```javascript
- {
-	"state": "ON",
-	"color": {
-		"x": 0.150,
-		"y": 0.005
-	},
-	"brightness": 255
-}
- ```
+ Go to the Light Bulb Demo Application and fill the form with the information of your project you collected at the previous step.
+
+ Click `Access application` and choose your bulb device
+
+ Now you can turn it on and off, change the color and modify the brightness! Enjoy! 💡
 
