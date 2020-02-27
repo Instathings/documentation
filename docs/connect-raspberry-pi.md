@@ -10,7 +10,7 @@ In order to manage all your sensors and devices you will need a gateway with an 
 If you have any question about choosing a gateway feel free to contact us on our site! 
 
 ## Software Requirements 
-Install Docker 🐳 on your gateway executing the following commands in the command line one by one. <br> They are suitable for Linux, if you have other operating systems please refer to <a href="https://docs.docker.com/install/" class="external-link">Docker documentation</a>.
+Install Docker 🐳 on your gateway executing the following commands in the command line one by one. <br> They are suitable for Linux, if you have other operating systems please refer to <a href="https://docs.docker.com/install/" target="_blank" class="external-link">Docker documentation</a>.
  
 
 ```
@@ -20,7 +20,7 @@ sudo usermod -aG docker pi
 ```
 
 ## Gateway onboarding
-Your gateway is now ready to be connected to the Instathings Cloud. <br> Log in to Instathings Editor and start by creating a new project on the `Projects` page. Give your project a name and choose the `live` environment. For more information about `Sandbox` and `Live` environments refer to the  <a href="/docs/projects.html" class="external-link">project documentation section</a>.
+Your gateway is now ready to be connected to the Instathings Cloud. <br> Log in to Instathings Editor and start by creating a new project on the `Projects` page. Give your project a name and choose the `live` environment. For more information about `Sandbox` and `Live` environments refer to the  <a href="/docs/projects.html" target="_blank" class="external-link">project documentation section</a>.
 
 <a href="assets/gateway-config/createProject.png" target="_blank">
     <img src="assets/gateway-config/createProject.png" width="1000"/>
