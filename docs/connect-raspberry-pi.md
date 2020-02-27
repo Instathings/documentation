@@ -20,83 +20,53 @@ sudo usermod -aG docker pi
 ```
 
 ## Gateway onboarding
-Your gateway is now ready to be connected to the Instathings Cloud. <br> Log in to Instathings Editor and start by creating a new project on the `Projects` page. Give your project a name and choose a `live` environment. For more information about `Sandbox` and `Live` environments refer to the  <a href="/docs/projects.html" class="external-link">project documentation section</a>.
+Your gateway is now ready to be connected to the Instathings Cloud. <br> Log in to Instathings Editor and start by creating a new project on the `Projects` page. Give your project a name and choose the `live` environment. For more information about `Sandbox` and `Live` environments refer to the  <a href="/docs/projects.html" class="external-link">project documentation section</a>.
 
+<a href="assets/gateway-config/createProject.png" target="_blank">
+    <img src="assets/gateway-config/createProject.png" width="1000"/>
+</a>
 
+The next step is `Connect a new gateway` in the `Devices` page, choose the kind of device you are using and you will be redirected to `Gateways` page. 
 
-![Plan](assets/connecting-raspberrypi/DeviceInfoSelected.png)
+<a href="assets/gateway-config/createGw.png" target="_blank">
+    <img src="assets/gateway-config/createGw.png" width="1000"/>
+</a>
 
-As you can see once created the light is yellow: it means that the device isn't connected.
+### Connect your gateway
 
+In order to get connected to Instathing and to our Cloud you need to click on `Generate and download certificate`. The download will automatically begin, unzip the folder and move it into the gateway. To do this we used the command line, but you can do it the way you prefer.
 
+In the Command line type the command `scp -r` followed by the credentials folder and the IP address of your gateway.
 
-
-
-
-
-
-
-
-## Let's generate the certificate
-The Certificate will generated along the procedure for onboarding the Gateway. So proceed with following steps.
-
-
-Click on `Generate and download certificate` and the download will automatically begin.
-Search for the zip file in your download folder.
-
-![Plan](assets/connecting-raspberrypi/SaveCredentials.png)
-
-Then you will have to expand the folder contained in the zip file (with command `Extract to a specific folder`) and move it to your gateway in the way you prefer: using Drag&drop if you have previously installed Samba on your Raspberry, as explained [here](https://pimylifeup.com/raspberry-pi-samba/).
-
-Or with this command with the Terminal.
-
-
+```bash
+scp -r device-htBdp3Z9-credentials pi@raspberrypi:~
 ```
-scp -r device-JPQW5P1N-credentials pi@raspberrypi:~
-```
-If you want to use the command, be sure to customize it with your information.
 
-The Raspberry Password will be asked to execute command.
-You'll obtain a situation like this
-![Plan](assets/connecting-raspberrypi/ScpCommand.png)
+Now enter in your gateway via SSH and move into the credendials folder end exectute the install script as follows:
 
-Slight differences could be due to Operating System on your PC which are installing from.
-We are using scp. If you need any help with it please contact us through the chat in the left-bottom corner of the webpage.
+```bash
+# enter via ssh
+ssh pi@raspberry.local
 
-Let's continue with the procedure.
+# move into the credentials directory
+cd device-htBdp3Z9-credentials
 
-
-Once executed the command you'll have a situation like this.
-![Plan](assets/connecting-raspberrypi/Extracted.png)
-
-Now we move inside the device with an SSH Terminal.
-
-
-
-![Plan](assets/connecting-raspberrypi/Install.png)
-Install it with the following command:
-```
-ls -la
-
-sudo chmod 777 -R device-JPQW5P1N-credentials/
-
-cd device-JPQW5P1N-credentials/
-
-ls -la
-
+# install script
 ./install.sh
-
 ```
+The script will create the Docker containers you need to interact with your sensors and devices. However you don't need to worry about it, just go back to the `Gateways` page and click the refresh button in the `Device info` section. 
 
-## Conclusion
+If everything worked fine, you should see the connection status turning into green.
 
-Let's go back to our webpage.
+<a href="assets/gateway-config/GwConnected.png" target="_blank">
+    <img src="assets/gateway-config/GwConnected.png" width="1000"/>
+</a>
 
-And refresh it  with this button.
-![Plan](assets/connecting-raspberrypi/RefreshArrow.png)
+The connection status can be:
+* 🟠 **Yellow**: the connection has been never established
+* 🟢 **Green**: the gateway is connected
+* 🔴 **Red**: the connection has been lost 
 
-And the light should turn to green.
-Meaning that the gateway is correctly connected to Instathings.
+And that's it with this tutorial! You can now start adding your subdevices, gather data and control them! 
 
-
-
+Have fun!
