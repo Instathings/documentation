@@ -1,6 +1,7 @@
 {
   "tutorials": {
-    "Tutorials": [
+    "Guides": [
+      "introduction",
       "get-started",
       "flashing-dongle",
       "connect-raspberry",
