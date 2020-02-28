@@ -14,7 +14,7 @@ Before starting make sure you have followed the previous tutorials to:
 
 Of course you will also need to connect the Zigbee USB dongle to the gateway device.
 
-## Connect a Philiphs Hue bulb
+## Connect a Philips Hue bulb
 
 ### Install Zigbee protocol in your gateway
 First of all you need to install the Zigbee software into your gateway. 
