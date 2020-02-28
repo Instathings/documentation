@@ -1,6 +1,7 @@
 ---
 id: automations
-title: Automations
+title: Automations 🧞‍♂️
+sidebar_label: Automation
 ---
 
 ## Trigger

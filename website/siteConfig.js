@@ -28,12 +28,12 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {
-      doc: 'get-started',
-      label: 'Get started',
+      doc: 'guides/introduction',
+      label: 'Guides',
     },
     {
-      doc: 'devices',
-      label: 'Home',
+      doc: 'get-started',
+      label: 'Get Started',
     },
     {
       href: "https://developers.instathings.io/",

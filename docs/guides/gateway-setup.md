@@ -1,7 +1,7 @@
 ---
-id: connect-raspberry
-title: Configure a gateway device 🤖
-sidebar_label: Configure a gateway device 
+id: gateway-setup
+title: Gateway Setup 🤖
+sidebar_label: Gateway Setup 
 ---
 In this section we will show the very first steps to build your IoT Instathings world! 
 

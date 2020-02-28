@@ -1,20 +1,16 @@
 {
-  "tutorials": {
+  "guides": {
     "Guides": [
-      "introduction",
-      "sandbox-projects",
-      "flashing-dongle",
-      "connect-raspberry",
-      "control-bulb"
+      "guides/introduction",
+      "guides/sandbox-projects",
+      "guides/gateway-setup",
+      "guides/working-zigbee",
+      "guides/pairing-device",
+      "guides/api-access",
+      "guides/automations"
     ]
   },
-  "docs": {
-    "Documentation": [
-      "devices",
-      "automations",
-      "data",
-      "settings",
-      "projects"
-    ]
+  "tutorials": {
+    "Tutorials": []
   }
 }

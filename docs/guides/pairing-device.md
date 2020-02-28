@@ -1,7 +1,7 @@
 ---
-id: control-bulb
-title: Philips Hue + Instathings = ♥
-sidebar_label: Philips Hue + Instathings
+id: pairing-device
+title: Pairing a device
+sidebar_label: Pairing a device 
 ---
 
 In this tutorial we will show how to connect a Philips Hue bulb and control it with Instathings.

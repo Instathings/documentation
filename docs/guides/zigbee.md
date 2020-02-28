@@ -1,7 +1,7 @@
 ---
-id: flashing-dongle
-title: Set up a Zigbee network coordinator 🐝
-sidebar_label: Set up a Zigbee network coordinator
+id: working-zigbee
+title: Working with Zigbee 🐝
+sidebar_label: Working with Zigbee
 ---
 In order to use a Zigbee device you need to configure a network with a so called *coordinator* device which is responsible for creating the network and routing traffic. 
 
@@ -46,8 +46,8 @@ Now you need to connect the dongle to the CC Debugger and then connect the dongl
 
 Generally the status led on the debugger should be green, if not turn off and on the debbuger. 
 
-<a href="assets/flashing-dongle/CCDebugger.JPG" target="_blank">
-    <img src="assets/flashing-dongle/CCDebugger.JPG" width="400"/>
+<a href="/docs/assets/zigbee/CCDebugger.JPG" target="_blank">
+    <img src="/docs/assets/zigbee/CCDebugger.JPG" width="400"/>
 </a>
 
 ### Flash the firmware

@@ -8,7 +8,7 @@ Instathings allows developers to create **smart environments** and to develop cu
 
 ## Architecture
 
-![Plan](assets/architecture.png)
+![Plan](assets/introduction/architecture.png)
 
 Instathings is made of two components: 
 - **Instathings Edge** is installed on a linux-based local gateway (IE. a Raspberry Pi) and allows you to connect and manange the devices in your smart environment; 

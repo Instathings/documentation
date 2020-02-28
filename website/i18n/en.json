@@ -5,50 +5,51 @@
     "previous": "Previous",
     "tagline": "Connect any Zigbee device to the cloud",
     "docs": {
-      "automations": {
-        "title": "Automations"
-      },
-      "connect-raspberry": {
-        "title": "Configure a gateway device 🤖",
-        "sidebar_label": "Configure a gateway device"
-      },
-      "control-bulb": {
-        "title": "Philips Hue + Instathings = ♥",
-        "sidebar_label": "Philips Hue + Instathings"
-      },
-      "data": {
-        "title": "Data"
-      },
-      "devices": {
-        "title": "Devices"
-      },
-      "flashing-dongle": {
-        "title": "Set up a Zigbee network coordinator 🐝",
-        "sidebar_label": "Set up a Zigbee network coordinator"
-      },
       "get-started": {
         "title": "Getting Started 🏁",
         "sidebar_label": "Getting started"
       },
-      "projects": {
-        "title": "projects"
+      "guides/api-access": {
+        "title": "API access 🚀",
+        "sidebar_label": "API Access"
       },
-      "settings": {
-        "title": "Settings"
+      "guides/automations": {
+        "title": "Automations 🧞‍♂️",
+        "sidebar_label": "Automation"
+      },
+      "guides/gateway-setup": {
+        "title": "Gateway Setup 🤖",
+        "sidebar_label": "Gateway Setup"
+      },
+      "guides/introduction": {
+        "title": "Welcome to Instathings",
+        "sidebar_label": "Introduction"
+      },
+      "guides/pairing-device": {
+        "title": "Pairing a device",
+        "sidebar_label": "Pairing a device"
+      },
+      "guides/sandbox-projects": {
+        "title": "Sandbox Projects",
+        "sidebar_label": "Sandbox Projects"
+      },
+      "guides/working-zigbee": {
+        "title": "Working with Zigbee 🐝",
+        "sidebar_label": "Working with Zigbee"
       },
       "all-devices": {
         "title": "Supported devices"
       }
     },
     "links": {
-      "Get started": "Get started",
-      "Home": "Home",
+      "Guides": "Guides",
+      "Get Started": "Get Started",
       "API Reference": "API Reference",
       "Supported devices": "Supported devices"
     },
     "categories": {
-      "Tutorials": "Tutorials",
-      "Documentation": "Documentation"
+      "Guides": "Guides",
+      "Tutorials": "Tutorials"
     }
   },
   "pages-strings": {

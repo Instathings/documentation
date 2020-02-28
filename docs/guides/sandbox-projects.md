@@ -12,7 +12,7 @@ Sandbox allows you to create a project using virtual devices and demo data. This
 2. Assign a name to the project,
 3. Select _Sandbox_ from the Environment drop-down.
 
-![Plan](assets/sandbox_01.png)
+![Plan](assets/sandbox/sandbox_01.png)
 
 
 ## 2. Connect a Gateway
@@ -21,11 +21,11 @@ Sandbox allows you to create a project using virtual devices and demo data. This
 2. Assign a name to the gateway,
 3. Select any value from the Device Type drop-down.
 
-![Plan](assets/sandbox_02.png)
+![Plan](assets/sandbox/sandbox_02.png)
 
 The gateway you just created is virtual but acts as a real one. In particular, it supports three different wireless protocols: Wi-Fi, Bluetooth and Zigbee. If you were working with a real gateway, you would install the protocols that you want to use to connect your devices.
 
-![Plan](assets/sandbox_03.png)
+![Plan](assets/sandbox/sandbox_03.png)
 
 
 ## 3. Pair a Device
@@ -34,12 +34,12 @@ The gateway you just created is virtual but acts as a real one. In particular, i
 2. Assign a name to the device,
 3. Choose a device type from the Device Type drop-down.
 
-![Plan](assets/sandbox_04.png)
+![Plan](assets/sandbox/sandbox_04.png)
 
 Virtual devices act like real ones: they must be activated before they send start sending data.
 1. Click the button 'Start sending data' in the device detail page
 
-![Plan](assets/sandbox_05.png)
+![Plan](assets/sandbox/sandbox_05.png)
 
 
 ## 4. Inspect data
@@ -49,5 +49,5 @@ Once the device is paired with the gateway and it starts sendind data, you can i
 2. Select a device from the drop-dowm menu,
 3. Click on the "eye" icon to inspect the data sent by the sensor
 
-![Plan](assets/sandbox_06.png)
+![Plan](assets/sandbox/sandbox_06.png)
 
