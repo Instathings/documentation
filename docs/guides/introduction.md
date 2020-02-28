@@ -1,6 +1,6 @@
 ---
 id: introduction
-title: Welcome to Instathings
+title: Welcome to Instathings ♥️
 sidebar_label: Introduction
 ---
 
