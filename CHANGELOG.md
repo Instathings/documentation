@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2019-02-25
+### Added
+- on boarding guides
+- zigbee installation
+- controlling via API
+- supported devices
+
 ## [1.0.0] - 2019-02-25
 ### Added
 - First release
