@@ -1,6 +1,6 @@
 ---
 id: pairing-device
-title: Pairing a device
+title: Pairing a device 🍒
 sidebar_label: Pairing a device 
 ---
 

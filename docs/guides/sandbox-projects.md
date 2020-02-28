@@ -1,6 +1,6 @@
 ---
 id: sandbox-projects
-title: Sandbox Projects
+title: Sandbox Projects 🏖
 sidebar_label: Sandbox Projects
 ---
 
