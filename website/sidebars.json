@@ -2,7 +2,7 @@
   "tutorials": {
     "Guides": [
       "introduction",
-      "get-started",
+      "sandbox-projects",
       "flashing-dongle",
       "connect-raspberry",
       "control-bulb"
