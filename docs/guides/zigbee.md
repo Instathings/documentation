@@ -15,8 +15,8 @@ It will take just 5 minutes, let's start!
 
 ### Hardware requirements
 This tutorial is for MacOS systems and you need the following devices:
-* CC2531 USB Dongle
-* CC Debugger
+* <a href="http://www.ti.com/tool/CC2531EMK" target="_blank" class="external-link">CC2531 USB Dongle</a>
+* <a href="http://www.ti.com/tool/CC-DEBUGGER#3" target="_blank" class="external-link">CC Debugger</a>
 
 ### Software requirements
 
