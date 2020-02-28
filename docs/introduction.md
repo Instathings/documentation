@@ -4,8 +4,6 @@ title: Welcome to Instathings
 sidebar_label: Introduction
 ---
 
-# Welcome to Instathings
-
 Instathings allows developers to create **smart environments** and to develop custom applications to monitor and control them. In a smart environment, you can collect data from sensors, control lighting, climate, appliances or machineries, set alarms... and much more.
 
 ## Architecture
