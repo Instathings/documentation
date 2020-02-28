@@ -31,10 +31,10 @@ const siteConfig = {
       doc: 'guides/introduction',
       label: 'Guides',
     },
-    {
-      doc: 'get-started',
-      label: 'Get Started',
-    },
+    // {
+    //   doc: 'get-started',
+    //   label: 'Get Started',
+    // },
     {
       href: "https://developers.instathings.io/",
       label: 'API Reference'
