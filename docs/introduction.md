@@ -20,5 +20,7 @@ Instathings is made of two components:
 ## Compatible hardware
 
 There are many IoT protocols and devices that can be used to create a smart environment. The first one that we support is Zigbee, a very versatile and popular standard that gives you the opportunity to use hundreds of low-cost wireless devices to create your smart environment.
+
 Zigbee is the technology that powers most smart home systems from brands like Samsung SmartThings, Ikea, General Electrics, Xiaomi, BTicino, Philips...
 
+Check the **<a href="//docs/all-devices.html" class="external-link" target="_blank">supported devices page</a>** to get a full list.
