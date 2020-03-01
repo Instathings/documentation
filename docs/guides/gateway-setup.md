@@ -22,14 +22,14 @@ sudo usermod -aG docker pi
 ## Gateway onboarding
 Your gateway is now ready to be connected to the Instathings Cloud. <br> Log in to Instathings Editor and start by creating a new project on the `Projects` page. Give your project a name and choose the `live` environment. For more information about `Sandbox` and `Live` environments refer to the  <a href="/docs/guides/sandbox-projects.html" target="_blank" class="external-link"> sanbox project documentation </a> section.
 
-<a href="assets/gateway-config/createProject.png" target="_blank">
-    <img src="assets/gateway-config/createProject.png" width="1000"/>
+<a href="/docs/assets/gateway-config/createProject.png" target="_blank">
+    <img src="/docs/assets/gateway-config/createProject.png" width="1000"/>
 </a>
 
 The next step is `Connect a new gateway` in the `Devices` page, choose the kind of device you are using and you will be redirected to `Gateways` page. 
 
-<a href="assets/gateway-config/createGw.png" target="_blank">
-    <img src="assets/gateway-config/createGw.png" width="1000"/>
+<a href="/docs/assets/gateway-config/createGw.png" target="_blank">
+    <img src="/docs/assets/gateway-config/createGw.png" width="1000"/>
 </a>
 
 ### Connect your gateway
