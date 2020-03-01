@@ -16,7 +16,7 @@ Of course you will also need to connect the Zigbee USB dongle to the gateway dev
 
 In the following steps we used a Philips Hue bulb as example, let's start!
 
-### Create the subdevice
+## Create the subdevice
 Go to the `Devices` page and create a new subdevice. 
 
 Give it a name and choose its type, in this case we used the model `Philips - Hue white and color ambiance - 9290012573A`
@@ -25,7 +25,7 @@ Give it a name and choose its type, in this case we used the model `Philips - Hu
     <img src="/docs/assets/control-bulb/createSubdevice.png" width="1000"/>
 </a>
 
-### Pair the subdevice
+## Pair the subdevice
 Once you create a subdevice you'll see its detail page. 
 
 Now you have to pair your device to you gateway by clicking on the airplane button on the right side of the page. 
