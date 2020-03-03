@@ -677,6 +677,9 @@
       "devices/BY_285_C": {
         "title": "Innr BY 285 C control via MQTT"
       },
+      "devices/C4": {
+        "title": "Ubisys C4 control via MQTT"
+      },
       "devices/CC2530.ROUTER": {
         "title": "Custom devices (DiY) CC2530.ROUTER control via MQTT"
       },
@@ -859,6 +862,9 @@
       },
       "devices/GL-D-003Z": {
         "title": "Gledopto GL-D-003Z control via MQTT"
+      },
+      "devices/GL-D-003ZS": {
+        "title": "Gledopto GL-D-003ZS control via MQTT"
       },
       "devices/GL-D-004ZS": {
         "title": "Gledopto GL-D-004ZS control via MQTT"
@@ -1588,6 +1594,9 @@
       },
       "devices/T1829": {
         "title": "IKEA T1829 control via MQTT"
+      },
+      "devices/T18W3Z": {
+        "title": "ORVIBO T18W3Z control via MQTT"
       },
       "devices/TERNCY-PP01": {
         "title": "TERNCY TERNCY-PP01 control via MQTT"
