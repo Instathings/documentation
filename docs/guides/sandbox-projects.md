@@ -12,34 +12,44 @@ Sandbox allows you to create a project using virtual devices and demo data. This
 2. Assign a name to the project,
 3. Select _Sandbox_ from the Environment drop-down.
 
-![Plan](assets/sandbox/sandbox_01.png)
+<a href="/docs/assets/sandbox/sandbox_01.png" target="_blank">
+    <img src="/docs/assets/sandbox/sandbox_01.png" width="1000"/>
+</a>
 
 
 ## 2. Connect a Gateway
 
-1. From the Device page, click on 'Connect a new gateway',
-2. Assign a name to the gateway,
-3. Select any value from the Device Type drop-down.
+1. From the Hubs page, fill the form on the top of the page to create a new gateway
+2. Select any value from the Gateway Model drop-down
+3. Assign a name to the gateway
 
-![Plan](assets/sandbox/sandbox_02.png)
+<a href="/docs/assets/sandbox/sandbox_02.png" target="_blank">
+    <img src="/docs/assets/sandbox/sandbox_02.png" width="1000"/>
+</a>
 
 The gateway you just created is virtual but acts as a real one. In particular, it supports three different wireless protocols: Wi-Fi, Bluetooth and Zigbee. If you were working with a real gateway, you would install the protocols that you want to use to connect your devices.
 
-![Plan](assets/sandbox/sandbox_03.png)
+<a href="/docs/assets/sandbox/sandbox_03.png" target="_blank">
+    <img src="/docs/assets/sandbox/sandbox_03.png" width="1000"/>
+</a>
 
 
 ## 3. Pair a Device
 
-1. Click on the **+** icon near the name of your gateway to pair a virtual device
+1. Click on the **Devices** tab
 2. Assign a name to the device,
-3. Choose a device type from the Device Type drop-down.
+3. Choose a device type among all the supported devices.
 
-![Plan](assets/sandbox/sandbox_04.png)
+<a href="/docs/assets/sandbox/sandbox_04.png" target="_blank">
+    <img src="/docs/assets/sandbox/sandbox_04.png" width="1000"/>
+</a>
 
 Virtual devices act like real ones: they must be activated before they send start sending data.
 1. Click the button 'Start sending data' in the device detail page
 
-![Plan](assets/sandbox/sandbox_05.png)
+<a href="/docs/assets/sandbox/sandbox_05.png" target="_blank">
+    <img src="/docs/assets/sandbox/sandbox_05.png" width="1000"/>
+</a>
 
 
 ## 4. Inspect data
@@ -49,5 +59,7 @@ Once the device is paired with the gateway and it starts sendind data, you can i
 2. Select a device from the drop-dowm menu,
 3. Click on the "eye" icon to inspect the data sent by the sensor
 
-![Plan](assets/sandbox/sandbox_06.png)
+<a href="/docs/assets/sandbox/sandbox_06.png" target="_blank">
+    <img src="/docs/assets/sandbox/sandbox_06.png" width="1000"/>
+</a>
 

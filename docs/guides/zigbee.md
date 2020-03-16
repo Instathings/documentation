@@ -106,6 +106,6 @@ Before following instructions in this section, you need to go back to the previo
 - click on the `install` button of the Zigbee protocol
 - `installed` will appear as soon as the gateway completes the installation
 
-<a href="/docs/assets/zigbee/installProtocol.png" target="_blank">
-    <img src="/docs/assets/zigbee/installProtocol.png" width="1000"/>
+<a href="/docs/assets/gateway-config/GwConnected.png" target="_blank">
+    <img src="/docs/assets/gateway-config/GwConnected.png" width="1000"/>
 </a>
