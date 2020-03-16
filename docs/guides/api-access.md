@@ -6,7 +6,7 @@ sidebar_label: API Access
 
 In this section we will explain how to start using our API. <br> For more information about them, check the <a href="https://developers.instathings.io/" target="_blank" class="external-link">API reference</a> documentation. 
 
-### Enable API access
+## Enable API access
 The access to the APIs needs to be enabled in order to obtain the credentials to authenticate your requests so we can keep your data safe from burglars!
 
 Enabling API access is a no brainer:
@@ -20,7 +20,7 @@ In fact anyone who knows your `Client ID` and `Client Secret` can make API reque
     <img src="/docs/assets/control-bulb/API.png" width="1000"/>
 </a>
 
-## Control a device using API
+### Control a device using API
 Let's now make an example to use the API access to control a light bulb. For  <br> Before going on with this section you need to have a gateway correctly connected and a paired device. If you don't, just follow these tutorials:
 - <a href="/docs/guides/gateway-setup.html" target="_blank" class="external-link">gateway setup</a>
 - <a href="/docs/guides/working-zigbee.html" target="_blank" class="external-link">install zigbee protocol</a> 

@@ -5,6 +5,1845 @@
     "previous": "Previous",
     "tagline": "Connect any Zigbee device to the cloud",
     "docs": {
+      "devices/046677476816": {
+        "title": "Philips 046677476816 control via MQTT"
+      },
+      "devices/046677551780": {
+        "title": "Philips 046677551780 control via MQTT"
+      },
+      "devices/046677552343": {
+        "title": "Philips 046677552343 control via MQTT"
+      },
+      "devices/064873": {
+        "title": "Legrand 064873 control via MQTT"
+      },
+      "devices/064888": {
+        "title": "Legrand 064888 control via MQTT"
+      },
+      "devices/067771": {
+        "title": "Legrand 067771 control via MQTT"
+      },
+      "devices/067773": {
+        "title": "Legrand 067773 control via MQTT"
+      },
+      "devices/067775": {
+        "title": "Legrand 067775 control via MQTT"
+      },
+      "devices/067776": {
+        "title": "Legrand 067776 control via MQTT"
+      },
+      "devices/07004D": {
+        "title": "Immax 07004D control via MQTT"
+      },
+      "devices/07005B": {
+        "title": "Immax 07005B control via MQTT"
+      },
+      "devices/07045L": {
+        "title": "Immax 07045L control via MQTT"
+      },
+      "devices/07046L": {
+        "title": "Immax 07046L control via MQTT"
+      },
+      "devices/07048L": {
+        "title": "Immax 07048L control via MQTT"
+      },
+      "devices/100.110.39": {
+        "title": "Paul Neuhaus 100.110.39 control via MQTT"
+      },
+      "devices/100.110.51": {
+        "title": "Paul Neuhaus 100.110.51 control via MQTT"
+      },
+      "devices/100.424.11": {
+        "title": "Paul Neuhaus 100.424.11 control via MQTT"
+      },
+      "devices/100.425.90": {
+        "title": "Paul Neuhaus 100.425.90 control via MQTT"
+      },
+      "devices/100.469.65": {
+        "title": "Paul Neuhaus 100.469.65 control via MQTT"
+      },
+      "devices/10011725": {
+        "title": "HORNBACH 10011725 control via MQTT"
+      },
+      "devices/12031": {
+        "title": "Lupus 12031 control via MQTT"
+      },
+      "devices/12050": {
+        "title": "Lupus 12050 control via MQTT"
+      },
+      "devices/12126": {
+        "title": "Lupus 12126 control via MQTT"
+      },
+      "devices/1402755": {
+        "title": "Namron 1402755 control via MQTT"
+      },
+      "devices/1613V": {
+        "title": "Hive 1613V control via MQTT"
+      },
+      "devices/1741830P7": {
+        "title": "Philips 1741830P7 control via MQTT"
+      },
+      "devices/1742930P7": {
+        "title": "Philips 1742930P7 control via MQTT"
+      },
+      "devices/1743230P7": {
+        "title": "Philips 1743230P7 control via MQTT"
+      },
+      "devices/17435_30_P7": {
+        "title": "Philips 17435/30/P7 control via MQTT"
+      },
+      "devices/17436_30_P7": {
+        "title": "Philips 17436/30/P7 control via MQTT"
+      },
+      "devices/1TST-EU": {
+        "title": "eCozy 1TST-EU control via MQTT"
+      },
+      "devices/22670": {
+        "title": "GE 22670 control via MQTT"
+      },
+      "devices/2430-100": {
+        "title": "Gira 2430-100 control via MQTT"
+      },
+      "devices/2AJZ4KPBS": {
+        "title": "Konke 2AJZ4KPBS control via MQTT"
+      },
+      "devices/2AJZ4KPDR": {
+        "title": "Konke 2AJZ4KPDR control via MQTT"
+      },
+      "devices/2AJZ4KPFT": {
+        "title": "Konke 2AJZ4KPFT control via MQTT"
+      },
+      "devices/2AJZ4KPKEY": {
+        "title": "Konke 2AJZ4KPKEY control via MQTT"
+      },
+      "devices/3115331PH": {
+        "title": "Philips 3115331PH control via MQTT"
+      },
+      "devices/316GLEDRF": {
+        "title": "ELKO 316GLEDRF control via MQTT"
+      },
+      "devices/3210-L": {
+        "title": "Iris 3210-L control via MQTT"
+      },
+      "devices/3216131P5": {
+        "title": "Philips 3216131P5 control via MQTT"
+      },
+      "devices/3216231P5": {
+        "title": "Philips 3216231P5 control via MQTT"
+      },
+      "devices/3216331P5": {
+        "title": "Philips 3216331P5 control via MQTT"
+      },
+      "devices/3216431P5": {
+        "title": "Philips 3216431P5 control via MQTT"
+      },
+      "devices/324131092621": {
+        "title": "Philips 324131092621 control via MQTT"
+      },
+      "devices/3261030P7": {
+        "title": "Philips 3261030P7 control via MQTT"
+      },
+      "devices/3261331P7": {
+        "title": "Philips 3261331P7 control via MQTT"
+      },
+      "devices/3300-P": {
+        "title": "PEQ 3300-P control via MQTT"
+      },
+      "devices/3300-S": {
+        "title": "SmartThings 3300-S control via MQTT"
+      },
+      "devices/3305-S": {
+        "title": "SmartThings 3305-S control via MQTT"
+      },
+      "devices/3306431P7": {
+        "title": "Philips 3306431P7 control via MQTT"
+      },
+      "devices/3310-S": {
+        "title": "SmartThings 3310-S control via MQTT"
+      },
+      "devices/3315-G": {
+        "title": "SmartThings 3315-G control via MQTT"
+      },
+      "devices/3315-S": {
+        "title": "SmartThings 3315-S control via MQTT"
+      },
+      "devices/3320-L": {
+        "title": "Iris 3320-L control via MQTT"
+      },
+      "devices/3321-S": {
+        "title": "SmartThings 3321-S control via MQTT"
+      },
+      "devices/3325-S": {
+        "title": "SmartThings 3325-S control via MQTT"
+      },
+      "devices/3326-L": {
+        "title": "Iris 3326-L control via MQTT"
+      },
+      "devices/3402831P7": {
+        "title": "Philips 3402831P7 control via MQTT"
+      },
+      "devices/3435011P7": {
+        "title": "Philips 3435011P7 control via MQTT"
+      },
+      "devices/371000001": {
+        "title": "Paulmann 371000001 control via MQTT"
+      },
+      "devices/3RSS008Z": {
+        "title": "Third Reality 3RSS008Z control via MQTT"
+      },
+      "devices/4000116784070": {
+        "title": "Lonsonho 4000116784070 control via MQTT"
+      },
+      "devices/4023330P7": {
+        "title": "Philips 4023330P7 control via MQTT"
+      },
+      "devices/4033930P7": {
+        "title": "Philips 4033930P7 control via MQTT"
+      },
+      "devices/4034031P7": {
+        "title": "Philips 4034031P7 control via MQTT"
+      },
+      "devices/404000_404005_404012": {
+        "title": "Müller Licht 404000/404005/404012 control via MQTT"
+      },
+      "devices/404006_404008_404004": {
+        "title": "Müller Licht 404006/404008/404004 control via MQTT"
+      },
+      "devices/404021": {
+        "title": "Müller Licht 404021 control via MQTT"
+      },
+      "devices/404028": {
+        "title": "Müller Licht 404028 control via MQTT"
+      },
+      "devices/4052899926110": {
+        "title": "OSRAM 4052899926110 control via MQTT"
+      },
+      "devices/4052899926158": {
+        "title": "OSRAM 4052899926158 control via MQTT"
+      },
+      "devices/4058075036147": {
+        "title": "OSRAM 4058075036147 control via MQTT"
+      },
+      "devices/4058075036185": {
+        "title": "OSRAM 4058075036185 control via MQTT"
+      },
+      "devices/4058075047853": {
+        "title": "OSRAM 4058075047853 control via MQTT"
+      },
+      "devices/4058075816718": {
+        "title": "OSRAM 4058075816718 control via MQTT"
+      },
+      "devices/4058075816732": {
+        "title": "OSRAM 4058075816732 control via MQTT"
+      },
+      "devices/4058075816794": {
+        "title": "OSRAM 4058075816794 control via MQTT"
+      },
+      "devices/4090130P7": {
+        "title": "Philips 4090130P7 control via MQTT"
+      },
+      "devices/4090531P7": {
+        "title": "Philips 4090531P7 control via MQTT"
+      },
+      "devices/4090631P7": {
+        "title": "Philips 4090631P7 control via MQTT"
+      },
+      "devices/4096730U7": {
+        "title": "Philips 4096730U7 control via MQTT"
+      },
+      "devices/421786": {
+        "title": "Calex 421786 control via MQTT"
+      },
+      "devices/421792": {
+        "title": "Calex 421792 control via MQTT"
+      },
+      "devices/4256251-RZHAC": {
+        "title": "Centralite 4256251-RZHAC control via MQTT"
+      },
+      "devices/4257050-ZHAC": {
+        "title": "Centralite 4257050-ZHAC control via MQTT"
+      },
+      "devices/433714": {
+        "title": "Philips 433714 control via MQTT"
+      },
+      "devices/44435": {
+        "title": "Müller Licht 44435 control via MQTT"
+      },
+      "devices/4503848C5": {
+        "title": "Philips 4503848C5 control via MQTT"
+      },
+      "devices/4512700": {
+        "title": "Namron 4512700 control via MQTT"
+      },
+      "devices/4512704": {
+        "title": "Namron 4512704 control via MQTT"
+      },
+      "devices/45852GE": {
+        "title": "GE 45852GE control via MQTT"
+      },
+      "devices/45853GE": {
+        "title": "GE 45853GE control via MQTT"
+      },
+      "devices/45856GE": {
+        "title": "GE 45856GE control via MQTT"
+      },
+      "devices/45857GE": {
+        "title": "GE 45857GE control via MQTT"
+      },
+      "devices/464800": {
+        "title": "Philips 464800 control via MQTT"
+      },
+      "devices/4713407": {
+        "title": "Airam 4713407 control via MQTT"
+      },
+      "devices/500.48": {
+        "title": "Paulmann 500.48 control via MQTT"
+      },
+      "devices/50043": {
+        "title": "Paulmann 50043 control via MQTT"
+      },
+      "devices/50044_50045": {
+        "title": "Paulmann 50044/50045 control via MQTT"
+      },
+      "devices/50049": {
+        "title": "Paulmann 50049 control via MQTT"
+      },
+      "devices/50064": {
+        "title": "Paulmann 50064 control via MQTT"
+      },
+      "devices/511.012": {
+        "title": "Iluminize 511.012 control via MQTT"
+      },
+      "devices/511.10": {
+        "title": "Iluminize 511.10 control via MQTT"
+      },
+      "devices/511.201": {
+        "title": "Iluminize 511.201 control via MQTT"
+      },
+      "devices/511.202": {
+        "title": "Iluminize 511.202 control via MQTT"
+      },
+      "devices/53170161": {
+        "title": "Commercial Electric 53170161 control via MQTT"
+      },
+      "devices/54668161": {
+        "title": "Hampton Bay 54668161 control via MQTT"
+      },
+      "devices/548727": {
+        "title": "Philips 548727 control via MQTT"
+      },
+      "devices/5900131C5": {
+        "title": "Philips 5900131C5 control via MQTT"
+      },
+      "devices/595UGR22": {
+        "title": "OSRAM 595UGR22 control via MQTT"
+      },
+      "devices/6717-84": {
+        "title": "Busch-Jaeger 6717-84 control via MQTT"
+      },
+      "devices/67200BL": {
+        "title": "Anchor 67200BL control via MQTT"
+      },
+      "devices/6735_6736_6737": {
+        "title": "Busch-Jaeger 6735/6736/6737 control via MQTT"
+      },
+      "devices/6ARCZABZH": {
+        "title": "Leedarson 6ARCZABZH control via MQTT"
+      },
+      "devices/7099860PH": {
+        "title": "Philips 7099860PH control via MQTT"
+      },
+      "devices/7099930PH": {
+        "title": "Philips 7099930PH control via MQTT"
+      },
+      "devices/7146060PH": {
+        "title": "Philips 7146060PH control via MQTT"
+      },
+      "devices/71831": {
+        "title": "Sylvania 71831 control via MQTT"
+      },
+      "devices/7199960PH": {
+        "title": "Philips 7199960PH control via MQTT"
+      },
+      "devices/72567": {
+        "title": "Sylvania 72567 control via MQTT"
+      },
+      "devices/72569": {
+        "title": "Sylvania 72569 control via MQTT"
+      },
+      "devices/72922-A": {
+        "title": "Sylvania 72922-A control via MQTT"
+      },
+      "devices/7299355PH": {
+        "title": "Philips 7299355PH control via MQTT"
+      },
+      "devices/7299760PH": {
+        "title": "Philips 7299760PH control via MQTT"
+      },
+      "devices/73693": {
+        "title": "Sylvania 73693 control via MQTT"
+      },
+      "devices/73739": {
+        "title": "Sylvania 73739 control via MQTT"
+      },
+      "devices/73740": {
+        "title": "Sylvania 73740 control via MQTT"
+      },
+      "devices/73741": {
+        "title": "Sylvania 73741 control via MQTT"
+      },
+      "devices/73742": {
+        "title": "Sylvania 73742 control via MQTT"
+      },
+      "devices/73743": {
+        "title": "Sylvania 73743 control via MQTT"
+      },
+      "devices/74282": {
+        "title": "Sylvania 74282 control via MQTT"
+      },
+      "devices/74283": {
+        "title": "Sylvania 74283 control via MQTT"
+      },
+      "devices/74580": {
+        "title": "Sylvania 74580 control via MQTT"
+      },
+      "devices/74696": {
+        "title": "Sylvania 74696 control via MQTT"
+      },
+      "devices/7602031P7": {
+        "title": "Philips 7602031P7 control via MQTT"
+      },
+      "devices/798.15": {
+        "title": "Paulmann 798.15 control via MQTT"
+      },
+      "devices/81809": {
+        "title": "AduroSmart 81809 control via MQTT"
+      },
+      "devices/81825": {
+        "title": "AduroSmart 81825 control via MQTT"
+      },
+      "devices/8718696167991": {
+        "title": "Philips 8718696167991 control via MQTT"
+      },
+      "devices/8718696170625": {
+        "title": "Philips 8718696170625 control via MQTT"
+      },
+      "devices/8718696449691": {
+        "title": "Philips 8718696449691 control via MQTT"
+      },
+      "devices/8718696485880": {
+        "title": "Philips 8718696485880 control via MQTT"
+      },
+      "devices/8718696548738": {
+        "title": "Philips 8718696548738 control via MQTT"
+      },
+      "devices/8718696598283": {
+        "title": "Philips 8718696598283 control via MQTT"
+      },
+      "devices/8718696695203": {
+        "title": "Philips 8718696695203 control via MQTT"
+      },
+      "devices/8718699673147": {
+        "title": "Philips 8718699673147 control via MQTT"
+      },
+      "devices/8718699688820": {
+        "title": "Philips 8718699688820 control via MQTT"
+      },
+      "devices/8718699688882": {
+        "title": "Philips 8718699688882 control via MQTT"
+      },
+      "devices/8718699693985": {
+        "title": "Philips 8718699693985 control via MQTT"
+      },
+      "devices/900008-WW": {
+        "title": "ilux 900008-WW control via MQTT"
+      },
+      "devices/902010_24": {
+        "title": "Bitron 902010/24 control via MQTT"
+      },
+      "devices/915005106701": {
+        "title": "Philips 915005106701 control via MQTT"
+      },
+      "devices/915005587401": {
+        "title": "Philips 915005587401 control via MQTT"
+      },
+      "devices/915005733701": {
+        "title": "Philips 915005733701 control via MQTT"
+      },
+      "devices/9290002579A": {
+        "title": "Philips 9290002579A control via MQTT"
+      },
+      "devices/9290011370": {
+        "title": "Philips 9290011370 control via MQTT"
+      },
+      "devices/9290011370B": {
+        "title": "Philips 9290011370B control via MQTT"
+      },
+      "devices/9290011998B": {
+        "title": "Philips 9290011998B control via MQTT"
+      },
+      "devices/9290012573A": {
+        "title": "Philips 9290012573A control via MQTT"
+      },
+      "devices/9290012607": {
+        "title": "Philips 9290012607 control via MQTT"
+      },
+      "devices/9290018187B": {
+        "title": "Philips 9290018187B control via MQTT"
+      },
+      "devices/9290018195": {
+        "title": "Philips 9290018195 control via MQTT"
+      },
+      "devices/9290018215": {
+        "title": "Philips 9290018215 control via MQTT"
+      },
+      "devices/929001953101": {
+        "title": "Philips 929001953101 control via MQTT"
+      },
+      "devices/929001953301": {
+        "title": "Philips 929001953301 control via MQTT"
+      },
+      "devices/9290019758": {
+        "title": "Philips 9290019758 control via MQTT"
+      },
+      "devices/9290020399": {
+        "title": "Philips 9290020399 control via MQTT"
+      },
+      "devices/9290022166": {
+        "title": "Philips 9290022166 control via MQTT"
+      },
+      "devices/9290022167": {
+        "title": "Philips 9290022167 control via MQTT"
+      },
+      "devices/9290022169": {
+        "title": "Philips 9290022169 control via MQTT"
+      },
+      "devices/929002240401": {
+        "title": "Philips 929002240401 control via MQTT"
+      },
+      "devices/9290022411": {
+        "title": "Philips 9290022411 control via MQTT"
+      },
+      "devices/929002241201": {
+        "title": "Philips 929002241201 control via MQTT"
+      },
+      "devices/929002277501": {
+        "title": "Philips 929002277501 control via MQTT"
+      },
+      "devices/98425031": {
+        "title": "Nordtronic 98425031 control via MQTT"
+      },
+      "devices/99432": {
+        "title": "Hampton Bay 99432 control via MQTT"
+      },
+      "devices/9GED18000-009": {
+        "title": "Weiser 9GED18000-009 control via MQTT"
+      },
+      "devices/9GED21500-005": {
+        "title": "Weiser 9GED21500-005 control via MQTT"
+      },
+      "devices/A6121": {
+        "title": "Xiaomi A6121 control via MQTT"
+      },
+      "devices/A806S-Q1R": {
+        "title": "Leedarson A806S-Q1R control via MQTT"
+      },
+      "devices/A9A19A60WESDZ02": {
+        "title": "EcoSmart A9A19A60WESDZ02 control via MQTT"
+      },
+      "devices/AA68199": {
+        "title": "OSRAM AA68199 control via MQTT"
+      },
+      "devices/AA69697": {
+        "title": "OSRAM AA69697 control via MQTT"
+      },
+      "devices/AA70155": {
+        "title": "OSRAM AA70155 control via MQTT"
+      },
+      "devices/AB3257001NJ": {
+        "title": "OSRAM AB3257001NJ control via MQTT"
+      },
+      "devices/AB32840": {
+        "title": "OSRAM AB32840 control via MQTT"
+      },
+      "devices/AB35996": {
+        "title": "OSRAM AB35996 control via MQTT"
+      },
+      "devices/AB401130055": {
+        "title": "OSRAM AB401130055 control via MQTT"
+      },
+      "devices/AC01353010G": {
+        "title": "OSRAM AC01353010G control via MQTT"
+      },
+      "devices/AC0251100NJ_AC0251700NJ": {
+        "title": "OSRAM AC0251100NJ/AC0251700NJ control via MQTT"
+      },
+      "devices/AC0363900NJ": {
+        "title": "OSRAM AC0363900NJ control via MQTT"
+      },
+      "devices/AC03641": {
+        "title": "OSRAM AC03641 control via MQTT"
+      },
+      "devices/AC03642": {
+        "title": "OSRAM AC03642 control via MQTT"
+      },
+      "devices/AC03645": {
+        "title": "OSRAM AC03645 control via MQTT"
+      },
+      "devices/AC03647": {
+        "title": "OSRAM AC03647 control via MQTT"
+      },
+      "devices/AC03648": {
+        "title": "OSRAM AC03648 control via MQTT"
+      },
+      "devices/AC08559": {
+        "title": "OSRAM AC08559 control via MQTT"
+      },
+      "devices/AC08560": {
+        "title": "OSRAM AC08560 control via MQTT"
+      },
+      "devices/AC08562": {
+        "title": "OSRAM AC08562 control via MQTT"
+      },
+      "devices/AC10691": {
+        "title": "OSRAM AC10691 control via MQTT"
+      },
+      "devices/AC10786-DIM": {
+        "title": "OSRAM AC10786-DIM control via MQTT"
+      },
+      "devices/AC10787": {
+        "title": "OSRAM AC10787 control via MQTT"
+      },
+      "devices/AIRAM-CTR.U": {
+        "title": "Airam AIRAM-CTR.U control via MQTT"
+      },
+      "devices/Aj_Zigbee_Led_Strip": {
+        "title": "Ajax Online Aj_Zigbee_Led_Strip control via MQTT"
+      },
+      "devices/AL-PIR02": {
+        "title": "Sercomm AL-PIR02 control via MQTT"
+      },
+      "devices/AV2010_21A": {
+        "title": "Bitron AV2010/21A control via MQTT"
+      },
+      "devices/AV2010_22": {
+        "title": "Bitron AV2010/22 control via MQTT"
+      },
+      "devices/AV2010_24A": {
+        "title": "Bitron AV2010/24A control via MQTT"
+      },
+      "devices/AV2010_25": {
+        "title": "Bitron AV2010/25 control via MQTT"
+      },
+      "devices/AV2010_32": {
+        "title": "Bitron AV2010/32 control via MQTT"
+      },
+      "devices/AV2010_34": {
+        "title": "Bitron AV2010/34 control via MQTT"
+      },
+      "devices/B00TN589ZG": {
+        "title": "CREE B00TN589ZG control via MQTT"
+      },
+      "devices/B01M7Y8BP9": {
+        "title": "Securifi B01M7Y8BP9 control via MQTT"
+      },
+      "devices/B07KG5KF5R": {
+        "title": "GMY Smart Bulb B07KG5KF5R control via MQTT"
+      },
+      "devices/BASICZBR3": {
+        "title": "SONOFF BASICZBR3 control via MQTT"
+      },
+      "devices/BDHM8E27W70-I1": {
+        "title": "GS BDHM8E27W70-I1 control via MQTT"
+      },
+      "devices/BF_263": {
+        "title": "Innr BF 263 control via MQTT"
+      },
+      "devices/BW-IS2": {
+        "title": "BlitzWolf BW-IS2 control via MQTT"
+      },
+      "devices/BW-IS3": {
+        "title": "BlitzWolf BW-IS3 control via MQTT"
+      },
+      "devices/BY_165": {
+        "title": "Innr BY 165 control via MQTT"
+      },
+      "devices/BY_178_T": {
+        "title": "Innr BY 178 T control via MQTT"
+      },
+      "devices/BY_185_C": {
+        "title": "Innr BY 185 C control via MQTT"
+      },
+      "devices/BY_285_C": {
+        "title": "Innr BY 285 C control via MQTT"
+      },
+      "devices/C4": {
+        "title": "Ubisys C4 control via MQTT"
+      },
+      "devices/CC2530.ROUTER": {
+        "title": "Custom devices (DiY) CC2530.ROUTER control via MQTT"
+      },
+      "devices/CR11S8UZ": {
+        "title": "ORVIBO CR11S8UZ control via MQTT"
+      },
+      "devices/CR701-YZ": {
+        "title": "Oujiabao CR701-YZ control via MQTT"
+      },
+      "devices/D1": {
+        "title": "Ubisys D1 control via MQTT"
+      },
+      "devices/D1531": {
+        "title": "EcoSmart D1531 control via MQTT"
+      },
+      "devices/D1532": {
+        "title": "EcoSmart D1532 control via MQTT"
+      },
+      "devices/D1533": {
+        "title": "EcoSmart D1533 control via MQTT"
+      },
+      "devices/D1542": {
+        "title": "EcoSmart D1542 control via MQTT"
+      },
+      "devices/D1821": {
+        "title": "EcoSmart D1821 control via MQTT"
+      },
+      "devices/DIYRuZ_KEYPAD20": {
+        "title": "DIYRuZ DIYRuZ_KEYPAD20 control via MQTT"
+      },
+      "devices/DIYRuZ_magnet": {
+        "title": "DIYRuZ DIYRuZ_magnet control via MQTT"
+      },
+      "devices/DIYRuZ_R4_5": {
+        "title": "DIYRuZ DIYRuZ_R4_5 control via MQTT"
+      },
+      "devices/DIYRuZ_rspm": {
+        "title": "DIYRuZ DIYRuZ_rspm control via MQTT"
+      },
+      "devices/DJT11LM": {
+        "title": "Xiaomi DJT11LM control via MQTT"
+      },
+      "devices/DL_110_N": {
+        "title": "Innr DL 110 N control via MQTT"
+      },
+      "devices/DL_110_W": {
+        "title": "Innr DL 110 W control via MQTT"
+      },
+      "devices/DL15S-1BZ": {
+        "title": "Leviton DL15S-1BZ control via MQTT"
+      },
+      "devices/DNCKATSW001": {
+        "title": "Custom devices (DiY) DNCKATSW001 control via MQTT"
+      },
+      "devices/DNCKATSW002": {
+        "title": "Custom devices (DiY) DNCKATSW002 control via MQTT"
+      },
+      "devices/DNCKATSW003": {
+        "title": "Custom devices (DiY) DNCKATSW003 control via MQTT"
+      },
+      "devices/DNCKATSW004": {
+        "title": "Custom devices (DiY) DNCKATSW004 control via MQTT"
+      },
+      "devices/DTB190502A1": {
+        "title": "Custom devices (DiY) DTB190502A1 control via MQTT"
+      },
+      "devices/E11-G13": {
+        "title": "Sengled E11-G13 control via MQTT"
+      },
+      "devices/E11-G23_E11-G33": {
+        "title": "Sengled E11-G23/E11-G33 control via MQTT"
+      },
+      "devices/E11-N1EA": {
+        "title": "Sengled E11-N1EA control via MQTT"
+      },
+      "devices/E11-U2E": {
+        "title": "Sengled E11-U2E control via MQTT"
+      },
+      "devices/E12-N14": {
+        "title": "Sengled E12-N14 control via MQTT"
+      },
+      "devices/E1524_E1810": {
+        "title": "IKEA E1524/E1810 control via MQTT"
+      },
+      "devices/E1525_E1745": {
+        "title": "IKEA E1525/E1745 control via MQTT"
+      },
+      "devices/E1603_E1702": {
+        "title": "IKEA E1603/E1702 control via MQTT"
+      },
+      "devices/E1743": {
+        "title": "IKEA E1743 control via MQTT"
+      },
+      "devices/E1744": {
+        "title": "IKEA E1744 control via MQTT"
+      },
+      "devices/E1746": {
+        "title": "IKEA E1746 control via MQTT"
+      },
+      "devices/E1757": {
+        "title": "IKEA E1757 control via MQTT"
+      },
+      "devices/E1766": {
+        "title": "IKEA E1766 control via MQTT"
+      },
+      "devices/E1926": {
+        "title": "IKEA E1926 control via MQTT"
+      },
+      "devices/E1ACA4ABE38A": {
+        "title": "Sengled E1ACA4ABE38A control via MQTT"
+      },
+      "devices/E1C-NB6": {
+        "title": "Sengled E1C-NB6 control via MQTT"
+      },
+      "devices/E1D-G73WNA": {
+        "title": "Sengled E1D-G73WNA control via MQTT"
+      },
+      "devices/Eco-Dim.07": {
+        "title": "EcoDim Eco-Dim.07 control via MQTT"
+      },
+      "devices/F-APP-UK-V2": {
+        "title": "SmartThings F-APP-UK-V2 control via MQTT"
+      },
+      "devices/F-MLT-US-2": {
+        "title": "SmartThings F-MLT-US-2 control via MQTT"
+      },
+      "devices/F7C033": {
+        "title": "Belkin F7C033 control via MQTT"
+      },
+      "devices/FL_130_C": {
+        "title": "Innr FL 130 C control via MQTT"
+      },
+      "devices/GD-CZ-006": {
+        "title": "Gledopto GD-CZ-006 control via MQTT"
+      },
+      "devices/GDKES-01TZXD": {
+        "title": "TUYATEC GDKES-01TZXD control via MQTT"
+      },
+      "devices/GDKES-02TZXD": {
+        "title": "TUYATEC GDKES-02TZXD control via MQTT"
+      },
+      "devices/GDKES-03TZXD": {
+        "title": "TUYATEC GDKES-03TZXD control via MQTT"
+      },
+      "devices/GL-B-001Z": {
+        "title": "Gledopto GL-B-001Z control via MQTT"
+      },
+      "devices/GL-B-007Z": {
+        "title": "Gledopto GL-B-007Z control via MQTT"
+      },
+      "devices/GL-B-007ZS": {
+        "title": "Gledopto GL-B-007ZS control via MQTT"
+      },
+      "devices/GL-B-008Z": {
+        "title": "Gledopto GL-B-008Z control via MQTT"
+      },
+      "devices/GL-B-008ZS": {
+        "title": "Gledopto GL-B-008ZS control via MQTT"
+      },
+      "devices/GL-C-006": {
+        "title": "Gledopto GL-C-006 control via MQTT"
+      },
+      "devices/GL-C-007_GL-C-008": {
+        "title": "Gledopto GL-C-007/GL-C-008 control via MQTT"
+      },
+      "devices/GL-C-007": {
+        "title": "Gledopto GL-C-007 control via MQTT"
+      },
+      "devices/GL-C-007S": {
+        "title": "Gledopto GL-C-007S control via MQTT"
+      },
+      "devices/GL-C-008": {
+        "title": "Gledopto GL-C-008 control via MQTT"
+      },
+      "devices/GL-C-008S": {
+        "title": "Gledopto GL-C-008S control via MQTT"
+      },
+      "devices/GL-C-009": {
+        "title": "Gledopto GL-C-009 control via MQTT"
+      },
+      "devices/GL-D-003Z": {
+        "title": "Gledopto GL-D-003Z control via MQTT"
+      },
+      "devices/GL-D-003ZS": {
+        "title": "Gledopto GL-D-003ZS control via MQTT"
+      },
+      "devices/GL-D-004ZS": {
+        "title": "Gledopto GL-D-004ZS control via MQTT"
+      },
+      "devices/GL-D-005Z": {
+        "title": "Gledopto GL-D-005Z control via MQTT"
+      },
+      "devices/GL-FL-004TZ": {
+        "title": "Gledopto GL-FL-004TZ control via MQTT"
+      },
+      "devices/GL-G-001Z": {
+        "title": "Gledopto GL-G-001Z control via MQTT"
+      },
+      "devices/GL-G-007Z": {
+        "title": "Gledopto GL-G-007Z control via MQTT"
+      },
+      "devices/GL-MC-001": {
+        "title": "Gledopto GL-MC-001 control via MQTT"
+      },
+      "devices/GL-S-003Z": {
+        "title": "Gledopto GL-S-003Z control via MQTT"
+      },
+      "devices/GL-S-004Z": {
+        "title": "Gledopto GL-S-004Z control via MQTT"
+      },
+      "devices/GL-S-005Z": {
+        "title": "Gledopto GL-S-005Z control via MQTT"
+      },
+      "devices/GL-S-007Z": {
+        "title": "Gledopto GL-S-007Z control via MQTT"
+      },
+      "devices/GL-S-007ZS": {
+        "title": "Gledopto GL-S-007ZS control via MQTT"
+      },
+      "devices/GL-S-008Z": {
+        "title": "Gledopto GL-S-008Z control via MQTT"
+      },
+      "devices/GL-W-001Z": {
+        "title": "Gledopto GL-W-001Z control via MQTT"
+      },
+      "devices/GLSK3ZB-1711": {
+        "title": "Hej GLSK3ZB-1711 control via MQTT"
+      },
+      "devices/GLSK3ZB-1712": {
+        "title": "Hej GLSK3ZB-1712 control via MQTT"
+      },
+      "devices/GLSK3ZB-1713": {
+        "title": "Hej GLSK3ZB-1713 control via MQTT"
+      },
+      "devices/GLSK6ZB-1714": {
+        "title": "Hej GLSK6ZB-1714 control via MQTT"
+      },
+      "devices/GLSK6ZB-1715": {
+        "title": "Hej GLSK6ZB-1715 control via MQTT"
+      },
+      "devices/GLSK6ZB-1716": {
+        "title": "Hej GLSK6ZB-1716 control via MQTT"
+      },
+      "devices/GP-LBU019BBAWU": {
+        "title": "SmartThings GP-LBU019BBAWU control via MQTT"
+      },
+      "devices/GP-WOU019BBDWG": {
+        "title": "SmartThings GP-WOU019BBDWG control via MQTT"
+      },
+      "devices/gq8b1uv": {
+        "title": "TUYATEC gq8b1uv control via MQTT"
+      },
+      "devices/GR-ZB01-W": {
+        "title": "AXIS GR-ZB01-W control via MQTT"
+      },
+      "devices/GZCGQ01LM": {
+        "title": "Xiaomi GZCGQ01LM control via MQTT"
+      },
+      "devices/HALIGHTDIMWWB22": {
+        "title": "Hive HALIGHTDIMWWB22 control via MQTT"
+      },
+      "devices/HALIGHTDIMWWE27": {
+        "title": "Hive HALIGHTDIMWWE27 control via MQTT"
+      },
+      "devices/HEIMAN-M1": {
+        "title": "HEIMAN HEIMAN-M1 control via MQTT"
+      },
+      "devices/HGZB-01A": {
+        "title": "Nue / 3A HGZB-01A control via MQTT"
+      },
+      "devices/HGZB-02A": {
+        "title": "Nue / 3A HGZB-02A control via MQTT"
+      },
+      "devices/HGZB-02S": {
+        "title": "Nue / 3A HGZB-02S control via MQTT"
+      },
+      "devices/HGZB-042": {
+        "title": "Nue / 3A HGZB-042 control via MQTT"
+      },
+      "devices/HGZB-043": {
+        "title": "Nue / 3A HGZB-043 control via MQTT"
+      },
+      "devices/HGZB-045": {
+        "title": "Nue / 3A HGZB-045 control via MQTT"
+      },
+      "devices/HGZB-04D___HGZB-4D-UK": {
+        "title": "Nue / 3A HGZB-04D / HGZB-4D-UK control via MQTT"
+      },
+      "devices/HGZB-06A": {
+        "title": "Nue / 3A HGZB-06A control via MQTT"
+      },
+      "devices/HGZB-07A": {
+        "title": "Smart Home Pty HGZB-07A control via MQTT"
+      },
+      "devices/HGZB-1S": {
+        "title": "Nue / 3A HGZB-1S control via MQTT"
+      },
+      "devices/HGZB-20-DE": {
+        "title": "Smart Home Pty HGZB-20-DE control via MQTT"
+      },
+      "devices/HGZB-20-UK": {
+        "title": "Nue / 3A HGZB-20-UK control via MQTT"
+      },
+      "devices/HGZB-20A": {
+        "title": "Nue / 3A HGZB-20A control via MQTT"
+      },
+      "devices/HGZB-41": {
+        "title": "Nue / 3A HGZB-41 control via MQTT"
+      },
+      "devices/HGZB-42-UK___HGZB-41___HGZB-41-UK": {
+        "title": "Nue / 3A HGZB-42-UK / HGZB-41 / HGZB-41-UK control via MQTT"
+      },
+      "devices/HGZB-42": {
+        "title": "Nue / 3A HGZB-42 control via MQTT"
+      },
+      "devices/HGZB-43": {
+        "title": "Nue / 3A HGZB-43 control via MQTT"
+      },
+      "devices/HGZB-DLC4-N12B": {
+        "title": "Nue / 3A HGZB-DLC4-N12B control via MQTT"
+      },
+      "devices/HLC610-Z": {
+        "title": "Shenzhen Homa HLC610-Z control via MQTT"
+      },
+      "devices/HLC821-Z-SC": {
+        "title": "Shenzhen Homa HLC821-Z-SC control via MQTT"
+      },
+      "devices/HLD812-Z-SC": {
+        "title": "Shenzhen Homa HLD812-Z-SC control via MQTT"
+      },
+      "devices/HS1-WL-E": {
+        "title": "HEIMAN HS1-WL-E control via MQTT"
+      },
+      "devices/HS1CA-E": {
+        "title": "HEIMAN HS1CA-E control via MQTT"
+      },
+      "devices/HS1CA-M": {
+        "title": "HEIMAN HS1CA-M control via MQTT"
+      },
+      "devices/HS1CG_M": {
+        "title": "HEIMAN HS1CG_M control via MQTT"
+      },
+      "devices/HS1CG-M": {
+        "title": "HEIMAN HS1CG-M control via MQTT"
+      },
+      "devices/HS1DS_HS3DS": {
+        "title": "HEIMAN HS1DS/HS3DS control via MQTT"
+      },
+      "devices/HS1DS-E": {
+        "title": "HEIMAN HS1DS-E control via MQTT"
+      },
+      "devices/HS1HT": {
+        "title": "HEIMAN HS1HT control via MQTT"
+      },
+      "devices/HS1SA-M": {
+        "title": "HEIMAN HS1SA-M control via MQTT"
+      },
+      "devices/HS1WL_HS3WL": {
+        "title": "HEIMAN HS1WL/HS3WL control via MQTT"
+      },
+      "devices/HS2ESK-E": {
+        "title": "HEIMAN HS2ESK-E control via MQTT"
+      },
+      "devices/HS2SK": {
+        "title": "HEIMAN HS2SK control via MQTT"
+      },
+      "devices/HS2WD-E": {
+        "title": "HEIMAN HS2WD-E control via MQTT"
+      },
+      "devices/HS3CG": {
+        "title": "HEIMAN HS3CG control via MQTT"
+      },
+      "devices/HS3MS": {
+        "title": "HEIMAN HS3MS control via MQTT"
+      },
+      "devices/HS3SA": {
+        "title": "HEIMAN HS3SA control via MQTT"
+      },
+      "devices/HSIO18008": {
+        "title": "Piri HSIO18008 control via MQTT"
+      },
+      "devices/HV-GSCXZB269": {
+        "title": "Hive HV-GSCXZB269 control via MQTT"
+      },
+      "devices/HV-GSCXZB279_HV-GSCXZB229": {
+        "title": "Hive HV-GSCXZB279_HV-GSCXZB229 control via MQTT"
+      },
+      "devices/HV-GUCXZB5": {
+        "title": "Hive HV-GUCXZB5 control via MQTT"
+      },
+      "devices/ICPSHC24-10EU-IL-1": {
+        "title": "IKEA ICPSHC24-10EU-IL-1 control via MQTT"
+      },
+      "devices/ICPSHC24-30EU-IL-1": {
+        "title": "IKEA ICPSHC24-30EU-IL-1 control via MQTT"
+      },
+      "devices/ICTC-G-1": {
+        "title": "IKEA ICTC-G-1 control via MQTT"
+      },
+      "devices/ICZB-B1FC60_B3FC64_B2FC95_B2FC125": {
+        "title": "iCasa ICZB-B1FC60/B3FC64/B2FC95/B2FC125 control via MQTT"
+      },
+      "devices/ICZB-IW11D": {
+        "title": "iCasa ICZB-IW11D control via MQTT"
+      },
+      "devices/ICZB-IW11SW": {
+        "title": "iCasa ICZB-IW11SW control via MQTT"
+      },
+      "devices/ICZB-KPD14S": {
+        "title": "iCasa ICZB-KPD14S control via MQTT"
+      },
+      "devices/ICZB-KPD18S": {
+        "title": "iCasa ICZB-KPD18S control via MQTT"
+      },
+      "devices/iL07_1": {
+        "title": "Iris iL07_1 control via MQTT"
+      },
+      "devices/IM6001-BTP01": {
+        "title": "SmartThings IM6001-BTP01 control via MQTT"
+      },
+      "devices/IM6001-MPP01": {
+        "title": "SmartThings IM6001-MPP01 control via MQTT"
+      },
+      "devices/IM6001-MTP01": {
+        "title": "SmartThings IM6001-MTP01 control via MQTT"
+      },
+      "devices/IM6001-OTP05": {
+        "title": "SmartThings IM6001-OTP05 control via MQTT"
+      },
+      "devices/IM6001-WLP01": {
+        "title": "SmartThings IM6001-WLP01 control via MQTT"
+      },
+      "devices/ISW-ZPR1-WP13": {
+        "title": "Bosch ISW-ZPR1-WP13 control via MQTT"
+      },
+      "devices/J1": {
+        "title": "Ubisys J1 control via MQTT"
+      },
+      "devices/JTQJ-BF-01LM_BW": {
+        "title": "Xiaomi JTQJ-BF-01LM/BW control via MQTT"
+      },
+      "devices/JTYJ-GD-01LM_BW": {
+        "title": "Xiaomi JTYJ-GD-01LM/BW control via MQTT"
+      },
+      "devices/K2RGBW01": {
+        "title": "JIAWEN K2RGBW01 control via MQTT"
+      },
+      "devices/K4003C": {
+        "title": "BTicino K4003C control via MQTT"
+      },
+      "devices/KS-SM001": {
+        "title": "Ksentry Electronics KS-SM001 control via MQTT"
+      },
+      "devices/L1527": {
+        "title": "IKEA L1527 control via MQTT"
+      },
+      "devices/L1528": {
+        "title": "IKEA L1528 control via MQTT"
+      },
+      "devices/L1529": {
+        "title": "IKEA L1529 control via MQTT"
+      },
+      "devices/L1531": {
+        "title": "IKEA L1531 control via MQTT"
+      },
+      "devices/LED1536G5": {
+        "title": "IKEA LED1536G5 control via MQTT"
+      },
+      "devices/LED1537R6": {
+        "title": "IKEA LED1537R6 control via MQTT"
+      },
+      "devices/LED1545G12": {
+        "title": "IKEA LED1545G12 control via MQTT"
+      },
+      "devices/LED1546G12": {
+        "title": "IKEA LED1546G12 control via MQTT"
+      },
+      "devices/LED1622G12": {
+        "title": "IKEA LED1622G12 control via MQTT"
+      },
+      "devices/LED1623G12": {
+        "title": "IKEA LED1623G12 control via MQTT"
+      },
+      "devices/LED1624G9": {
+        "title": "IKEA LED1624G9 control via MQTT"
+      },
+      "devices/LED1649C5": {
+        "title": "IKEA LED1649C5 control via MQTT"
+      },
+      "devices/LED1650R5": {
+        "title": "IKEA LED1650R5 control via MQTT"
+      },
+      "devices/LED1732G11": {
+        "title": "IKEA LED1732G11 control via MQTT"
+      },
+      "devices/LED1733G7": {
+        "title": "IKEA LED1733G7 control via MQTT"
+      },
+      "devices/LED1736G9": {
+        "title": "IKEA LED1736G9 control via MQTT"
+      },
+      "devices/LED1738G7": {
+        "title": "IKEA LED1738G7 control via MQTT"
+      },
+      "devices/LED1836G9": {
+        "title": "IKEA LED1836G9 control via MQTT"
+      },
+      "devices/LED1837R5": {
+        "title": "IKEA LED1837R5 control via MQTT"
+      },
+      "devices/LED1842G3": {
+        "title": "IKEA LED1842G3 control via MQTT"
+      },
+      "devices/LED1903C5": {
+        "title": "IKEA LED1903C5 control via MQTT"
+      },
+      "devices/LH-32ZB": {
+        "title": "iHORN LH-32ZB control via MQTT"
+      },
+      "devices/LH-992ZB": {
+        "title": "iHORN LH-992ZB control via MQTT"
+      },
+      "devices/LH07321": {
+        "title": "Konke LH07321 control via MQTT"
+      },
+      "devices/LLKZMK11LM": {
+        "title": "Xiaomi LLKZMK11LM control via MQTT"
+      },
+      "devices/LS12128": {
+        "title": "Lupus LS12128 control via MQTT"
+      },
+      "devices/LTFY004": {
+        "title": "Sylvania LTFY004 control via MQTT"
+      },
+      "devices/LVS-SC7": {
+        "title": "LivingWise LVS-SC7 control via MQTT"
+      },
+      "devices/LVS-SM10ZW": {
+        "title": "LivingWise LVS-SM10ZW control via MQTT"
+      },
+      "devices/LVS-SN10ZW_SN11": {
+        "title": "LivingWise LVS-SN10ZW_SN11 control via MQTT"
+      },
+      "devices/LVS-ZB15R": {
+        "title": "LivingWise LVS-ZB15R control via MQTT"
+      },
+      "devices/LVS-ZB15S": {
+        "title": "LivingWise LVS-ZB15S control via MQTT"
+      },
+      "devices/LVS-ZB500D": {
+        "title": "LivingWise LVS-ZB500D control via MQTT"
+      },
+      "devices/LWG004": {
+        "title": "Philips LWG004 control via MQTT"
+      },
+      "devices/LXZB-02A": {
+        "title": "Nue / 3A LXZB-02A control via MQTT"
+      },
+      "devices/LXZB-12A": {
+        "title": "Zemismart LXZB-12A control via MQTT"
+      },
+      "devices/LZL4BWHL01": {
+        "title": "Lutron LZL4BWHL01 control via MQTT"
+      },
+      "devices/M350STW1": {
+        "title": "Leedarson M350STW1 control via MQTT"
+      },
+      "devices/MCCGQ01LM": {
+        "title": "Xiaomi MCCGQ01LM control via MQTT"
+      },
+      "devices/MCCGQ11LM": {
+        "title": "Xiaomi MCCGQ11LM control via MQTT"
+      },
+      "devices/MCT-340_E": {
+        "title": "Visonic MCT-340 E control via MQTT"
+      },
+      "devices/MCT-340_SMA": {
+        "title": "Visonic MCT-340 SMA control via MQTT"
+      },
+      "devices/MCT-350_SMA": {
+        "title": "Visonic MCT-350 SMA control via MQTT"
+      },
+      "devices/MCT-370_SMA": {
+        "title": "Visonic MCT-370 SMA control via MQTT"
+      },
+      "devices/MEAZON_BIZY_PLUG": {
+        "title": "Meazon MEAZON_BIZY_PLUG control via MQTT"
+      },
+      "devices/MEAZON_DINRAIL": {
+        "title": "Meazon MEAZON_DINRAIL control via MQTT"
+      },
+      "devices/Mega23M12": {
+        "title": "Dresden Elektronik Mega23M12 control via MQTT"
+      },
+      "devices/MFKZQ01LM": {
+        "title": "Xiaomi MFKZQ01LM control via MQTT"
+      },
+      "devices/MG-AUWS01": {
+        "title": "Nue / 3A MG-AUWS01 control via MQTT"
+      },
+      "devices/MKS-CM-W5": {
+        "title": "Norklmes MKS-CM-W5 control via MQTT"
+      },
+      "devices/ML-ST-D200": {
+        "title": "M-ELEC ML-ST-D200 control via MQTT"
+      },
+      "devices/MLI-404011": {
+        "title": "Müller Licht MLI-404011 control via MQTT"
+      },
+      "devices/MP-841": {
+        "title": "Visonic MP-841 control via MQTT"
+      },
+      "devices/N2G-SP": {
+        "title": "NET2GRID N2G-SP control via MQTT"
+      },
+      "devices/NCZ-3011-HA": {
+        "title": "Nyce NCZ-3011-HA control via MQTT"
+      },
+      "devices/NCZ-3041-HA": {
+        "title": "Nyce NCZ-3041-HA control via MQTT"
+      },
+      "devices/NCZ-3043-HA": {
+        "title": "Nyce NCZ-3043-HA control via MQTT"
+      },
+      "devices/NCZ-3045-HA": {
+        "title": "Nyce NCZ-3045-HA control via MQTT"
+      },
+      "devices/NL08-0800": {
+        "title": "Nanoleaf NL08-0800 control via MQTT"
+      },
+      "devices/PL_110": {
+        "title": "Innr PL 110 control via MQTT"
+      },
+      "devices/PLUG_EDP_RE_DY": {
+        "title": "EDP PLUG EDP RE:DY control via MQTT"
+      },
+      "devices/PM-B430-ZB": {
+        "title": "Dawon DNS PM-B430-ZB control via MQTT"
+      },
+      "devices/PM-B530-ZB": {
+        "title": "Dawon DNS PM-B530-ZB control via MQTT"
+      },
+      "devices/PM-C140-ZB": {
+        "title": "Dawon DNS PM-C140-ZB control via MQTT"
+      },
+      "devices/PP-WHT-US": {
+        "title": "Securifi PP-WHT-US control via MQTT"
+      },
+      "devices/PSB19-SW27": {
+        "title": "GE PSB19-SW27 control via MQTT"
+      },
+      "devices/PSM-29ZBSR": {
+        "title": "Climax PSM-29ZBSR control via MQTT"
+      },
+      "devices/PSS-23ZBS": {
+        "title": "Climax PSS-23ZBS control via MQTT"
+      },
+      "devices/PTAPT-WH02": {
+        "title": "GE PTAPT-WH02 control via MQTT"
+      },
+      "devices/ptvo.switch": {
+        "title": "Custom devices (DiY) ptvo.switch control via MQTT"
+      },
+      "devices/QBCZ11LM": {
+        "title": "Xiaomi QBCZ11LM control via MQTT"
+      },
+      "devices/QBKG03LM": {
+        "title": "Xiaomi QBKG03LM control via MQTT"
+      },
+      "devices/QBKG04LM": {
+        "title": "Xiaomi QBKG04LM control via MQTT"
+      },
+      "devices/QBKG11LM": {
+        "title": "Xiaomi QBKG11LM control via MQTT"
+      },
+      "devices/QBKG12LM": {
+        "title": "Xiaomi QBKG12LM control via MQTT"
+      },
+      "devices/RADON_TriTech_ZB": {
+        "title": "Bosch RADON TriTech ZB control via MQTT"
+      },
+      "devices/RB_145": {
+        "title": "Innr RB 145 control via MQTT"
+      },
+      "devices/RB_148_T": {
+        "title": "Innr RB 148 T control via MQTT"
+      },
+      "devices/RB_162": {
+        "title": "Innr RB 162 control via MQTT"
+      },
+      "devices/RB_165": {
+        "title": "Innr RB 165 control via MQTT"
+      },
+      "devices/RB_175_W": {
+        "title": "Innr RB 175 W control via MQTT"
+      },
+      "devices/RB_178_T": {
+        "title": "Innr RB 178 T control via MQTT"
+      },
+      "devices/RB_185_C": {
+        "title": "Innr RB 185 C control via MQTT"
+      },
+      "devices/RB_245": {
+        "title": "Innr RB 245 control via MQTT"
+      },
+      "devices/RB_248_T": {
+        "title": "Innr RB 248 T control via MQTT"
+      },
+      "devices/RB_250_C": {
+        "title": "Innr RB 250 C control via MQTT"
+      },
+      "devices/RB_265": {
+        "title": "Innr RB 265 control via MQTT"
+      },
+      "devices/RB_278_T": {
+        "title": "Innr RB 278 T control via MQTT"
+      },
+      "devices/RB_285_C": {
+        "title": "Innr RB 285 C control via MQTT"
+      },
+      "devices/RF_263": {
+        "title": "Innr RF 263 control via MQTT"
+      },
+      "devices/RF_265": {
+        "title": "Innr RF 265 control via MQTT"
+      },
+      "devices/RH3040": {
+        "title": "TUYATEC RH3040 control via MQTT"
+      },
+      "devices/RHK06": {
+        "title": "eWeLink RHK06 control via MQTT"
+      },
+      "devices/RHK07": {
+        "title": "eWeLink RHK07 control via MQTT"
+      },
+      "devices/RHK08": {
+        "title": "eWeLink RHK08 control via MQTT"
+      },
+      "devices/RHK09": {
+        "title": "eWeLink RHK09 control via MQTT"
+      },
+      "devices/ROB_200-003-0": {
+        "title": "ROBB ROB_200-003-0 control via MQTT"
+      },
+      "devices/ROB_200-004-0": {
+        "title": "ROBB ROB_200-004-0 control via MQTT"
+      },
+      "devices/ROB_200-014-0": {
+        "title": "ROBB ROB_200-014-0 control via MQTT"
+      },
+      "devices/RS_122": {
+        "title": "Innr RS 122 control via MQTT"
+      },
+      "devices/RS_125": {
+        "title": "Innr RS 125 control via MQTT"
+      },
+      "devices/RS_128_T": {
+        "title": "Innr RS 128 T control via MQTT"
+      },
+      "devices/RS_225": {
+        "title": "Innr RS 225 control via MQTT"
+      },
+      "devices/RS_228_T": {
+        "title": "Innr RS 228 T control via MQTT"
+      },
+      "devices/RS_230_C": {
+        "title": "Innr RS 230 C control via MQTT"
+      },
+      "devices/RTCGQ01LM": {
+        "title": "Xiaomi RTCGQ01LM control via MQTT"
+      },
+      "devices/RTCGQ11LM": {
+        "title": "Xiaomi RTCGQ11LM control via MQTT"
+      },
+      "devices/S1": {
+        "title": "Ubisys S1 control via MQTT"
+      },
+      "devices/S2": {
+        "title": "Ubisys S2 control via MQTT"
+      },
+      "devices/S31ZB": {
+        "title": "SONOFF S31ZB control via MQTT"
+      },
+      "devices/S9TSZGB": {
+        "title": "Smart9 S9TSZGB control via MQTT"
+      },
+      "devices/SA-003-Zigbee": {
+        "title": "eWeLink SA-003-Zigbee control via MQTT"
+      },
+      "devices/SCM-5ZBS": {
+        "title": "Climax SCM-5ZBS control via MQTT"
+      },
+      "devices/SCM-S1": {
+        "title": "Blaupunkt SCM-S1 control via MQTT"
+      },
+      "devices/SGMHM-I1": {
+        "title": "HEIMAN SGMHM-I1 control via MQTT"
+      },
+      "devices/SJCGQ11LM": {
+        "title": "Xiaomi SJCGQ11LM control via MQTT"
+      },
+      "devices/SKHMP30-I1": {
+        "title": "HEIMAN SKHMP30-I1 control via MQTT"
+      },
+      "devices/SL_110_M": {
+        "title": "Innr SL 110 M control via MQTT"
+      },
+      "devices/SL_110_N": {
+        "title": "Innr SL 110 N control via MQTT"
+      },
+      "devices/SL_110_W": {
+        "title": "Innr SL 110 W control via MQTT"
+      },
+      "devices/SLR1b": {
+        "title": "Hive SLR1b control via MQTT"
+      },
+      "devices/SMHM-I1": {
+        "title": "HEIMAN SMHM-I1 control via MQTT"
+      },
+      "devices/SMT402": {
+        "title": "Stelpro SMT402 control via MQTT"
+      },
+      "devices/SOHM-I1": {
+        "title": "HEIMAN SOHM-I1 control via MQTT"
+      },
+      "devices/SP_120": {
+        "title": "Innr SP 120 control via MQTT"
+      },
+      "devices/SP_222": {
+        "title": "Innr SP 222 control via MQTT"
+      },
+      "devices/SP_224": {
+        "title": "Innr SP 224 control via MQTT"
+      },
+      "devices/SP-EUC01": {
+        "title": "Xiaomi SP-EUC01 control via MQTT"
+      },
+      "devices/SP600": {
+        "title": "Salus SP600 control via MQTT"
+      },
+      "devices/SPZB0001": {
+        "title": "Eurotronic SPZB0001 control via MQTT"
+      },
+      "devices/SR-ZG9001K4-DIM2": {
+        "title": "Sunricher SR-ZG9001K4-DIM2 control via MQTT"
+      },
+      "devices/ST_110": {
+        "title": "Innr ST 110 control via MQTT"
+      },
+      "devices/ST218": {
+        "title": "Stelpro ST218 control via MQTT"
+      },
+      "devices/ST8AU-CON": {
+        "title": "OSRAM ST8AU-CON control via MQTT"
+      },
+      "devices/STHM-I1H": {
+        "title": "HEIMAN STHM-I1H control via MQTT"
+      },
+      "devices/STS-IRM-250": {
+        "title": "SmartThings STS-IRM-250 control via MQTT"
+      },
+      "devices/STS-OUT-US-2": {
+        "title": "SmartThings STS-OUT-US-2 control via MQTT"
+      },
+      "devices/STS-PRS-251": {
+        "title": "SmartThings STS-PRS-251 control via MQTT"
+      },
+      "devices/STS-WTR-250": {
+        "title": "SmartThings STS-WTR-250 control via MQTT"
+      },
+      "devices/STSS-MULT-001": {
+        "title": "SmartThings STSS-MULT-001 control via MQTT"
+      },
+      "devices/STZB402": {
+        "title": "Stelpro STZB402 control via MQTT"
+      },
+      "devices/SV01": {
+        "title": "Keen Home SV01 control via MQTT"
+      },
+      "devices/SV02": {
+        "title": "Keen Home SV02 control via MQTT"
+      },
+      "devices/SWHM-I1": {
+        "title": "HEIMAN SWHM-I1 control via MQTT"
+      },
+      "devices/SWITCH_EDP_RE_DY": {
+        "title": "EDP SWITCH EDP RE:DY control via MQTT"
+      },
+      "devices/SWO-KEF1PA": {
+        "title": "Swann SWO-KEF1PA control via MQTT"
+      },
+      "devices/SWO-WDS1PA": {
+        "title": "Swann SWO-WDS1PA control via MQTT"
+      },
+      "devices/SZ-DWS04": {
+        "title": "Sercomm SZ-DWS04 control via MQTT"
+      },
+      "devices/SZ-ESW01-AU": {
+        "title": "Sercomm SZ-ESW01-AU control via MQTT"
+      },
+      "devices/SZ-ESW01": {
+        "title": "Sercomm SZ-ESW01 control via MQTT"
+      },
+      "devices/SZ-SRN12N": {
+        "title": "SmartThings SZ-SRN12N control via MQTT"
+      },
+      "devices/T1820": {
+        "title": "IKEA T1820 control via MQTT"
+      },
+      "devices/T1828": {
+        "title": "IKEA T1828 control via MQTT"
+      },
+      "devices/T1829": {
+        "title": "IKEA T1829 control via MQTT"
+      },
+      "devices/T18W3Z": {
+        "title": "ORVIBO T18W3Z control via MQTT"
+      },
+      "devices/TERNCY-PP01": {
+        "title": "TERNCY TERNCY-PP01 control via MQTT"
+      },
+      "devices/TERNCY-SD01": {
+        "title": "TERNCY TERNCY-SD01 control via MQTT"
+      },
+      "devices/TH1123ZB": {
+        "title": "Sinope TH1123ZB control via MQTT"
+      },
+      "devices/TH1124ZB": {
+        "title": "Sinope TH1124ZB control via MQTT"
+      },
+      "devices/TH1400ZB": {
+        "title": "Sinope TH1400ZB control via MQTT"
+      },
+      "devices/TH1500ZB": {
+        "title": "Sinope TH1500ZB control via MQTT"
+      },
+      "devices/TI0001": {
+        "title": "Livolo TI0001 control via MQTT"
+      },
+      "devices/TS0001": {
+        "title": "CR Smart Home TS0001 control via MQTT"
+      },
+      "devices/TS0042": {
+        "title": "TuYa TS0042 control via MQTT"
+      },
+      "devices/TS0111": {
+        "title": "CR Smart Home TS0111 control via MQTT"
+      },
+      "devices/TS0201": {
+        "title": "TuYa TS0201 control via MQTT"
+      },
+      "devices/TS0202": {
+        "title": "CR Smart Home TS0202 control via MQTT"
+      },
+      "devices/TS0203": {
+        "title": "CR Smart Home TS0203 control via MQTT"
+      },
+      "devices/TS0204": {
+        "title": "CR Smart Home TS0204 control via MQTT"
+      },
+      "devices/TS0205": {
+        "title": "CR Smart Home TS0205 control via MQTT"
+      },
+      "devices/TS0207": {
+        "title": "CR Smart Home TS0207 control via MQTT"
+      },
+      "devices/TS0218": {
+        "title": "CR Smart Home TS0218 control via MQTT"
+      },
+      "devices/TT001ZAV20": {
+        "title": "TUYATEC TT001ZAV20 control via MQTT"
+      },
+      "devices/TZSW22FW-L4": {
+        "title": "Feibit TZSW22FW-L4 control via MQTT"
+      },
+      "devices/U86K31ND6": {
+        "title": "Honyar U86K31ND6 control via MQTT"
+      },
+      "devices/U86KCJ-ZP": {
+        "title": "TUYATEC U86KCJ-ZP control via MQTT"
+      },
+      "devices/UC_110": {
+        "title": "Innr UC 110 control via MQTT"
+      },
+      "devices/UK7004240": {
+        "title": "Hive UK7004240 control via MQTT"
+      },
+      "devices/V3-BTZB": {
+        "title": "Danalock V3-BTZB control via MQTT"
+      },
+      "devices/WPT1": {
+        "title": "Hive WPT1 control via MQTT"
+      },
+      "devices/WSDCGQ01LM": {
+        "title": "Xiaomi WSDCGQ01LM control via MQTT"
+      },
+      "devices/WSDCGQ11LM": {
+        "title": "Xiaomi WSDCGQ11LM control via MQTT"
+      },
+      "devices/WV704R0A0902": {
+        "title": "Schneider Electric WV704R0A0902 control via MQTT"
+      },
+      "devices/WXCJKG11LM": {
+        "title": "Xiaomi WXCJKG11LM control via MQTT"
+      },
+      "devices/WXCJKG12LM": {
+        "title": "Xiaomi WXCJKG12LM control via MQTT"
+      },
+      "devices/WXCJKG13LM": {
+        "title": "Xiaomi WXCJKG13LM control via MQTT"
+      },
+      "devices/WXKG01LM": {
+        "title": "Xiaomi WXKG01LM control via MQTT"
+      },
+      "devices/WXKG02LM": {
+        "title": "Xiaomi WXKG02LM control via MQTT"
+      },
+      "devices/WXKG03LM": {
+        "title": "Xiaomi WXKG03LM control via MQTT"
+      },
+      "devices/WXKG11LM": {
+        "title": "Xiaomi WXKG11LM control via MQTT"
+      },
+      "devices/WXKG12LM": {
+        "title": "Xiaomi WXKG12LM control via MQTT"
+      },
+      "devices/XHS2-SE": {
+        "title": "Sercomm XHS2-SE control via MQTT"
+      },
+      "devices/XVV-Mega23M12": {
+        "title": "Dresden Elektronik XVV-Mega23M12 control via MQTT"
+      },
+      "devices/XY12S-15": {
+        "title": "Nue / 3A XY12S-15 control via MQTT"
+      },
+      "devices/YMF40": {
+        "title": "Yale YMF40 control via MQTT"
+      },
+      "devices/YRD210-HA-605": {
+        "title": "Yale YRD210-HA-605 control via MQTT"
+      },
+      "devices/YRD220_240_TSDB": {
+        "title": "Yale YRD220/240 TSDB control via MQTT"
+      },
+      "devices/YRD226_246_TSDB": {
+        "title": "Yale YRD226/246 TSDB control via MQTT"
+      },
+      "devices/YRD226HA2619": {
+        "title": "Yale YRD226HA2619 control via MQTT"
+      },
+      "devices/YRD256HA20BP": {
+        "title": "Yale YRD256HA20BP control via MQTT"
+      },
+      "devices/YRD426NRSC": {
+        "title": "Yale YRD426NRSC control via MQTT"
+      },
+      "devices/Z01-A19NAE26": {
+        "title": "Sengled Z01-A19NAE26 control via MQTT"
+      },
+      "devices/Z01-A60EAE27": {
+        "title": "Sengled Z01-A60EAE27 control via MQTT"
+      },
+      "devices/Z01-CIA19NAE26": {
+        "title": "Sengled Z01-CIA19NAE26 control via MQTT"
+      },
+      "devices/Z3-1BRL": {
+        "title": "Lutron Z3-1BRL control via MQTT"
+      },
+      "devices/Z809A": {
+        "title": "Netvox Z809A control via MQTT"
+      },
+      "devices/Z809AF": {
+        "title": "Ninja Blocks Z809AF control via MQTT"
+      },
+      "devices/ZA806SQ1TCF": {
+        "title": "Leedarson ZA806SQ1TCF control via MQTT"
+      },
+      "devices/ZCTS-808": {
+        "title": "Trust ZCTS-808 control via MQTT"
+      },
+      "devices/Zen-01-W": {
+        "title": "Zen Zen-01-W control via MQTT"
+      },
+      "devices/ZG2835RAC": {
+        "title": "Sunricher ZG2835RAC control via MQTT"
+      },
+      "devices/ZG9101SAC-HP-Switch": {
+        "title": "Sunricher ZG9101SAC-HP-Switch control via MQTT"
+      },
+      "devices/ZG9101SAC-HP": {
+        "title": "Sunricher ZG9101SAC-HP control via MQTT"
+      },
+      "devices/ZGRC-KEY-013": {
+        "title": "RGB Genie ZGRC-KEY-013 control via MQTT"
+      },
+      "devices/ZigUP": {
+        "title": "Custom devices (DiY) ZigUP control via MQTT"
+      },
+      "devices/ZK-EU-2U": {
+        "title": "MOES ZK-EU-2U control via MQTT"
+      },
+      "devices/ZL1000100-CCT-US-V1A02": {
+        "title": "Linkind ZL1000100-CCT-US-V1A02 control via MQTT"
+      },
+      "devices/ZLED-2709": {
+        "title": "Trust ZLED-2709 control via MQTT"
+      },
+      "devices/ZLED-TUNE9": {
+        "title": "Trust ZLED-TUNE9 control via MQTT"
+      },
+      "devices/ZM-CSW002-D": {
+        "title": "Zemismart ZM-CSW002-D control via MQTT"
+      },
+      "devices/ZM-CSW032-D": {
+        "title": "Zemismart ZM-CSW032-D control via MQTT"
+      },
+      "devices/ZM-L03E-Z": {
+        "title": "Zemismart ZM-L03E-Z control via MQTT"
+      },
+      "devices/ZM350STW1TCF": {
+        "title": "Leedarson ZM350STW1TCF control via MQTT"
+      },
+      "devices/ZNCLDJ11LM": {
+        "title": "Xiaomi ZNCLDJ11LM control via MQTT"
+      },
+      "devices/ZNCLDJ12LM": {
+        "title": "Xiaomi ZNCLDJ12LM control via MQTT"
+      },
+      "devices/ZNCZ02LM": {
+        "title": "Xiaomi ZNCZ02LM control via MQTT"
+      },
+      "devices/ZNCZ03LM": {
+        "title": "Xiaomi ZNCZ03LM control via MQTT"
+      },
+      "devices/ZNCZ04LM": {
+        "title": "Xiaomi ZNCZ04LM control via MQTT"
+      },
+      "devices/ZNCZ12LM": {
+        "title": "Xiaomi ZNCZ12LM control via MQTT"
+      },
+      "devices/ZNLDP12LM": {
+        "title": "Xiaomi ZNLDP12LM control via MQTT"
+      },
+      "devices/ZNMS11LM": {
+        "title": "Xiaomi ZNMS11LM control via MQTT"
+      },
+      "devices/ZNMS12LM": {
+        "title": "Xiaomi ZNMS12LM control via MQTT"
+      },
+      "devices/ZNMS13LM": {
+        "title": "Xiaomi ZNMS13LM control via MQTT"
+      },
+      "devices/ZPIR-8000": {
+        "title": "Trust ZPIR-8000 control via MQTT"
+      },
+      "devices/ZWallRemote0": {
+        "title": "Custom devices (DiY) ZWallRemote0 control via MQTT"
+      },
+      "devices/ZWLD-100": {
+        "title": "Trust ZWLD-100 control via MQTT"
+      },
+      "devices/ZYCT-202": {
+        "title": "Trust ZYCT-202 control via MQTT"
+      },
       "get-started": {
         "title": "Getting Started 🏁",
         "sidebar_label": "Getting started"

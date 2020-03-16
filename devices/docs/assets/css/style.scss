@@ -1,9 +1,12 @@
---- --- @import "{{ site.theme }}";
+---
+---
+
+@import "{{ site.theme }}";
 
 .anchor-hash {
-  opacity: 0.2;
+    opacity: 0.2;
 
-  &:hover {
-    opacity: 1;
+    &:hover {
+      opacity: 1;
+    }
   }
-}

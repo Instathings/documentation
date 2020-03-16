@@ -19,7 +19,7 @@ title: Supported devices
 }
 </style>
 
-Currently **584** devices are supported from **112** different vendors.
+Currently **613** devices are supported from **113** different vendors.
 
 ## AXIS
 
@@ -74,7 +74,8 @@ Currently **584** devices are supported from **112** different vendors.
 | AV2010/25 | Bitron Video wireless socket (on/off, power measurement) | ![./assets/devices/AV2010-25.jpg](./assets/devices/AV2010-25.jpg) |
 | AV2010/32 | Bitron Wireless wall thermostat with relay (temperature, heating/cooling system control) | ![./assets/devices/AV2010-32.jpg](./assets/devices/AV2010-32.jpg) |
 | AV2010/21A | Bitron Compact magnetic contact sensor (contact, tamper) | ![./assets/devices/AV2010-21A.jpg](./assets/devices/AV2010-21A.jpg) |
-| AV2010/24A | Bitron Optical smoke detector (smoke, tamper and battery) | ![./assets/devices/AV2010-24A.jpg](./assets/devices/AV2010-24A.jpg) |
+| AV2010/24A | Bitron Optical smoke detector (hardware version v2) (smoke, tamper and battery) | ![./assets/devices/AV2010-24A.jpg](./assets/devices/AV2010-24A.jpg) |
+| 902010/24 | Bitron Optical smoke detector (hardware version v1) (smoke, tamper and battery) | ![./assets/devices/902010-24.jpg](./assets/devices/902010-24.jpg) |
 
 ## Blaupunkt
 
@@ -273,6 +274,7 @@ Currently **584** devices are supported from **112** different vendors.
 | GL-C-007/GL-C-008 | Gledopto Zigbee LED controller RGB + CCT or RGBW (on/off, brightness, color temperature or white, color) | ![./assets/devices/GL-C-007-GL-C-008.jpg](./assets/devices/GL-C-007-GL-C-008.jpg) |
 | GL-C-006 | Gledopto Zigbee LED controller WW/CW (on/off, brightness, color temperature) | ![./assets/devices/GL-C-006.jpg](./assets/devices/GL-C-006.jpg) |
 | GL-C-007 | Gledopto Zigbee LED controller RGBW (on/off, brightness, color, white) | ![./assets/devices/GL-C-007.jpg](./assets/devices/GL-C-007.jpg) |
+| GL-C-007S | Gledopto Zigbee LED controller RGBW plus model (on/off, brightness, color, white) | ![./assets/devices/GL-C-007S.jpg](./assets/devices/GL-C-007S.jpg) |
 | GL-C-008 | Gledopto Zigbee LED controller RGB + CCT (on/off, brightness, color temperature, color) | ![./assets/devices/GL-C-008.jpg](./assets/devices/GL-C-008.jpg) |
 | GL-C-008S | Gledopto Zigbee LED controller RGB + CCT plus model (on/off, brightness, color temperature, color) | ![./assets/devices/GL-C-008S.jpg](./assets/devices/GL-C-008S.jpg) |
 | GL-C-009 | Gledopto Zigbee LED controller dimmer (on/off, brightness) | ![./assets/devices/GL-C-009.jpg](./assets/devices/GL-C-009.jpg) |
@@ -296,6 +298,7 @@ Currently **584** devices are supported from **112** different vendors.
 | GD-CZ-006 | Gledopto Zigbee LED Driver (on/off, brightness) | ![./assets/devices/GD-CZ-006.jpg](./assets/devices/GD-CZ-006.jpg) |
 | GL-FL-004TZ | Gledopto Zigbee 10W floodlight RGB CCT (on/off, brightness, color temperature, color) | ![./assets/devices/GL-FL-004TZ.jpg](./assets/devices/GL-FL-004TZ.jpg) |
 | GL-W-001Z | Gledopto Zigbee ON/OFF Wall Switch (on/off) | ![./assets/devices/GL-W-001Z.jpg](./assets/devices/GL-W-001Z.jpg) |
+| GL-D-003ZS | Gledopto Smart+ 6W LED spot (on/off, brightness, color temperature, color) | ![./assets/devices/GL-D-003ZS.jpg](./assets/devices/GL-D-003ZS.jpg) |
 
 ## HEIMAN
 
@@ -324,6 +327,12 @@ Currently **584** devices are supported from **112** different vendors.
 | HS2ESK-E | HEIMAN Smart in wall plug (on/off, power measurement) | ![./assets/devices/HS2ESK-E.jpg](./assets/devices/HS2ESK-E.jpg) |
 | SGMHM-I1 | HEIMAN Combustible gas sensor (gas) | ![./assets/devices/SGMHM-I1.jpg](./assets/devices/SGMHM-I1.jpg) |
 | STHM-I1H | HEIMAN Heiman temperature & humidity sensor (temperature and humidity) | ![./assets/devices/STHM-I1H.jpg](./assets/devices/STHM-I1H.jpg) |
+
+## HORNBACH
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| 10011725 | HORNBACH FLAIR Viyu Smarte LED bulb RGB E27 (on/off, brightness, color temperature, color xy) | ![./assets/devices/10011725.jpg](./assets/devices/10011725.jpg) |
 
 ## Hampton Bay
 
@@ -373,6 +382,7 @@ Currently **584** devices are supported from **112** different vendors.
 | LED1537R6 | IKEA TRADFRI LED bulb GU10 400 lumen, dimmable, white spectrum (on/off, brightness, color temperature) | ![./assets/devices/LED1537R6.jpg](./assets/devices/LED1537R6.jpg) |
 | LED1650R5 | IKEA TRADFRI LED bulb GU10 400 lumen, dimmable (on/off, brightness) | ![./assets/devices/LED1650R5.jpg](./assets/devices/LED1650R5.jpg) |
 | LED1536G5 | IKEA TRADFRI LED bulb E12/E14 400 lumen, dimmable, white spectrum, opal white (on/off, brightness, color temperature) | ![./assets/devices/LED1536G5.jpg](./assets/devices/LED1536G5.jpg) |
+| LED1903C5 | IKEA TRADFRI bulb E14 WS 470 lumen, dimmable, white spectrum, opal white (on/off, brightness, color temperature) | ![./assets/devices/LED1903C5.jpg](./assets/devices/LED1903C5.jpg) |
 | LED1837R5 | IKEA TRADFRI LED bulb GU10 400 lumen, dimmable (on/off, brightness) | ![./assets/devices/LED1837R5.jpg](./assets/devices/LED1837R5.jpg) |
 | LED1842G3 | IKEA TRADFRI LED bulb E27 WW clear 250 lumen, dimmable (on/off, brightness) | ![./assets/devices/LED1842G3.jpg](./assets/devices/LED1842G3.jpg) |
 | LED1733G7 | IKEA TRADFRI LED bulb E14 600 lumen, dimmable, white spectrum, opal white (on/off, brightness, color temperature) | ![./assets/devices/LED1733G7.jpg](./assets/devices/LED1733G7.jpg) |
@@ -418,6 +428,9 @@ Currently **584** devices are supported from **112** different vendors.
 | ------------- | ------------- | -------------------------- |
 | 07005B | Immax Neo SMART LED E14 5W warm white, dimmable, Zigbee 3.0 (on/off, brightness) | ![./assets/devices/07005B.jpg](./assets/devices/07005B.jpg) |
 | 07004D | Immax Neo SMART LED E27 8,5W color, dimmable, Zigbee 3.0 (on/off, brightness, color temperature, color xy) | ![./assets/devices/07004D.jpg](./assets/devices/07004D.jpg) |
+| 07046L | Immax 4-Touch single click buttons (action) | ![./assets/devices/07046L.jpg](./assets/devices/07046L.jpg) |
+| 07045L | Immax Magnetic contact sensor (contact, tamper) | ![./assets/devices/07045L.jpg](./assets/devices/07045L.jpg) |
+| 07048L | Immax NEO SMART plug (on/off, power and energy measurement) | ![./assets/devices/07048L.jpg](./assets/devices/07048L.jpg) |
 
 ## Innr
 
@@ -443,6 +456,7 @@ Currently **584** devices are supported from **112** different vendors.
 | RS 225 | Innr GU10 Spot (on/off, brightness) | ![./assets/devices/RS-225.jpg](./assets/devices/RS-225.jpg) |
 | RS 128 T | Innr GU10 spot 350 lm, dimmable, white spectrum (on/off, brightness, color temperature) | ![./assets/devices/RS-128-T.jpg](./assets/devices/RS-128-T.jpg) |
 | RS 228 T | Innr GU10 spot 350 lm, dimmable, white spectrum (on/off, brightness, color temperature) | ![./assets/devices/RS-228-T.jpg](./assets/devices/RS-228-T.jpg) |
+| RS 230 C | Innr GU10 spot 350 lm, dimmable, RGBW (on/off, brightness, color temperature, color xy) | ![./assets/devices/RS-230-C.jpg](./assets/devices/RS-230-C.jpg) |
 | RB 145 | Innr E14 candle (on/off, brightness) | ![./assets/devices/RB-145.jpg](./assets/devices/RB-145.jpg) |
 | RB 245 | Innr E14 candle (on/off, brightness) | ![./assets/devices/RB-245.jpg](./assets/devices/RB-245.jpg) |
 | RB 248 T | Innr E14 candle with white spectrum (on/off, brightness, color temperature) | ![./assets/devices/RB-248-T.jpg](./assets/devices/RB-248-T.jpg) |
@@ -613,6 +627,7 @@ Currently **584** devices are supported from **112** different vendors.
 | ------------- | ------------- | -------------------------- |
 | 4512700 | Namron ZigBee dimmer 400W (on/off, brightness) | ![./assets/devices/4512700.jpg](./assets/devices/4512700.jpg) |
 | 4512704 | Namron Zigbee switch 400W (on/off) | ![./assets/devices/4512704.jpg](./assets/devices/4512704.jpg) |
+| 1402755 | Namron ZigBee LED dimmer (on/off, brightness) | ![./assets/devices/1402755.jpg](./assets/devices/1402755.jpg) |
 
 ## Nanoleaf
 
@@ -682,6 +697,7 @@ Currently **584** devices are supported from **112** different vendors.
 | Model | Description | Picture |
 | ------------- | ------------- | -------------------------- |
 | CR11S8UZ | ORVIBO Smart sticker switch (click, hold, release) | ![./assets/devices/CR11S8UZ.jpg](./assets/devices/CR11S8UZ.jpg) |
+| T18W3Z | ORVIBO Neutral smart switch 3 gang (on/off) | ![./assets/devices/T18W3Z.jpg](./assets/devices/T18W3Z.jpg) |
 
 ## OSRAM
 
@@ -712,7 +728,7 @@ Currently **584** devices are supported from **112** different vendors.
 | AC0363900NJ | OSRAM Smart+ mini gardenpole RGBW (on/off, brightness, color temperature, color xy) | ![./assets/devices/AC0363900NJ.jpg](./assets/devices/AC0363900NJ.jpg) |
 | AB35996 | OSRAM Smart+ Spot GU10 Multicolor (on/off, brightness, color temperature, color xy) | ![./assets/devices/AB35996.jpg](./assets/devices/AB35996.jpg) |
 | AC08559 | OSRAM SMART+ Spot GU10 Multicolor (on/off, brightness, color temperature, color xy) | ![./assets/devices/AC08559.jpg](./assets/devices/AC08559.jpg) |
-| AC08562 | OSRAM SMART+ Candle E14 Dimmable White (on/off, brightness, color temperature) | ![./assets/devices/AC08562.jpg](./assets/devices/AC08562.jpg) |
+| AC08562 | OSRAM SMART+ Candle E14 Dimmable White (on/off, brightness) | ![./assets/devices/AC08562.jpg](./assets/devices/AC08562.jpg) |
 | AC01353010G | OSRAM SMART+ Motion Sensor (occupancy, tamper and temperature) | ![./assets/devices/AC01353010G.jpg](./assets/devices/AC01353010G.jpg) |
 | AC03648 | OSRAM SMART+ spot GU5.3 tunable white (on/off, brightness, color temperature) | ![./assets/devices/AC03648.jpg](./assets/devices/AC03648.jpg) |
 | AC0251100NJ/AC0251700NJ | OSRAM Smart+ switch mini (circle, up, down and hold/release) | ![./assets/devices/AC0251100NJ-AC0251700NJ.jpg](./assets/devices/AC0251100NJ-AC0251700NJ.jpg) |
@@ -749,7 +765,9 @@ Currently **584** devices are supported from **112** different vendors.
 | 50044/50045 | Paulmann SmartHome Zigbee Dimmer or LED-stripe (on/off, brightness) | ![./assets/devices/50044-50045.jpg](./assets/devices/50044-50045.jpg) |
 | 50049 | Paulmann SmartHome Yourled RGB Controller (on/off, brightness, color temperature, color xy) | ![./assets/devices/50049.jpg](./assets/devices/50049.jpg) |
 | 50064 | Paulmann SmartHome led spot (on/off, brightness, color temperature) | ![./assets/devices/50064.jpg](./assets/devices/50064.jpg) |
+| 371000001 | Paulmann SmartHome led spot tuneable white (on/off, brightness, color temperature) | ![./assets/devices/371000001.jpg](./assets/devices/371000001.jpg) |
 | 798.15 | Paulmann SmartHome Zigbee Pendulum Light Aptare (on/off, brightness) | ![./assets/devices/798.15.jpg](./assets/devices/798.15.jpg) |
+| 500.48 | Paulmann SmartHome Zigbee YourLED dim/switch controller max. 60 W (on/off, brightness) | ![./assets/devices/500.48.jpg](./assets/devices/500.48.jpg) |
 
 ## Philips
 
@@ -761,6 +779,7 @@ Currently **584** devices are supported from **112** different vendors.
 | 7299760PH | Philips Hue Bloom (on/off, brightness, color xy, power-on behavior) | ![./assets/devices/7299760PH.jpg](./assets/devices/7299760PH.jpg) |
 | 7146060PH | Philips Hue Go (on/off, brightness, color temperature, color xy, power-on behavior) | ![./assets/devices/7146060PH.jpg](./assets/devices/7146060PH.jpg) |
 | 9290022411 | Philips White single filament bulb A19 E26 with Bluetooth (on/off, brightness, power-on behavior) | ![./assets/devices/9290022411.jpg](./assets/devices/9290022411.jpg) |
+| 929002277501 | Philips Hue white A19 bulb E26 bluetooth (on/off, brightness, power-on behavior) | ![./assets/devices/929002277501.jpg](./assets/devices/929002277501.jpg) |
 | 7602031P7 | Philips Hue Go with Bluetooth (on/off, brightness, color temperature, color xy, power-on behavior) | ![./assets/devices/7602031P7.jpg](./assets/devices/7602031P7.jpg) |
 | 8718696167991 | Philips Hue Calla outdoor (on/off, brightness, color temperature, color xy, power-on behavior) | ![./assets/devices/8718696167991.jpg](./assets/devices/8718696167991.jpg) |
 | 4090531P7 | Philips Hue Flourish white and color ambiance ceiling light (on/off, brightness, color temperature, color xy, power-on behavior) | ![./assets/devices/4090531P7.jpg](./assets/devices/4090531P7.jpg) |
@@ -794,6 +813,9 @@ Currently **584** devices are supported from **112** different vendors.
 | 9290022167 | Philips Hue white ambiance E26 with Bluetooth (on/off, brightness, color temperature, power-on behavior) | ![./assets/devices/9290022167.jpg](./assets/devices/9290022167.jpg) |
 | 8718696548738 | Philips Hue white ambiance E26/E27 (on/off, brightness, color temperature, power-on behavior) | ![./assets/devices/8718696548738.jpg](./assets/devices/8718696548738.jpg) |
 | 915005587401 | Philips Hue white ambiance Adore light (on/off, brightness, color temperature, power-on behavior) | ![./assets/devices/915005587401.jpg](./assets/devices/915005587401.jpg) |
+| 3402831P7 | Philips Hue white ambiance bathroom mirror light Adore (on/off, brightness, color temperature, power-on behavior) | ![./assets/devices/3402831P7.jpg](./assets/devices/3402831P7.jpg) |
+| 3435011P7 | Philips Hue white ambiance bathroom ceiling light Adore (on/off, brightness, color temperature, power-on behavior) | ![./assets/devices/3435011P7.jpg](./assets/devices/3435011P7.jpg) |
+| 4503848C5 | Philips Hue White ambiance Muscari pendant light (on/off, brightness, color temperature, power-on behavior) | ![./assets/devices/4503848C5.jpg](./assets/devices/4503848C5.jpg) |
 | 4090130P7 | Philips Hue Sana (on/off, brightness, color temperature, color xy, power-on behavior) | ![./assets/devices/4090130P7.jpg](./assets/devices/4090130P7.jpg) |
 | 3261030P7 | Philips Hue Being (on/off, brightness, color temperature, power-on behavior) | ![./assets/devices/3261030P7.jpg](./assets/devices/3261030P7.jpg) |
 | 3261331P7 | Philips Hue white ambiance Still (on/off, brightness, color temperature, power-on behavior) | ![./assets/devices/3261331P7.jpg](./assets/devices/3261331P7.jpg) |
@@ -950,8 +972,9 @@ Currently **584** devices are supported from **112** different vendors.
 | IM6001-WLP01 | SmartThings Water leak sensor (2018 model) (water leak and temperature) | ![./assets/devices/IM6001-WLP01.jpg](./assets/devices/IM6001-WLP01.jpg) |
 | STS-WTR-250 | SmartThings Water leak sensor (2016 model) (water leak) | ![./assets/devices/STS-WTR-250.jpg](./assets/devices/STS-WTR-250.jpg) |
 | 3315-G | SmartThings Water sensor (water and temperature) | ![./assets/devices/3315-G.jpg](./assets/devices/3315-G.jpg) |
-| IM6001-BTP01 | SmartThings Button (single click, double click, hold and temperature) | ![./assets/devices/IM6001-BTP01.jpg](./assets/devices/IM6001-BTP01.jpg) |
+| IM6001-BTP01 | SmartThings Button (single, double and hold click, temperature) | ![./assets/devices/IM6001-BTP01.jpg](./assets/devices/IM6001-BTP01.jpg) |
 | SZ-SRN12N | SmartThings Smart siren (warning) | ![./assets/devices/SZ-SRN12N.jpg](./assets/devices/SZ-SRN12N.jpg) |
+| GP-LBU019BBAWU | SmartThings Smart bulb (on/off, brightness) | ![./assets/devices/GP-LBU019BBAWU.jpg](./assets/devices/GP-LBU019BBAWU.jpg) |
 
 ## Stelpro
 
@@ -981,6 +1004,7 @@ Currently **584** devices are supported from **112** different vendors.
 
 | Model | Description | Picture |
 | ------------- | ------------- | -------------------------- |
+| 73743 | Sylvania Lightify Smart Dimming Switch (up, down and hold/release) | ![./assets/devices/73743.jpg](./assets/devices/73743.jpg) |
 | 73742 | Sylvania LIGHTIFY LED adjustable white RT 5/6 (on/off, brightness, color temperature) | ![./assets/devices/73742.jpg](./assets/devices/73742.jpg) |
 | 73741 | Sylvania LIGHTIFY LED adjustable color RT 5/6 (on/off, brightness, color temperature, color xy) | ![./assets/devices/73741.jpg](./assets/devices/73741.jpg) |
 | 73740 | Sylvania LIGHTIFY LED adjustable white BR30 (on/off, brightness, color temperature) | ![./assets/devices/73740.jpg](./assets/devices/73740.jpg) |
@@ -994,12 +1018,14 @@ Currently **584** devices are supported from **112** different vendors.
 | LTFY004 | Sylvania LIGHTIFY LED gardenspot mini RGB (on/off, brightness, color xy) | ![./assets/devices/LTFY004.jpg](./assets/devices/LTFY004.jpg) |
 | 74580 | Sylvania Smart Home soft white PAR38 outdoor bulb (on/off, brightness) | ![./assets/devices/74580.jpg](./assets/devices/74580.jpg) |
 | 72569 | Sylvania SMART+ Zigbee adjustable white edge-lit under cabinet light (on/off, brightness, color temperature) | ![./assets/devices/72569.jpg](./assets/devices/72569.jpg) |
+| 72567 | Sylvania SMART+ Zigbee adjustable white edge-lit flush mount light (on/off, brightness, color temperature) | ![./assets/devices/72567.jpg](./assets/devices/72567.jpg) |
 
 ## TERNCY
 
 | Model | Description | Picture |
 | ------------- | ------------- | -------------------------- |
 | TERNCY-PP01 | TERNCY Awareness switch (temperature, occupancy, illuminance, click, double click, triple click) | ![./assets/devices/TERNCY-PP01.jpg](./assets/devices/TERNCY-PP01.jpg) |
+| TERNCY-SD01 | TERNCY Knob smart dimmer (single, double and triple click, rotate) | ![./assets/devices/TERNCY-SD01.jpg](./assets/devices/TERNCY-SD01.jpg) |
 
 ## TUYATEC
 
@@ -1035,6 +1061,7 @@ Currently **584** devices are supported from **112** different vendors.
 | Model | Description | Picture |
 | ------------- | ------------- | -------------------------- |
 | TS0201 | TuYa Temperature & humidity sensor with display (temperature and humidity) | ![./assets/devices/TS0201.jpg](./assets/devices/TS0201.jpg) |
+| TS0042 | TuYa Touch wall remote 2 gang (action) | ![./assets/devices/TS0042.jpg](./assets/devices/TS0042.jpg) |
 
 ## Ubisys
 
@@ -1044,6 +1071,7 @@ Currently **584** devices are supported from **112** different vendors.
 | S2 | Ubisys Power switch S2 (on/off, power measurement) | ![./assets/devices/S2.jpg](./assets/devices/S2.jpg) |
 | D1 | Ubisys Universal dimmer D1 (on/off, brightness, power measurement) | ![./assets/devices/D1.jpg](./assets/devices/D1.jpg) |
 | J1 | Ubisys Shutter control J1 (open, close, stop, position, tilt) | ![./assets/devices/J1.jpg](./assets/devices/J1.jpg) |
+| C4 | Ubisys Control unit C4 (action) | ![./assets/devices/C4.jpg](./assets/devices/C4.jpg) |
 
 ## Visonic
 
@@ -1097,8 +1125,9 @@ Currently **584** devices are supported from **112** different vendors.
 | ZNCLDJ11LM | Xiaomi Aqara curtain motor (open, close, stop, position) | ![./assets/devices/ZNCLDJ11LM.jpg](./assets/devices/ZNCLDJ11LM.jpg) |
 | ZNCLDJ12LM | Xiaomi Aqara B1 curtain motor  (open, close, stop, position) | ![./assets/devices/ZNCLDJ12LM.jpg](./assets/devices/ZNCLDJ12LM.jpg) |
 | LLKZMK11LM | Xiaomi Aqara wireless relay controller (on/off, power measurement) | ![./assets/devices/LLKZMK11LM.jpg](./assets/devices/LLKZMK11LM.jpg) |
-| ZNMS12LM | Xiaomi Aqara S2 Lock (report: open, close, operation) | ![./assets/devices/ZNMS12LM.jpg](./assets/devices/ZNMS12LM.jpg) |
-| ZNMS13LM | Xiaomi Aqara S2 Lock Pro (report: open, close, operation) | ![./assets/devices/ZNMS13LM.jpg](./assets/devices/ZNMS13LM.jpg) |
+| ZNMS12LM | Xiaomi Aqara S2 lock (open, close, operation (reporting only)) | ![./assets/devices/ZNMS12LM.jpg](./assets/devices/ZNMS12LM.jpg) |
+| ZNMS13LM | Xiaomi Aqara S2 lock pro (open, close, operation (reporting only)) | ![./assets/devices/ZNMS13LM.jpg](./assets/devices/ZNMS13LM.jpg) |
+| ZNMS11LM | Xiaomi Xiaomi Aqara smart lock (open, close, operation (reporting only)) | ![./assets/devices/ZNMS11LM.jpg](./assets/devices/ZNMS11LM.jpg) |
 | WXCJKG11LM | Xiaomi Aqara Opple switch 1 band (action) | ![./assets/devices/WXCJKG11LM.jpg](./assets/devices/WXCJKG11LM.jpg) |
 | WXCJKG12LM | Xiaomi Aqara Opple switch 2 bands (action) | ![./assets/devices/WXCJKG12LM.jpg](./assets/devices/WXCJKG12LM.jpg) |
 | WXCJKG13LM | Xiaomi Aqara Opple switch 3 bands (action) | ![./assets/devices/WXCJKG13LM.jpg](./assets/devices/WXCJKG13LM.jpg) |
@@ -1142,6 +1171,10 @@ Currently **584** devices are supported from **112** different vendors.
 | Model | Description | Picture |
 | ------------- | ------------- | -------------------------- |
 | SA-003-Zigbee | eWeLink Zigbee smart plug (on/off) | ![./assets/devices/SA-003-Zigbee.jpg](./assets/devices/SA-003-Zigbee.jpg) |
+| RHK06 | eWeLink Contact sensor (contact) | ![./assets/devices/RHK06.jpg](./assets/devices/RHK06.jpg) |
+| RHK07 | eWeLink Wireless button (single, double, long) | ![./assets/devices/RHK07.jpg](./assets/devices/RHK07.jpg) |
+| RHK08 | eWeLink Temperature and humidity sensor (temperature and humidity) | ![./assets/devices/RHK08.jpg](./assets/devices/RHK08.jpg) |
+| RHK09 | eWeLink Motion sensor (occupancy) | ![./assets/devices/RHK09.jpg](./assets/devices/RHK09.jpg) |
 
 ## iCasa
 
@@ -1149,7 +1182,8 @@ Currently **584** devices are supported from **112** different vendors.
 | ------------- | ------------- | -------------------------- |
 | ICZB-IW11D | iCasa ZigBee AC dimmer (on/off, brightness) | ![./assets/devices/ICZB-IW11D.jpg](./assets/devices/ICZB-IW11D.jpg) |
 | ICZB-IW11SW | iCasa Zigbee 3.0 AC switch (on/off) | ![./assets/devices/ICZB-IW11SW.jpg](./assets/devices/ICZB-IW11SW.jpg) |
-| ICZB-KPD18S | iCasa Zigbee 3.0 Keypad Pulse 8S (click) | ![./assets/devices/ICZB-KPD18S.jpg](./assets/devices/ICZB-KPD18S.jpg) |
+| ICZB-KPD14S | iCasa Zigbee 3.0 Keypad Pulse 4S (click, action, brightness, scenes) | ![./assets/devices/ICZB-KPD14S.jpg](./assets/devices/ICZB-KPD14S.jpg) |
+| ICZB-KPD18S | iCasa Zigbee 3.0 Keypad Pulse 8S (click, action, brightness, scenes) | ![./assets/devices/ICZB-KPD18S.jpg](./assets/devices/ICZB-KPD18S.jpg) |
 | ICZB-B1FC60/B3FC64/B2FC95/B2FC125 | iCasa Zigbee 3.0 Filament Lamp 60/64/95/125 mm, 806 lumen, dimmable, clear (on/off, brightness, color temperature) | ![./assets/devices/ICZB-B1FC60-B3FC64-B2FC95-B2FC125.jpg](./assets/devices/ICZB-B1FC60-B3FC64-B2FC95-B2FC125.jpg) |
 
 ## iHORN
