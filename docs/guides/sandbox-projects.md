@@ -19,15 +19,15 @@ Sandbox allows you to create a project using virtual devices and demo data. This
 
 ## 2. Connect a Gateway
 
-1. From the Hubs page, fill the form on the top of the page to create a new gateway
+1. From the Hubs page, fill the form on the top of the page to create a new Gateway
 2. Select any value from the Gateway Model drop-down
-3. Assign a name to the gateway
+3. Assign a name to the Gateway
 
 <a href="/docs/assets/sandbox/sandbox_02.png" target="_blank">
     <img src="/docs/assets/sandbox/sandbox_02.png" width="1000"/>
 </a>
 
-The gateway you just created is virtual but acts as a real one. In particular, it supports three different wireless protocols: Wi-Fi, Bluetooth and Zigbee. If you were working with a real gateway, you would install the protocols that you want to use to connect your devices.
+The Gateway you just created is virtual but acts as a real one. In particular, it supports three different wireless protocols: Wi-Fi, Bluetooth and Zigbee. If you were working with a real Gateway, you would install the protocols that you want to use to connect your devices.
 
 <a href="/docs/assets/sandbox/sandbox_03.png" target="_blank">
     <img src="/docs/assets/sandbox/sandbox_03.png" width="1000"/>
@@ -54,7 +54,7 @@ Virtual devices act like real ones: they must be activated before they send star
 
 ## 4. Inspect data
 
-Once the device is paired with the gateway and it starts sending data, you can inspect the payload.
+Once the device is paired with the Gateway and it starts sending data, you can inspect the payload.
 1. Click on 'Data' in the top menu,
 2. Select a device from the drop-dowm menu,
 3. Click on the "eye" icon to inspect the data sent by the sensor
