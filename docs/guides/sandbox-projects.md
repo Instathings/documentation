@@ -54,7 +54,7 @@ Virtual devices act like real ones: they must be activated before they send star
 
 ## 4. Inspect data
 
-Once the device is paired with the gateway and it starts sendind data, you can inspect the payload.
+Once the device is paired with the gateway and it starts sending data, you can inspect the payload.
 1. Click on 'Data' in the top menu,
 2. Select a device from the drop-dowm menu,
 3. Click on the "eye" icon to inspect the data sent by the sensor
