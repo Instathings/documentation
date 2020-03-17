@@ -26,7 +26,7 @@ Your gateway is now ready to be connected to the Instathings Cloud. <br> Log in 
     <img src="/docs/assets/gateway-config/createProject.png" width="1000"/>
 </a>
 
-The next step is `Connect a new gateway` in the `Devices` page, choose the kind of device you are using and you will be redirected to `Gateways` page. 
+Once you have created you project, you can start by creating you first gateway. On the top of the page fill the form, choosing the kind of device you are using and a name for your device. Click on `Create` and you will be redirected to `Hubs` page. Here you can see all the information related to your device
 
 <a href="/docs/assets/gateway-config/createGw.png" target="_blank">
     <img src="/docs/assets/gateway-config/createGw.png" width="1000"/>
@@ -34,7 +34,7 @@ The next step is `Connect a new gateway` in the `Devices` page, choose the kind 
 
 ### Connect your gateway
 
-In order to get connected to Instathing and to our Cloud you need to click on `Generate and download certificate`. The download will automatically begin, unzip the folder and move it into the gateway. To do this we used the command line, but you can do it the way you prefer.
+In order to get connected to Instathing and to our Cloud you need generate and download the certificates to secure the connection between the Gateway and the Instathings Cloud. The download will automatically begin as you click on `Download`, unzip the folder and move it into the gateway. To do this we used the command line, but you can do it the way you prefer.
 
 In the Command line type the command `scp -r` followed by the credentials folder and the IP address of your gateway.
 
@@ -54,7 +54,7 @@ cd device-htBdp3Z9-credentials
 # install script
 ./install.sh
 ```
-The script will create the Docker containers you need to interact with your sensors and devices. However you don't need to worry about it, just go back to the `Gateways` page and click the refresh button in the `Device info` section. 
+The script will create the Docker containers you need to interact with your sensors and devices. However you don't need to worry about it, just go back to the `Hubs` page and check the connection.
 
 If everything worked fine, you should see the connection status turning into green.
 

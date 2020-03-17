@@ -10,7 +10,7 @@ In this section we will explain how to start using our API. <br> For more inform
 The access to the APIs needs to be enabled in order to obtain the credentials to authenticate your requests so we can keep your data safe from burglars!
 
 Enabling API access is a no brainer:
-- go to `Settings` page 
+- go to `API` page 
 - click `Enable API access` button. 
 
 This will give you the `Client ID` and `Client Secret`, if you lose them you can check in the `Settings` page whenever you want, but remember to keep them safe and don't give them to anyone!

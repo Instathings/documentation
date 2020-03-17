@@ -1852,9 +1852,9 @@
         "title": "API access 🚀",
         "sidebar_label": "API Access"
       },
-      "guides/automations": {
-        "title": "Automations 🧞‍♂️",
-        "sidebar_label": "Automations"
+      "guides/connectors": {
+        "title": "Connectors 🧞‍♂️",
+        "sidebar_label": "Connectors"
       },
       "guides/gateway-setup": {
         "title": "Gateway Setup 🤖",

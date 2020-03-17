@@ -10,6 +10,11 @@
   padding: 40px 0 0 0;
 }
 
+.logo {
+  width: 165px;
+  height: 165px !important;
+}
+
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {}
 
 @media only screen and (min-width: 1024px) {}
@@ -22,4 +27,10 @@
 
 .external-link {
   text-decoration: underline;
+}
+
+.fixedHeaderContainer {
+  height: 44px !important;
+  min-height: 44px !important;
+  padding: 4px 0 !important;
 }

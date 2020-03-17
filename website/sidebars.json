@@ -7,7 +7,7 @@
       "guides/working-zigbee",
       "guides/pairing-device",
       "guides/api-access",
-      "guides/automations"
+      "guides/connectors"
     ]
   },
   "tutorials": {

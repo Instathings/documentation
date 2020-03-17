@@ -14,7 +14,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Instathings',
+  title: '',
   tagline: 'Connect any Zigbee device to the cloud',
   url: 'https://instathings.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
@@ -49,13 +49,13 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/instathings-red-logo-only.png',
-  footerIcon: 'img/instathings-red-logo-only.png',
+  headerIcon: 'img/new-logo-transparent.png',
+  footerIcon: 'img/new-logo-transparent.png',
   favicon: 'img/favicon.ico',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#333',
+    primaryColor: '#DA4728',
     secondaryColor: '#6d3c5d',
   },
 
