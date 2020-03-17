@@ -28,3 +28,9 @@
 .external-link {
   text-decoration: underline;
 }
+
+.fixedHeaderContainer {
+  height: 44px !important;
+  min-height: 44px !important;
+  padding: 4px 0 !important;
+}
