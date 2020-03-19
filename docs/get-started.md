@@ -104,4 +104,4 @@ If we want to get a closer look of the data you can click on the eye icon to che
 
 ## Conclusion
 
-This Get started guide covered the `Project` and the `Device` concept of Instathings but didn't cover some other useful topics like `Automations` and `Alarms`.
+This Get started guide covered the `Project` and the `Device` concept of Instathings but didn't cover some other useful topics like `Connectors` and `Alarms`.

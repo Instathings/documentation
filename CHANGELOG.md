@@ -6,9 +6,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.9] - 2019-03-19
+### Added
+- README.md
+
+## [1.0.6] - 2019-03-17
+### Changed
+- Updated UI, updated style
+
+## [1.0.5] - 2019-03-03
+### Changed
+- bumped `zigbee-herdsman` to 0.12.55
+- bumped `zigbee-herdsman-converters` to 12.0.32
+
+## [1.0.4] - 2019-03-01
+### Fix
+- Fixed headings
+
+## [1.0.3] - 2019-03-01
+### Fix
+- Fixed images path in `gateway-setup` 
+
 ## [1.0.2] - 2019-02-28
 ### Fix
--  fix bug
+- fix bug
 
 ## [1.0.2] - 2019-02-28
 ### Added
