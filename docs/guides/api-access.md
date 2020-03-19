@@ -21,9 +21,9 @@ In fact anyone who knows your `Client ID` and `Client Secret` can make API reque
 </a>
 
 ### Control a device using API
-Let's now make an example to use the API access to control a light bulb. For  <br> Before going on with this section you need to have a gateway correctly connected and a paired device. If you don't, just follow these tutorials:
-- <a href="/docs/guides/gateway-setup.html" target="_blank" class="external-link">gateway setup</a>
-- <a href="/docs/guides/working-zigbee.html" target="_blank" class="external-link">install zigbee protocol</a> 
+Let's now make an example to use the API access to control a light bulb. For  <br> Before going on with this section you need to have a Gateway correctly connected and a paired device. If you don't, just follow these tutorials:
+- <a href="/docs/guides/gateway-setup.html" target="_blank" class="external-link">Gateway setup</a>
+- <a href="/docs/guides/working-zigbee.html" target="_blank" class="external-link">install Zigbee protocol</a> 
 - <a href="/docs/guides/pairing-device.html" target="_blank" class="external-link">pairing a device</a> 
 
 Once the API access has been enabled, copy the following informations to use them in the next step. They are all available in the `Settings` page:

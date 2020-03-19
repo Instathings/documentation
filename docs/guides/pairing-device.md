@@ -9,10 +9,10 @@ In this tutorial we will show how to connect a device and control it with Instat
 The steps explained in this page are suitable for any of the supported devices, but you have to keep in mind that the pairing method change depending on the kind of device you are using. For more information about how to pair your sensor, check the <a href="//docs/all-devices.html" class="external-link" target="_blank">supported devices</a> page
 
 Before starting make sure you have followed the previous tutorials to:
-- <a href="/docs/guides/gateway-setup.html" target="_blank" class="external-link">connect your gateway</a>
+- <a href="/docs/guides/gateway-setup.html" target="_blank" class="external-link">connect your Gateway</a>
 - <a href="docs/guides/zigbee.html" target="_blank" class="external-link">configure your Zigbee dongle</a>. 
 
-Of course you will also need to connect the Zigbee USB dongle to the gateway device.
+Of course you will also need to connect the Zigbee USB dongle to the Gateway device.
 
 In the following steps we used a Philips Hue bulb as example, let's start!
 
@@ -28,7 +28,7 @@ Give it a name and choose its type, in this case we used the model `Philips - Hu
 ## Pair the subdevice
 Once you create a subdevice you'll see its detail page. 
 
-Now you have to pair your device to you gateway by clicking on the airplane button on the right side of the page. 
+Now you have to pair your device to you Gateway by clicking on the airplane button on the right side of the page. 
 
 If you are not using a Philips Hue, but you want to pair another kind of device, check the <a href="//docs/all-devices.html" target="_blank" class="external-link">supported devices</a> page to know how to do the pairing.
 

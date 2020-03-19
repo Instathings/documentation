@@ -10,7 +10,7 @@ Let's create a new connector to better understand what it means in Instathings a
 Choose a name for your workflow, click on `Create` and the flows details will show up.
 
 ### Trigger
-The first part is related to the *trigger* that starts the connector flow. You have to choose the device on which you want to trigger some action. Then you can choose whether to react on `data`, coming from the device itself, or react on `alarm` you have previously configured. 
+The first part is related to the *trigger* that starts the connector flow. You have to choose the device on which you want to trigger some action. Then you can choose whether to react on `data. 
 
 ### Actions
 The second part shows up as long as you save the `When this happens...` window and is realated to what action has to be triggered. In this section all the third party services we support are shown, that are where you can move your data. 
