@@ -12,7 +12,7 @@ description: "Integrate your Xiaomi SP-EUC01 via Zigbee2mqtt with whatever smart
 | Model | SP-EUC01  |
 | Vendor  | Xiaomi  |
 | Description | Aqara EU smart plug |
-| Supports | on/off |
+| Supports | on/off, power measurements |
 | Picture | ![Xiaomi SP-EUC01](./assets/devices/SP-EUC01.jpg) |
 
 ## Notes
