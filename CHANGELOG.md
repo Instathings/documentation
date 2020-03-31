@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.10] - 2019-03-31
+### Changed
+- zigbee-herdsman to 0.12.64
+- zigbee-herdsman-converters to 12.0.51
+
+
 ## [1.0.9] - 2019-03-19
 ### Added
 - README.md
