@@ -1,19 +1,19 @@
 ---
-title: "Smart9 S9TSZGB control via MQTT"
-description: "Integrate your Smart9 S9TSZGB via Zigbee2mqtt with whatever smart home
+title: "Smart9 S9TSZGB_1 control via MQTT"
+description: "Integrate your Smart9 S9TSZGB_1 via Zigbee2mqtt with whatever smart home
  infrastructure you are using without the vendors bridge or gateway."
 ---
 
 *To contribute to this page, edit the following
-[file](https://github.com/Koenkk/zigbee2mqtt.io/blob/master/docs/devices/S9TSZGB.md)*
+[file](https://github.com/Koenkk/zigbee2mqtt.io/blob/master/docs/devices/S9TSZGB_1.md)*
 
-# Smart9 S9TSZGB
+# Smart9 S9TSZGB_1
 
-| Model | S9TSZGB  |
+| Model | S9TSZGB_1  |
 | Vendor  | Smart9  |
-| Description | Touch switch |
+| Description | Touch switch (1 button) |
 | Supports | action |
-| Picture | ![Smart9 S9TSZGB](./assets/devices/S9TSZGB.jpg) |
+| Picture | ![Smart9 S9TSZGB_1](./assets/devices/S9TSZGB_1.jpg) |
 
 ## Notes
 

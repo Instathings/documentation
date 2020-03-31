@@ -22,11 +22,13 @@ In order for this feature to work, the device has to support it. As devices from
 
 | Brand           | On/Off    | Brightness | Color | Color temperature |
 | :---            | :---:     | :---:      | :---: | :---:             |
-| Philips Hue     | Y         | N(1)       | N     | N                 |
-| Trådfri(2)      | Y         | Y          | Y     | N                 |
+| Philips Hue     | N(1)      | N(2)       | N     | N                 |
+| Trådfri(3)      | Y         | Y          | Y     | N                 |
 | Innr            | Y         | Y          | Y     | Y                 |
 | GLEDOPTO        | N         | N          | N     | N                 |
 | OSRAM           | Y         | Y          | N     | N                 | 
+| Müller Light    | N         | N          | N     | N                 |
 
-1. Zigbee2mqtt will manual poll for change if a binding updates the bulb.
-2. The color/brightness of a Trådfri bulb can be changed while the state=off, it also reports back the change.
+1. Bulbs on old firmware (date 20170908 or older) do report On/Off
+2. Zigbee2mqtt will manual poll for change if a binding updates the bulb.
+3. The color/brightness of a Trådfri bulb can be changed while the state=off, it also reports back the change.
