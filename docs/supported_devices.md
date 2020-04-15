@@ -23,12 +23,6 @@ Currently:
 - **642** Zigbee devices are supported from **115** different vendors.
 - **1** Modbus devices are supported from **1** different vendors.
 
-## AXIS
-
-| Model | Description | Picture |
-| ------------- | ------------- | -------------------------- |
-| GR-ZB01-W | AXIS Gear window shade motor (open, close, position, battery) | ![./assets/devices/GR-ZB01-W.jpg](./assets/devices/GR-ZB01-W.jpg) |
-
 ## AduroSmart
 
 | Model | Description | Picture |
@@ -61,11 +55,11 @@ Currently:
 | ------------- | ------------- | -------------------------- |
 | XY-MD02 | Arceli Temperature and humidity sensor (temperature and humidity) | ![./assets/devices/XY-MD02.jpg](./assets/devices/XY-MD02.jpg) |
 
-## BTicino
+## AXIS
 
 | Model | Description | Picture |
 | ------------- | ------------- | -------------------------- |
-| K4003C | BTicino Light switch with neutral (on/off, led color) | ![./assets/devices/K4003C.jpg](./assets/devices/K4003C.jpg) |
+| GR-ZB01-W | AXIS Gear window shade motor (open, close, position, battery) | ![./assets/devices/GR-ZB01-W.jpg](./assets/devices/GR-ZB01-W.jpg) |
 
 ## Belkin
 
@@ -105,31 +99,18 @@ Currently:
 | RADON TriTech ZB | Bosch Wireless motion detector (occupancy and temperature) | ![./assets/devices/RADON-TriTech-ZB.jpg](./assets/devices/RADON-TriTech-ZB.jpg) |
 | ISW-ZPR1-WP13 | Bosch Motion sensor (occupancy and temperature) | ![./assets/devices/ISW-ZPR1-WP13.jpg](./assets/devices/ISW-ZPR1-WP13.jpg) |
 
+## BTicino
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| K4003C | BTicino Light switch with neutral (on/off, led color) | ![./assets/devices/K4003C.jpg](./assets/devices/K4003C.jpg) |
+
 ## Busch-Jaeger
 
 | Model | Description | Picture |
 | ------------- | ------------- | -------------------------- |
 | 6717-84 | Busch-Jaeger Adaptor plug (on/off) | ![./assets/devices/6717-84.jpg](./assets/devices/6717-84.jpg) |
 | 6735/6736/6737 | Busch-Jaeger Zigbee Light Link power supply/relay/dimmer (on/off) | ![./assets/devices/6735-6736-6737.jpg](./assets/devices/6735-6736-6737.jpg) |
-
-## CR Smart Home
-
-| Model | Description | Picture |
-| ------------- | ------------- | -------------------------- |
-| TS0001 | CR Smart Home Valve control (control) | ![./assets/devices/TS0001.jpg](./assets/devices/TS0001.jpg) |
-| TS0202 | CR Smart Home Motion sensor (occupancy) | ![./assets/devices/TS0202.jpg](./assets/devices/TS0202.jpg) |
-| TS0203 | CR Smart Home Door sensor (contact) | ![./assets/devices/TS0203.jpg](./assets/devices/TS0203.jpg) |
-| TS0204 | CR Smart Home Gas sensor (gas) | ![./assets/devices/TS0204.jpg](./assets/devices/TS0204.jpg) |
-| TS0205 | CR Smart Home Smoke sensor (smoke) | ![./assets/devices/TS0205.jpg](./assets/devices/TS0205.jpg) |
-| TS0111 | CR Smart Home Socket (on/off) | ![./assets/devices/TS0111.jpg](./assets/devices/TS0111.jpg) |
-| TS0207 | CR Smart Home Water leak detector (water leak) | ![./assets/devices/TS0207.jpg](./assets/devices/TS0207.jpg) |
-| TS0218 | CR Smart Home Button (click) | ![./assets/devices/TS0218.jpg](./assets/devices/TS0218.jpg) |
-
-## CREE
-
-| Model | Description | Picture |
-| ------------- | ------------- | -------------------------- |
-| B00TN589ZG | CREE Connected bulb (on/off, brightness) | ![./assets/devices/B00TN589ZG.jpg](./assets/devices/B00TN589ZG.jpg) |
 
 ## Calex
 
@@ -160,6 +141,25 @@ Currently:
 | ------------- | ------------- | -------------------------- |
 | 53170161 | Commercial Electric Matte White Recessed Retrofit Smart Led Downlight - 4 Inch (on/off, brightness, color temperature) | ![./assets/devices/53170161.jpg](./assets/devices/53170161.jpg) |
 
+## CR Smart Home
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| TS0001 | CR Smart Home Valve control (control) | ![./assets/devices/TS0001.jpg](./assets/devices/TS0001.jpg) |
+| TS0202 | CR Smart Home Motion sensor (occupancy) | ![./assets/devices/TS0202.jpg](./assets/devices/TS0202.jpg) |
+| TS0203 | CR Smart Home Door sensor (contact) | ![./assets/devices/TS0203.jpg](./assets/devices/TS0203.jpg) |
+| TS0204 | CR Smart Home Gas sensor (gas) | ![./assets/devices/TS0204.jpg](./assets/devices/TS0204.jpg) |
+| TS0205 | CR Smart Home Smoke sensor (smoke) | ![./assets/devices/TS0205.jpg](./assets/devices/TS0205.jpg) |
+| TS0111 | CR Smart Home Socket (on/off) | ![./assets/devices/TS0111.jpg](./assets/devices/TS0111.jpg) |
+| TS0207 | CR Smart Home Water leak detector (water leak) | ![./assets/devices/TS0207.jpg](./assets/devices/TS0207.jpg) |
+| TS0218 | CR Smart Home Button (click) | ![./assets/devices/TS0218.jpg](./assets/devices/TS0218.jpg) |
+
+## CREE
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| B00TN589ZG | CREE Connected bulb (on/off, brightness) | ![./assets/devices/B00TN589ZG.jpg](./assets/devices/B00TN589ZG.jpg) |
+
 ## Custom devices (DiY)
 
 | Model | Description | Picture |
@@ -173,15 +173,6 @@ Currently:
 | ZigUP | Custom devices (DiY) [CC2530 based ZigBee relais, switch, sensor and router](https://github.com/formtapez/ZigUP/) (relais, RGB-stripe, sensors, S0-counter, ADC, digital I/O) | ![./assets/devices/ZigUP.jpg](./assets/devices/ZigUP.jpg) |
 | ZWallRemote0 | Custom devices (DiY) Matts Wall Switch Remote (https://github.com/mattlokes/ZWallRemote) (on/off) | ![./assets/devices/ZWallRemote0.jpg](./assets/devices/ZWallRemote0.jpg) |
 | DTB190502A1 | Custom devices (DiY) [CC2530 based IO Board https://databyte.ch/?portfolio=zigbee-erstes-board-dtb190502a) (switch, buttons) | ![./assets/devices/DTB190502A1.jpg](./assets/devices/DTB190502A1.jpg) |
-
-## DIYRuZ
-
-| Model | Description | Picture |
-| ------------- | ------------- | -------------------------- |
-| DIYRuZ_R4_5 | DIYRuZ [DiY 4 Relays + 4 switches + 1 buzzer](http://modkam.ru/?p=1054) (on/off) | ![./assets/devices/DIYRuZ_R4_5.jpg](./assets/devices/DIYRuZ_R4_5.jpg) |
-| DIYRuZ_KEYPAD20 | DIYRuZ [DiY 20 button keypad](http://modkam.ru/?p=1114) (click) | ![./assets/devices/DIYRuZ_KEYPAD20.jpg](./assets/devices/DIYRuZ_KEYPAD20.jpg) |
-| DIYRuZ_magnet | DIYRuZ [DIYRuZ contact sensor](https://modkam.ru/?p=1220) (contact) | ![./assets/devices/DIYRuZ_magnet.jpg](./assets/devices/DIYRuZ_magnet.jpg) |
-| DIYRuZ_rspm | DIYRuZ [DIYRuZ relay switch power meter](https://modkam.ru/?p=1309) (relay, switch, adc) | ![./assets/devices/DIYRuZ_rspm.jpg](./assets/devices/DIYRuZ_rspm.jpg) |
 
 ## Danalock
 
@@ -200,25 +191,21 @@ Currently:
 | PM-S240-ZB | Dawon DNS IOT smart switch 2 gang (on/off) | ![./assets/devices/PM-S240-ZB.jpg](./assets/devices/PM-S240-ZB.jpg) |
 | PM-S340-ZB | Dawon DNS IOT smart switch 3 gang (on/off) | ![./assets/devices/PM-S340-ZB.jpg](./assets/devices/PM-S340-ZB.jpg) |
 
+## DIYRuZ
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| DIYRuZ_R4_5 | DIYRuZ [DiY 4 Relays + 4 switches + 1 buzzer](http://modkam.ru/?p=1054) (on/off) | ![./assets/devices/DIYRuZ_R4_5.jpg](./assets/devices/DIYRuZ_R4_5.jpg) |
+| DIYRuZ_KEYPAD20 | DIYRuZ [DiY 20 button keypad](http://modkam.ru/?p=1114) (click) | ![./assets/devices/DIYRuZ_KEYPAD20.jpg](./assets/devices/DIYRuZ_KEYPAD20.jpg) |
+| DIYRuZ_magnet | DIYRuZ [DIYRuZ contact sensor](https://modkam.ru/?p=1220) (contact) | ![./assets/devices/DIYRuZ_magnet.jpg](./assets/devices/DIYRuZ_magnet.jpg) |
+| DIYRuZ_rspm | DIYRuZ [DIYRuZ relay switch power meter](https://modkam.ru/?p=1309) (relay, switch, adc) | ![./assets/devices/DIYRuZ_rspm.jpg](./assets/devices/DIYRuZ_rspm.jpg) |
+
 ## Dresden Elektronik
 
 | Model | Description | Picture |
 | ------------- | ------------- | -------------------------- |
 | Mega23M12 | Dresden Elektronik ZigBee Light Link wireless electronic ballast (on/off, brightness, color temperature, color xy) | ![./assets/devices/Mega23M12.jpg](./assets/devices/Mega23M12.jpg) |
 | XVV-Mega23M12 | Dresden Elektronik ZigBee Light Link wireless electronic ballast color temperature (on/off, brightness, color temperature) | ![./assets/devices/XVV-Mega23M12.jpg](./assets/devices/XVV-Mega23M12.jpg) |
-
-## EDP
-
-| Model | Description | Picture |
-| ------------- | ------------- | -------------------------- |
-| PLUG EDP RE:DY | EDP re:dy plug (on/off, power measurement) | ![./assets/devices/PLUG-EDP-RE-DY.jpg](./assets/devices/PLUG-EDP-RE-DY.jpg) |
-| SWITCH EDP RE:DY | EDP re:dy switch (on/off) | ![./assets/devices/SWITCH-EDP-RE-DY.jpg](./assets/devices/SWITCH-EDP-RE-DY.jpg) |
-
-## ELKO
-
-| Model | Description | Picture |
-| ------------- | ------------- | -------------------------- |
-| 316GLEDRF | ELKO ZigBee in-wall smart dimmer (on/off, brightness) | ![./assets/devices/316GLEDRF.jpg](./assets/devices/316GLEDRF.jpg) |
 
 ## EcoDim
 
@@ -237,11 +224,40 @@ Currently:
 | D1542 | EcoSmart GU10 adjustable white bulb (on/off, brightness, color temperature) | ![./assets/devices/D1542.jpg](./assets/devices/D1542.jpg) |
 | D1533 | EcoSmart PAR20 bright white bulb (on/off, brightness) | ![./assets/devices/D1533.jpg](./assets/devices/D1533.jpg) |
 
+## eCozy
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| 1TST-EU | eCozy Smart heating thermostat (temperature, occupancy, un-/occupied heating, schedule) | ![./assets/devices/1TST-EU.jpg](./assets/devices/1TST-EU.jpg) |
+
+## EDP
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| PLUG EDP RE:DY | EDP re:dy plug (on/off, power measurement) | ![./assets/devices/PLUG-EDP-RE-DY.jpg](./assets/devices/PLUG-EDP-RE-DY.jpg) |
+| SWITCH EDP RE:DY | EDP re:dy switch (on/off) | ![./assets/devices/SWITCH-EDP-RE-DY.jpg](./assets/devices/SWITCH-EDP-RE-DY.jpg) |
+
+## ELKO
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| 316GLEDRF | ELKO ZigBee in-wall smart dimmer (on/off, brightness) | ![./assets/devices/316GLEDRF.jpg](./assets/devices/316GLEDRF.jpg) |
+
 ## Eurotronic
 
 | Model | Description | Picture |
 | ------------- | ------------- | -------------------------- |
 | SPZB0001 | Eurotronic Spirit Zigbee wireless heater thermostat (temperature, heating system control) | ![./assets/devices/SPZB0001.jpg](./assets/devices/SPZB0001.jpg) |
+
+## eWeLink
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| SA-003-Zigbee | eWeLink Zigbee smart plug (on/off) | ![./assets/devices/SA-003-Zigbee.jpg](./assets/devices/SA-003-Zigbee.jpg) |
+| RHK06 | eWeLink Contact sensor (contact) | ![./assets/devices/RHK06.jpg](./assets/devices/RHK06.jpg) |
+| RHK07 | eWeLink Wireless button (single, double, long) | ![./assets/devices/RHK07.jpg](./assets/devices/RHK07.jpg) |
+| RHK08 | eWeLink Temperature and humidity sensor (temperature and humidity) | ![./assets/devices/RHK08.jpg](./assets/devices/RHK08.jpg) |
+| RHK09 | eWeLink Motion sensor (occupancy) | ![./assets/devices/RHK09.jpg](./assets/devices/RHK09.jpg) |
 
 ## Feibit
 
@@ -260,18 +276,6 @@ Currently:
 | 45856GE | GE In-wall smart switch (on/off) | ![./assets/devices/45856GE.jpg](./assets/devices/45856GE.jpg) |
 | 45857GE | GE ZigBee in-wall smart dimmer (on/off, brightness) | ![./assets/devices/45857GE.jpg](./assets/devices/45857GE.jpg) |
 | PTAPT-WH02 | GE Quirky smart switch (on/off) | ![./assets/devices/PTAPT-WH02.jpg](./assets/devices/PTAPT-WH02.jpg) |
-
-## GMY Smart Bulb
-
-| Model | Description | Picture |
-| ------------- | ------------- | -------------------------- |
-| B07KG5KF5R | GMY Smart Bulb GMY Smart bulb, 470lm, vintage dimmable, 2700-6500k, E27 (on/off, brightness, color temperature) | ![./assets/devices/B07KG5KF5R.jpg](./assets/devices/B07KG5KF5R.jpg) |
-
-## GS
-
-| Model | Description | Picture |
-| ------------- | ------------- | -------------------------- |
-| BDHM8E27W70-I1 | GS Active light, warm to cool white (E27 & B22) (on/off, brightness, color temperature) | ![./assets/devices/BDHM8E27W70-I1.jpg](./assets/devices/BDHM8E27W70-I1.jpg) |
 
 ## Gira
 
@@ -312,6 +316,25 @@ Currently:
 | GL-W-001Z | Gledopto Zigbee ON/OFF Wall Switch (on/off) | ![./assets/devices/GL-W-001Z.jpg](./assets/devices/GL-W-001Z.jpg) |
 | GL-D-003ZS | Gledopto Smart+ 6W LED spot (on/off, brightness, color temperature, color) | ![./assets/devices/GL-D-003ZS.jpg](./assets/devices/GL-D-003ZS.jpg) |
 
+## GMY Smart Bulb
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| B07KG5KF5R | GMY Smart Bulb GMY Smart bulb, 470lm, vintage dimmable, 2700-6500k, E27 (on/off, brightness, color temperature) | ![./assets/devices/B07KG5KF5R.jpg](./assets/devices/B07KG5KF5R.jpg) |
+
+## GS
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| BDHM8E27W70-I1 | GS Active light, warm to cool white (E27 & B22) (on/off, brightness, color temperature) | ![./assets/devices/BDHM8E27W70-I1.jpg](./assets/devices/BDHM8E27W70-I1.jpg) |
+
+## Hampton Bay
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| 99432 | Hampton Bay Universal wink enabled white ceiling fan premier remote control (on/off, brightness, fan_mode and fan_state) | ![./assets/devices/99432.jpg](./assets/devices/99432.jpg) |
+| 54668161 | Hampton Bay 12 in. LED smart puff (on/off, brightness, color temperature) | ![./assets/devices/54668161.jpg](./assets/devices/54668161.jpg) |
+
 ## HEIMAN
 
 | Model | Description | Picture |
@@ -344,19 +367,6 @@ Currently:
 | HM-900SW_2 | HEIMAN Smart switch - 2 gang with neutral wire (on/off) | ![./assets/devices/HM-900SW_2.jpg](./assets/devices/HM-900SW_2.jpg) |
 | HM-900SW_3 | HEIMAN Smart switch - 3 gang with neutral wire (on/off) | ![./assets/devices/HM-900SW_3.jpg](./assets/devices/HM-900SW_3.jpg) |
 
-## HORNBACH
-
-| Model | Description | Picture |
-| ------------- | ------------- | -------------------------- |
-| 10011725 | HORNBACH FLAIR Viyu Smarte LED bulb RGB E27 (on/off, brightness, color temperature, color xy) | ![./assets/devices/10011725.jpg](./assets/devices/10011725.jpg) |
-
-## Hampton Bay
-
-| Model | Description | Picture |
-| ------------- | ------------- | -------------------------- |
-| 99432 | Hampton Bay Universal wink enabled white ceiling fan premier remote control (on/off, brightness, fan_mode and fan_state) | ![./assets/devices/99432.jpg](./assets/devices/99432.jpg) |
-| 54668161 | Hampton Bay 12 in. LED smart puff (on/off, brightness, color temperature) | ![./assets/devices/54668161.jpg](./assets/devices/54668161.jpg) |
-
 ## Hej
 
 | Model | Description | Picture |
@@ -387,6 +397,30 @@ Currently:
 | Model | Description | Picture |
 | ------------- | ------------- | -------------------------- |
 | U86K31ND6 | Honyar 3 gang switch  (on/off) | ![./assets/devices/U86K31ND6.jpg](./assets/devices/U86K31ND6.jpg) |
+
+## HORNBACH
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| 10011725 | HORNBACH FLAIR Viyu Smarte LED bulb RGB E27 (on/off, brightness, color temperature, color xy) | ![./assets/devices/10011725.jpg](./assets/devices/10011725.jpg) |
+
+## iCasa
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| ICZB-IW11D | iCasa ZigBee AC dimmer (on/off, brightness) | ![./assets/devices/ICZB-IW11D.jpg](./assets/devices/ICZB-IW11D.jpg) |
+| ICZB-IW11SW | iCasa Zigbee 3.0 AC switch (on/off) | ![./assets/devices/ICZB-IW11SW.jpg](./assets/devices/ICZB-IW11SW.jpg) |
+| ICZB-KPD14S | iCasa Zigbee 3.0 Keypad Pulse 4S (click, action, brightness, scenes) | ![./assets/devices/ICZB-KPD14S.jpg](./assets/devices/ICZB-KPD14S.jpg) |
+| ICZB-KPD18S | iCasa Zigbee 3.0 Keypad Pulse 8S (click, action, brightness, scenes) | ![./assets/devices/ICZB-KPD18S.jpg](./assets/devices/ICZB-KPD18S.jpg) |
+| ICZB-B1FC60/B3FC64/B2FC95/B2FC125 | iCasa Zigbee 3.0 Filament Lamp 60/64/95/125 mm, 806 lumen, dimmable, clear (on/off, brightness, color temperature) | ![./assets/devices/ICZB-B1FC60-B3FC64-B2FC95-B2FC125.jpg](./assets/devices/ICZB-B1FC60-B3FC64-B2FC95-B2FC125.jpg) |
+| ICZB-R11D | iCasa Zigbee AC dimmer (on/off, brightness) | ![./assets/devices/ICZB-R11D.jpg](./assets/devices/ICZB-R11D.jpg) |
+
+## iHORN
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| LH-32ZB | iHORN Temperature & humidity sensor (temperature and humidity) | ![./assets/devices/LH-32ZB.jpg](./assets/devices/LH-32ZB.jpg) |
+| LH-992ZB | iHORN Motion sensor (occupancy) | ![./assets/devices/LH-992ZB.jpg](./assets/devices/LH-992ZB.jpg) |
 
 ## IKEA
 
@@ -437,6 +471,12 @@ Currently:
 | 511.201 | Iluminize ZigBee 3.0 Dimm-Aktor mini 1x 230V (on/off, brightness) | ![./assets/devices/511.201.jpg](./assets/devices/511.201.jpg) |
 | 511.012 | Iluminize Zigbee LED-Controller  (on/off, brightness) | ![./assets/devices/511.012.jpg](./assets/devices/511.012.jpg) |
 | 511.202 | Iluminize Zigbee 3.0 Schalt-Aktor mini 1x230V, 200W/400W (on/off) | ![./assets/devices/511.202.jpg](./assets/devices/511.202.jpg) |
+
+## ilux
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| 900008-WW | ilux Dimmable A60 E27 LED Bulb (on/off, brightness) | ![./assets/devices/900008-WW.jpg](./assets/devices/900008-WW.jpg) |
 
 ## Immax
 
@@ -622,18 +662,18 @@ Currently:
 | ------------- | ------------- | -------------------------- |
 | ML-ST-D200 | M-ELEC Stitchy Dim switchable wall module (on/off, brightness) | ![./assets/devices/ML-ST-D200.jpg](./assets/devices/ML-ST-D200.jpg) |
 
-## MOES
-
-| Model | Description | Picture |
-| ------------- | ------------- | -------------------------- |
-| ZK-EU-2U | MOES ZigBee3.0 dual USB wireless socket plug (on/off) | ![./assets/devices/ZK-EU-2U.jpg](./assets/devices/ZK-EU-2U.jpg) |
-
 ## Meazon
 
 | Model | Description | Picture |
 | ------------- | ------------- | -------------------------- |
 | MEAZON_BIZY_PLUG | Meazon Bizy plug meter (on/off, power, energy measurement and temperature) | ![./assets/devices/MEAZON_BIZY_PLUG.jpg](./assets/devices/MEAZON_BIZY_PLUG.jpg) |
 | MEAZON_DINRAIL | Meazon DinRail 1-phase meter (on/off, power, energy measurement and temperature) | ![./assets/devices/MEAZON_DINRAIL.jpg](./assets/devices/MEAZON_DINRAIL.jpg) |
+
+## MOES
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| ZK-EU-2U | MOES ZigBee3.0 dual USB wireless socket plug (on/off) | ![./assets/devices/ZK-EU-2U.jpg](./assets/devices/ZK-EU-2U.jpg) |
 
 ## Müller Licht
 
@@ -645,12 +685,6 @@ Currently:
 | 404028 | Müller Licht Tint LED Panel, color, opal white (on/off, brightness, color temperature, color xy) | ![./assets/devices/404028.jpg](./assets/devices/404028.jpg) |
 | MLI-404011 | Müller Licht Tint remote control (toggle, brightness, other buttons are not supported yet!) | ![./assets/devices/MLI-404011.jpg](./assets/devices/MLI-404011.jpg) |
 | 404021 | Müller Licht Tint smart switch (on/off) | ![./assets/devices/404021.jpg](./assets/devices/404021.jpg) |
-
-## NET2GRID
-
-| Model | Description | Picture |
-| ------------- | ------------- | -------------------------- |
-| N2G-SP | NET2GRID White Net2Grid power outlet switch with power meter (on/off, power measurement) | ![./assets/devices/N2G-SP.jpg](./assets/devices/N2G-SP.jpg) |
 
 ## Namron
 
@@ -667,6 +701,12 @@ Currently:
 | Model | Description | Picture |
 | ------------- | ------------- | -------------------------- |
 | NL08-0800 | Nanoleaf Smart Ivy Bulb E27 (on/off, brightness) | ![./assets/devices/NL08-0800.jpg](./assets/devices/NL08-0800.jpg) |
+
+## NET2GRID
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| N2G-SP | NET2GRID White Net2Grid power outlet switch with power meter (on/off, power measurement) | ![./assets/devices/N2G-SP.jpg](./assets/devices/N2G-SP.jpg) |
 
 ## Netvox
 
@@ -775,12 +815,6 @@ Currently:
 | ------------- | ------------- | -------------------------- |
 | CR701-YZ | Oujiabao Gas and carbon monoxide alarm (gas and carbon monoxide) | ![./assets/devices/CR701-YZ.jpg](./assets/devices/CR701-YZ.jpg) |
 
-## PEQ
-
-| Model | Description | Picture |
-| ------------- | ------------- | -------------------------- |
-| 3300-P | PEQ Door & window contact sensor (contact, temperature) | ![./assets/devices/3300-P.jpg](./assets/devices/3300-P.jpg) |
-
 ## Paul Neuhaus
 
 | Model | Description | Picture |
@@ -804,6 +838,12 @@ Currently:
 | 798.15 | Paulmann SmartHome Zigbee Pendulum Light Aptare (on/off, brightness) | ![./assets/devices/798.15.jpg](./assets/devices/798.15.jpg) |
 | 500.48 | Paulmann SmartHome Zigbee YourLED dim/switch controller max. 60 W (on/off, brightness) | ![./assets/devices/500.48.jpg](./assets/devices/500.48.jpg) |
 | 93999 | Paulmann Plug Shine Zigbee controller (on/off, brightness) | ![./assets/devices/93999.jpg](./assets/devices/93999.jpg) |
+
+## PEQ
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| 3300-P | PEQ Door & window contact sensor (contact, temperature) | ![./assets/devices/3300-P.jpg](./assets/devices/3300-P.jpg) |
 
 ## Philips
 
@@ -904,13 +944,6 @@ Currently:
 | ROB_200-003-0 | ROBB Zigbee AC in wall switch (on/off) | ![./assets/devices/ROB_200-003-0.jpg](./assets/devices/ROB_200-003-0.jpg) |
 | ROB_200-014-0 | ROBB ZigBee AC phase-cut rotary dimmer (on/off, brightness) | ![./assets/devices/ROB_200-014-0.jpg](./assets/devices/ROB_200-014-0.jpg) |
 | ROB_200-007-0 | ROBB Zigbee 8 button wall switch (action) | ![./assets/devices/ROB_200-007-0.jpg](./assets/devices/ROB_200-007-0.jpg) |
-
-## SONOFF
-
-| Model | Description | Picture |
-| ------------- | ------------- | -------------------------- |
-| BASICZBR3 | SONOFF Zigbee smart switch (on/off) | ![./assets/devices/BASICZBR3.jpg](./assets/devices/BASICZBR3.jpg) |
-| S31ZB | SONOFF Zigbee smart plug (US version) (on/off) | ![./assets/devices/S31ZB.jpg](./assets/devices/S31ZB.jpg) |
 
 ## Salus
 
@@ -1021,6 +1054,13 @@ Currently:
 | SZ-SRN12N | SmartThings Smart siren (warning) | ![./assets/devices/SZ-SRN12N.jpg](./assets/devices/SZ-SRN12N.jpg) |
 | GP-LBU019BBAWU | SmartThings Smart bulb (on/off, brightness) | ![./assets/devices/GP-LBU019BBAWU.jpg](./assets/devices/GP-LBU019BBAWU.jpg) |
 
+## SONOFF
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| BASICZBR3 | SONOFF Zigbee smart switch (on/off) | ![./assets/devices/BASICZBR3.jpg](./assets/devices/BASICZBR3.jpg) |
+| S31ZB | SONOFF Zigbee smart plug (US version) (on/off) | ![./assets/devices/S31ZB.jpg](./assets/devices/S31ZB.jpg) |
+
 ## Stelpro
 
 | Model | Description | Picture |
@@ -1072,18 +1112,6 @@ Currently:
 | TERNCY-PP01 | TERNCY Awareness switch (temperature, occupancy, illuminance, click, double click, triple click) | ![./assets/devices/TERNCY-PP01.jpg](./assets/devices/TERNCY-PP01.jpg) |
 | TERNCY-SD01 | TERNCY Knob smart dimmer (single, double and triple click, rotate) | ![./assets/devices/TERNCY-SD01.jpg](./assets/devices/TERNCY-SD01.jpg) |
 
-## TUYATEC
-
-| Model | Description | Picture |
-| ------------- | ------------- | -------------------------- |
-| RH3040 | TUYATEC PIR sensor (occupancy) | ![./assets/devices/RH3040.jpg](./assets/devices/RH3040.jpg) |
-| TT001ZAV20 | TUYATEC Temperature & humidity sensor (temperature and humidity) | ![./assets/devices/TT001ZAV20.jpg](./assets/devices/TT001ZAV20.jpg) |
-| GDKES-01TZXD | TUYATEC Smart light switch - 1 gang without neutral wire (on/off) | ![./assets/devices/GDKES-01TZXD.jpg](./assets/devices/GDKES-01TZXD.jpg) |
-| GDKES-02TZXD | TUYATEC Smart light switch - 2 gang without neutral wire (on/off) | ![./assets/devices/GDKES-02TZXD.jpg](./assets/devices/GDKES-02TZXD.jpg) |
-| GDKES-03TZXD | TUYATEC Smart light switch - 3 gang without neutral wire (on/off) | ![./assets/devices/GDKES-03TZXD.jpg](./assets/devices/GDKES-03TZXD.jpg) |
-| gq8b1uv | TUYATEC Zigbee smart dimmer (on/off, brightness) | ![./assets/devices/gq8b1uv.jpg](./assets/devices/gq8b1uv.jpg) |
-| U86KCJ-ZP | TUYATEC Smart 6 key scene wall switch (action) | ![./assets/devices/U86KCJ-ZP.jpg](./assets/devices/U86KCJ-ZP.jpg) |
-
 ## Third Reality
 
 | Model | Description | Picture |
@@ -1109,6 +1137,18 @@ Currently:
 | TS0201 | TuYa Temperature & humidity sensor with display (temperature and humidity) | ![./assets/devices/TS0201.jpg](./assets/devices/TS0201.jpg) |
 | TS0042 | TuYa Touch wall remote 2 gang (action) | ![./assets/devices/TS0042.jpg](./assets/devices/TS0042.jpg) |
 | TS0002 | TuYa 2 gang switch (on/off) | ![./assets/devices/TS0002.jpg](./assets/devices/TS0002.jpg) |
+
+## TUYATEC
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| RH3040 | TUYATEC PIR sensor (occupancy) | ![./assets/devices/RH3040.jpg](./assets/devices/RH3040.jpg) |
+| TT001ZAV20 | TUYATEC Temperature & humidity sensor (temperature and humidity) | ![./assets/devices/TT001ZAV20.jpg](./assets/devices/TT001ZAV20.jpg) |
+| GDKES-01TZXD | TUYATEC Smart light switch - 1 gang without neutral wire (on/off) | ![./assets/devices/GDKES-01TZXD.jpg](./assets/devices/GDKES-01TZXD.jpg) |
+| GDKES-02TZXD | TUYATEC Smart light switch - 2 gang without neutral wire (on/off) | ![./assets/devices/GDKES-02TZXD.jpg](./assets/devices/GDKES-02TZXD.jpg) |
+| GDKES-03TZXD | TUYATEC Smart light switch - 3 gang without neutral wire (on/off) | ![./assets/devices/GDKES-03TZXD.jpg](./assets/devices/GDKES-03TZXD.jpg) |
+| gq8b1uv | TUYATEC Zigbee smart dimmer (on/off, brightness) | ![./assets/devices/gq8b1uv.jpg](./assets/devices/gq8b1uv.jpg) |
+| U86KCJ-ZP | TUYATEC Smart 6 key scene wall switch (action) | ![./assets/devices/U86KCJ-ZP.jpg](./assets/devices/U86KCJ-ZP.jpg) |
 
 ## Ubisys
 
@@ -1205,45 +1245,5 @@ Currently:
 | Model | Description | Picture |
 | ------------- | ------------- | -------------------------- |
 | Zen-01-W | Zen Thermostat (temperature, heating/cooling system control) | ![./assets/devices/Zen-01-W.jpg](./assets/devices/Zen-01-W.jpg) |
-
-## eCozy
-
-| Model | Description | Picture |
-| ------------- | ------------- | -------------------------- |
-| 1TST-EU | eCozy Smart heating thermostat (temperature, occupancy, un-/occupied heating, schedule) | ![./assets/devices/1TST-EU.jpg](./assets/devices/1TST-EU.jpg) |
-
-## eWeLink
-
-| Model | Description | Picture |
-| ------------- | ------------- | -------------------------- |
-| SA-003-Zigbee | eWeLink Zigbee smart plug (on/off) | ![./assets/devices/SA-003-Zigbee.jpg](./assets/devices/SA-003-Zigbee.jpg) |
-| RHK06 | eWeLink Contact sensor (contact) | ![./assets/devices/RHK06.jpg](./assets/devices/RHK06.jpg) |
-| RHK07 | eWeLink Wireless button (single, double, long) | ![./assets/devices/RHK07.jpg](./assets/devices/RHK07.jpg) |
-| RHK08 | eWeLink Temperature and humidity sensor (temperature and humidity) | ![./assets/devices/RHK08.jpg](./assets/devices/RHK08.jpg) |
-| RHK09 | eWeLink Motion sensor (occupancy) | ![./assets/devices/RHK09.jpg](./assets/devices/RHK09.jpg) |
-
-## iCasa
-
-| Model | Description | Picture |
-| ------------- | ------------- | -------------------------- |
-| ICZB-IW11D | iCasa ZigBee AC dimmer (on/off, brightness) | ![./assets/devices/ICZB-IW11D.jpg](./assets/devices/ICZB-IW11D.jpg) |
-| ICZB-IW11SW | iCasa Zigbee 3.0 AC switch (on/off) | ![./assets/devices/ICZB-IW11SW.jpg](./assets/devices/ICZB-IW11SW.jpg) |
-| ICZB-KPD14S | iCasa Zigbee 3.0 Keypad Pulse 4S (click, action, brightness, scenes) | ![./assets/devices/ICZB-KPD14S.jpg](./assets/devices/ICZB-KPD14S.jpg) |
-| ICZB-KPD18S | iCasa Zigbee 3.0 Keypad Pulse 8S (click, action, brightness, scenes) | ![./assets/devices/ICZB-KPD18S.jpg](./assets/devices/ICZB-KPD18S.jpg) |
-| ICZB-B1FC60/B3FC64/B2FC95/B2FC125 | iCasa Zigbee 3.0 Filament Lamp 60/64/95/125 mm, 806 lumen, dimmable, clear (on/off, brightness, color temperature) | ![./assets/devices/ICZB-B1FC60-B3FC64-B2FC95-B2FC125.jpg](./assets/devices/ICZB-B1FC60-B3FC64-B2FC95-B2FC125.jpg) |
-| ICZB-R11D | iCasa Zigbee AC dimmer (on/off, brightness) | ![./assets/devices/ICZB-R11D.jpg](./assets/devices/ICZB-R11D.jpg) |
-
-## iHORN
-
-| Model | Description | Picture |
-| ------------- | ------------- | -------------------------- |
-| LH-32ZB | iHORN Temperature & humidity sensor (temperature and humidity) | ![./assets/devices/LH-32ZB.jpg](./assets/devices/LH-32ZB.jpg) |
-| LH-992ZB | iHORN Motion sensor (occupancy) | ![./assets/devices/LH-992ZB.jpg](./assets/devices/LH-992ZB.jpg) |
-
-## ilux
-
-| Model | Description | Picture |
-| ------------- | ------------- | -------------------------- |
-| 900008-WW | ilux Dimmable A60 E27 LED Bulb (on/off, brightness) | ![./assets/devices/900008-WW.jpg](./assets/devices/900008-WW.jpg) |
 
 

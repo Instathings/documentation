@@ -64,7 +64,9 @@ const modbusVendors = Array.from(new Set(modbusDevices.map((d) => d.vendor)));
 const vendors = [...zigbeeVendors, ...modbusVendors];
 const devices = [...zigbeeDevices, ...modbusDevices];
 
-vendors.sort();
+vendors.sort((v1, v2) => {
+  return v1.localeCompare(v2);
+});
 vendors.forEach((vendor) => {
   devicesText += `## ${vendor}\n\n`;
   devicesText += generateTable(devices.filter((d) => d.vendor === vendor));
