@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2019-04-15
+### Added
+- modbus-herdsman to 2.0.2
+### Changed
+- support for modbus devices
+### Removed
+- Useless files
+
 ## [1.0.10] - 2019-03-31
 ### Changed
 - zigbee-herdsman to 0.12.64
