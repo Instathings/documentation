@@ -23,6 +23,8 @@ Currently:
 - **687** Zigbee devices are supported from **119** different vendors.
 - **1** Modbus devices are supported from **1** different vendors.
 
+<main id="content" class="main-content" role="main">
+
 ## AduroSmart
 
 | Model | Description | Picture |
@@ -1312,3 +1314,5 @@ Currently:
 | Zen-01-W | Zen Thermostat (temperature, heating/cooling system control) | ![./assets/devices/Zen-01-W.jpg](./assets/devices/Zen-01-W.jpg) |
 
 
+
+</main>
