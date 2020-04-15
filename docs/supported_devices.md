@@ -8,22 +8,23 @@ title: Supported devices
   table-layout: fixed;
   display: table !important;
 }
-.main-content table tr th:nth-child(1) {
+.main-content-devices table tr th:nth-child(1) {
   width: 15%;
 }
-.main-content table tr th:nth-child(2) {
+.main-content-devices table tr th:nth-child(2) {
   width: 60%;
 }
-.main-content table tr th:nth-child(3) {
+.main-content-devices table tr th:nth-child(3) {
   width: 25%;
 }
+
 </style>
 
 Currently:
 - **687** Zigbee devices are supported from **119** different vendors.
 - **1** Modbus devices are supported from **1** different vendors.
 
-<main id="content" class="main-content" role="main">
+<div class="main-content-devices" role="main">
 
 ## AduroSmart
 
@@ -1315,4 +1316,4 @@ Currently:
 
 
 
-</main>
+</div>
