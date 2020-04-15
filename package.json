@@ -11,10 +11,10 @@
     "docgen": "node devices/docgen/docgen.js && cp -R devices/docs/images/devices docs/assets"
   },
   "devDependencies": {
-    "@instathings/modbus-herdsman-converters": "^2.0.2",
+    "@instathings/modbus-herdsman-converters": "2.0.2",
     "docusaurus": "^1.14.4",
-    "zigbee-herdsman": "0.12.64",
-    "zigbee-herdsman-converters": "12.0.51"
+    "zigbee-herdsman": "0.12.78",
+    "zigbee-herdsman-converters": "12.0.69"
   },
   "dependencies": {
     "json2yaml": "^1.1.0"
