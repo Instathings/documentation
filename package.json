@@ -8,7 +8,7 @@
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
     "rename-version": "docusaurus-rename-version",
-    "docgen": "node devices/docgen/docgen.js && cp -R devices/docs/devices docs/ && cp -R devices/docs/images/devices docs/assets"
+    "docgen": "node devices/docgen/docgen.js && cp -R devices/docs/images/devices docs/assets"
   },
   "devDependencies": {
     "@instathings/modbus-herdsman-converters": "^2.0.2",
