@@ -19,7 +19,9 @@ title: Supported devices
 }
 </style>
 
-Currently **642** devices are supported from **115** different vendors.
+Currently:
+- **642** Zigbee devices are supported from **115** different vendors.
+- **1** Modbus devices are supported from **1** different vendors.
 
 ## AXIS
 
@@ -52,6 +54,12 @@ Currently **642** devices are supported from **115** different vendors.
 | Model | Description | Picture |
 | ------------- | ------------- | -------------------------- |
 | 67200BL | Anchor Vetaar smart plug (on/off) | ![./assets/devices/67200BL.jpg](./assets/devices/67200BL.jpg) |
+
+## Arceli
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| XY-MD02 | Arceli Temperature and humidity sensor (temperature and humidity) | ![./assets/devices/XY-MD02.jpg](./assets/devices/XY-MD02.jpg) |
 
 ## BTicino
 

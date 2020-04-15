@@ -2,14 +2,16 @@
  * This script generates the supported devices page.
  */
 
-const devices = require('zigbee-herdsman-converters').devices;
+const zigbeeDevices = require('zigbee-herdsman-converters').devices;
+const modbusDevices = require('@instathings/modbus-herdsman-converters').devices;
 const utils = require('./utils');
 
 function onlyUnique(value, index, self) {
   return self.indexOf(value) === index;
 }
 
-const vendorsCount = devices.map((d) => d.vendor).filter(onlyUnique).length;
+const zigbeeVendorsCount = zigbeeDevices.map((d) => d.vendor).filter(onlyUnique).length;
+const modbusVendorsCount = modbusDevices.map((d) => d.vendor).filter(onlyUnique).length;
 
 let template = `---
 id: all-devices
@@ -32,7 +34,9 @@ title: Supported devices
 }
 </style>
 
-Currently **${devices.length}** devices are supported from **${vendorsCount}** different vendors.
+Currently:
+- **${zigbeeDevices.length}** Zigbee devices are supported from **${zigbeeVendorsCount}** different vendors.
+- **${modbusDevices.length}** Modbus devices are supported from **${modbusVendorsCount}** different vendors.
 
 [DEVICES]
 `;
@@ -54,7 +58,12 @@ const generateTable = (devices) => {
 
 // Generated devices text
 let devicesText = '';
-const vendors = Array.from(new Set(devices.map((d) => d.vendor)));
+const zigbeeVendors = Array.from(new Set(zigbeeDevices.map((d) => d.vendor)));
+const modbusVendors = Array.from(new Set(modbusDevices.map((d) => d.vendor)));
+
+const vendors = [...zigbeeVendors, ...modbusVendors];
+const devices = [...zigbeeDevices, ...modbusDevices];
+
 vendors.sort();
 vendors.forEach((vendor) => {
   devicesText += `## ${vendor}\n\n`;

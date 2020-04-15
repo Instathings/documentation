@@ -6,7 +6,6 @@ const utils = require('./utils');
 const base = path.join(__dirname, '..', 'docs');
 
 const supportDevices = require('./supported-devices');
-console.log(supportDevices);
 const devicePage = require('./device_page');
 
 fs.writeFileSync(path.join(base, '..', '..', 'docs', 'supported_devices.md'), supportDevices);
