@@ -38,7 +38,11 @@ Currently:
 - **${zigbeeDevices.length}** Zigbee devices are supported from **${zigbeeVendorsCount}** different vendors.
 - **${modbusDevices.length}** Modbus devices are supported from **${modbusVendorsCount}** different vendors.
 
+<main id="content" class="main-content" role="main">
+
 [DEVICES]
+
+</main>
 `;
 
 const generateTable = (devices) => {
