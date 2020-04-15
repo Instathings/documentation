@@ -23,26 +23,27 @@ title: Supported devices
   table-layout: fixed;
   display: table !important;
 }
-.main-content table tr th:nth-child(1) {
+.main-content-devices table tr th:nth-child(1) {
   width: 15%;
 }
-.main-content table tr th:nth-child(2) {
+.main-content-devices table tr th:nth-child(2) {
   width: 60%;
 }
-.main-content table tr th:nth-child(3) {
+.main-content-devices table tr th:nth-child(3) {
   width: 25%;
 }
+
 </style>
 
 Currently:
 - **${zigbeeDevices.length}** Zigbee devices are supported from **${zigbeeVendorsCount}** different vendors.
 - **${modbusDevices.length}** Modbus devices are supported from **${modbusVendorsCount}** different vendors.
 
-<main id="content" class="main-content" role="main">
+<div class="main-content-devices" role="main">
 
 [DEVICES]
 
-</main>
+</div>
 `;
 
 const generateTable = (devices) => {
