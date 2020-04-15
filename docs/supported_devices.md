@@ -20,7 +20,7 @@ title: Supported devices
 </style>
 
 Currently:
-- **642** Zigbee devices are supported from **115** different vendors.
+- **687** Zigbee devices are supported from **119** different vendors.
 - **1** Modbus devices are supported from **1** different vendors.
 
 ## AduroSmart
@@ -125,7 +125,10 @@ Currently:
 | ------------- | ------------- | -------------------------- |
 | 4256251-RZHAC | Centralite White Swiss power outlet switch with power meter (switch and power meter) | ![./assets/devices/4256251-RZHAC.jpg](./assets/devices/4256251-RZHAC.jpg) |
 | 4257050-ZHAC | Centralite 3-Series smart dimming outlet (on/off, brightness, power measurement) | ![./assets/devices/4257050-ZHAC.jpg](./assets/devices/4257050-ZHAC.jpg) |
+| 4257050-RZHAC | Centralite 3-Series smart outlet (on/off, power measurement) | ![./assets/devices/4257050-RZHAC.jpg](./assets/devices/4257050-RZHAC.jpg) |
 | 3323-G | Centralite Micro-door sensor (contact, temperature) | ![./assets/devices/3323-G.jpg](./assets/devices/3323-G.jpg) |
+| 3420-G | Centralite 3-Series night light repeater (on/off, brightness) | ![./assets/devices/3420-G.jpg](./assets/devices/3420-G.jpg) |
+| 3157100 | Centralite 3-Series pearl touch thermostat, (temperature, heating/cooling system control, fan) | ![./assets/devices/3157100.jpg](./assets/devices/3157100.jpg) |
 
 ## Climax
 
@@ -165,14 +168,14 @@ Currently:
 | Model | Description | Picture |
 | ------------- | ------------- | -------------------------- |
 | CC2530.ROUTER | Custom devices (DiY) [CC2530 router](http://ptvo.info/cc2530-based-zigbee-coordinator-and-router-112/) (state, description, type, rssi) | ![./assets/devices/CC2530.ROUTER.jpg](./assets/devices/CC2530.ROUTER.jpg) |
-| ptvo.switch | Custom devices (DiY) [Multi-channel relay switch](https://ptvo.info/zigbee-switch-configurable-firmware-router-199/) (hold, single, double and triple click, on/off) | ![./assets/devices/ptvo.switch.jpg](./assets/devices/ptvo.switch.jpg) |
+| ptvo.switch | Custom devices (DiY) [Multi-channel relay switch](https://ptvo.info/zigbee-switch-configurable-firmware-router-199/) (hold, single, double and triple click, on/off, type, rssi) | ![./assets/devices/ptvo.switch.jpg](./assets/devices/ptvo.switch.jpg) |
 | DNCKATSW001 | Custom devices (DiY) [DNCKAT single key wired wall light switch](https://github.com/dzungpv/dnckatsw00x/) (on/off) | ![./assets/devices/DNCKATSW001.jpg](./assets/devices/DNCKATSW001.jpg) |
 | DNCKATSW002 | Custom devices (DiY) [DNCKAT double key wired wall light switch](https://github.com/dzungpv/dnckatsw00x/) (hold/release, on/off) | ![./assets/devices/DNCKATSW002.jpg](./assets/devices/DNCKATSW002.jpg) |
 | DNCKATSW003 | Custom devices (DiY) [DNCKAT triple key wired wall light switch](https://github.com/dzungpv/dnckatsw00x/) (hold/release, on/off) | ![./assets/devices/DNCKATSW003.jpg](./assets/devices/DNCKATSW003.jpg) |
 | DNCKATSW004 | Custom devices (DiY) [DNCKAT quadruple key wired wall light switch](https://github.com/dzungpv/dnckatsw00x/) (hold/release, on/off) | ![./assets/devices/DNCKATSW004.jpg](./assets/devices/DNCKATSW004.jpg) |
 | ZigUP | Custom devices (DiY) [CC2530 based ZigBee relais, switch, sensor and router](https://github.com/formtapez/ZigUP/) (relais, RGB-stripe, sensors, S0-counter, ADC, digital I/O) | ![./assets/devices/ZigUP.jpg](./assets/devices/ZigUP.jpg) |
-| ZWallRemote0 | Custom devices (DiY) Matts Wall Switch Remote (https://github.com/mattlokes/ZWallRemote) (on/off) | ![./assets/devices/ZWallRemote0.jpg](./assets/devices/ZWallRemote0.jpg) |
-| DTB190502A1 | Custom devices (DiY) [CC2530 based IO Board https://databyte.ch/?portfolio=zigbee-erstes-board-dtb190502a) (switch, buttons) | ![./assets/devices/DTB190502A1.jpg](./assets/devices/DTB190502A1.jpg) |
+| ZWallRemote0 | Custom devices (DiY) [Matts Wall Switch Remote](https://github.com/mattlokes/ZWallRemote) (on/off) | ![./assets/devices/ZWallRemote0.jpg](./assets/devices/ZWallRemote0.jpg) |
+| DTB190502A1 | Custom devices (DiY) [CC2530 based IO Board](https://databyte.ch/?portfolio=zigbee-erstes-board-dtb190502a) (switch, buttons) | ![./assets/devices/DTB190502A1.jpg](./assets/devices/DTB190502A1.jpg) |
 
 ## Danalock
 
@@ -190,6 +193,13 @@ Currently:
 | PM-S140-ZB | Dawon DNS IOT smart switch 1 gang (on/off) | ![./assets/devices/PM-S140-ZB.jpg](./assets/devices/PM-S140-ZB.jpg) |
 | PM-S240-ZB | Dawon DNS IOT smart switch 2 gang (on/off) | ![./assets/devices/PM-S240-ZB.jpg](./assets/devices/PM-S240-ZB.jpg) |
 | PM-S340-ZB | Dawon DNS IOT smart switch 3 gang (on/off) | ![./assets/devices/PM-S340-ZB.jpg](./assets/devices/PM-S340-ZB.jpg) |
+
+## Develco
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| EMIZB-132 | Develco Wattle AMS HAN power-meter sensor (power measurements) | ![./assets/devices/EMIZB-132.jpg](./assets/devices/EMIZB-132.jpg) |
+| SMSZB-120 | Develco Smoke detector with siren (smoke, warning, temperature) | ![./assets/devices/SMSZB-120.jpg](./assets/devices/SMSZB-120.jpg) |
 
 ## DIYRuZ
 
@@ -264,6 +274,18 @@ Currently:
 | Model | Description | Picture |
 | ------------- | ------------- | -------------------------- |
 | TZSW22FW-L4 | Feibit Smart light switch - 2 gang (on/off) | ![./assets/devices/TZSW22FW-L4.jpg](./assets/devices/TZSW22FW-L4.jpg) |
+| SEB01ZB | Feibit SOS button (sos) | ![./assets/devices/SEB01ZB.jpg](./assets/devices/SEB01ZB.jpg) |
+| SBM01ZB | Feibit Human body movement sensor (occupancy, tamper) | ![./assets/devices/SBM01ZB.jpg](./assets/devices/SBM01ZB.jpg) |
+| STH01ZB | Feibit Smart temperature & humidity Sensor (temperature, humidity) | ![./assets/devices/STH01ZB.jpg](./assets/devices/STH01ZB.jpg) |
+| SSA01ZB | Feibit Smoke detector (smoke) | ![./assets/devices/SSA01ZB.jpg](./assets/devices/SSA01ZB.jpg) |
+| SCA01ZB | Feibit Smart carbon monoxide sensor (carbon monoxide) | ![./assets/devices/SCA01ZB.jpg](./assets/devices/SCA01ZB.jpg) |
+| SGA01ZB | Feibit Combustible gas sensor (gas) | ![./assets/devices/SGA01ZB.jpg](./assets/devices/SGA01ZB.jpg) |
+| SWA01ZB | Feibit Water leakage sensor (water leak) | ![./assets/devices/SWA01ZB.jpg](./assets/devices/SWA01ZB.jpg) |
+| SDM01ZB | Feibit Door or window contact switch (contact) | ![./assets/devices/SDM01ZB.jpg](./assets/devices/SDM01ZB.jpg) |
+| SFS01ZB | Feibit Power plug (on/off) | ![./assets/devices/SFS01ZB.jpg](./assets/devices/SFS01ZB.jpg) |
+| SLS301ZB_2 | Feibit Smart light switch - 2 gang (on/off) | ![./assets/devices/SLS301ZB_2.jpg](./assets/devices/SLS301ZB_2.jpg) |
+| SLS301ZB_3 | Feibit Smart light switch - 3 gang (on/off) | ![./assets/devices/SLS301ZB_3.jpg](./assets/devices/SLS301ZB_3.jpg) |
+| SSS401ZB | Feibit Smart 4 key scene wall switch (on/off, action) | ![./assets/devices/SSS401ZB.jpg](./assets/devices/SSS401ZB.jpg) |
 
 ## GE
 
@@ -277,12 +299,6 @@ Currently:
 | 45857GE | GE ZigBee in-wall smart dimmer (on/off, brightness) | ![./assets/devices/45857GE.jpg](./assets/devices/45857GE.jpg) |
 | PTAPT-WH02 | GE Quirky smart switch (on/off) | ![./assets/devices/PTAPT-WH02.jpg](./assets/devices/PTAPT-WH02.jpg) |
 
-## Gira
-
-| Model | Description | Picture |
-| ------------- | ------------- | -------------------------- |
-| 2430-100 | Gira ZigBee Light Link wall transmitter (action) | ![./assets/devices/2430-100.jpg](./assets/devices/2430-100.jpg) |
-
 ## Gledopto
 
 | Model | Description | Picture |
@@ -290,14 +306,15 @@ Currently:
 | GL-C-007/GL-C-008 | Gledopto Zigbee LED controller RGB + CCT or RGBW (on/off, brightness, color temperature or white, color) | ![./assets/devices/GL-C-007-GL-C-008.jpg](./assets/devices/GL-C-007-GL-C-008.jpg) |
 | GL-C-006 | Gledopto Zigbee LED controller WW/CW (on/off, brightness, color temperature) | ![./assets/devices/GL-C-006.jpg](./assets/devices/GL-C-006.jpg) |
 | GL-C-007 | Gledopto Zigbee LED controller RGBW (on/off, brightness, color, white) | ![./assets/devices/GL-C-007.jpg](./assets/devices/GL-C-007.jpg) |
+| GL-S-004ZS | Gledopto Zigbee smart RGB+CCT 4W MR16 (on/off, brightness, color temperature, color) | ![./assets/devices/GL-S-004ZS.jpg](./assets/devices/GL-S-004ZS.jpg) |
 | GL-C-007S | Gledopto Zigbee LED controller RGBW plus model (on/off, brightness, color, white) | ![./assets/devices/GL-C-007S.jpg](./assets/devices/GL-C-007S.jpg) |
 | GL-C-008 | Gledopto Zigbee LED controller RGB + CCT (on/off, brightness, color temperature, color) | ![./assets/devices/GL-C-008.jpg](./assets/devices/GL-C-008.jpg) |
 | GL-C-008S | Gledopto Zigbee LED controller RGB + CCT plus model (on/off, brightness, color temperature, color) | ![./assets/devices/GL-C-008S.jpg](./assets/devices/GL-C-008S.jpg) |
 | GL-C-009 | Gledopto Zigbee LED controller dimmer (on/off, brightness) | ![./assets/devices/GL-C-009.jpg](./assets/devices/GL-C-009.jpg) |
 | GL-MC-001 | Gledopto Zigbee USB mini LED controller RGB + CCT (on/off, brightness, color temperature, color) | ![./assets/devices/GL-MC-001.jpg](./assets/devices/GL-MC-001.jpg) |
 | GL-S-004Z | Gledopto Zigbee Smart WW/CW GU10 (on/off, brightness, color temperature) | ![./assets/devices/GL-S-004Z.jpg](./assets/devices/GL-S-004Z.jpg) |
-| GL-S-007Z | Gledopto Smart RGBW GU10 (on/off, brightness, color, white) | ![./assets/devices/GL-S-007Z.jpg](./assets/devices/GL-S-007Z.jpg) |
-| GL-S-007ZS | Gledopto Smart RGB+CCT GU10 (on/off, brightness, color, color temperature) | ![./assets/devices/GL-S-007ZS.jpg](./assets/devices/GL-S-007ZS.jpg) |
+| GL-S-007Z | Gledopto Smart RGB+CCT 5W GU10 (on/off, brightness, color temperature, color) | ![./assets/devices/GL-S-007Z.jpg](./assets/devices/GL-S-007Z.jpg) |
+| GL-S-007ZS | Gledopto Smart RGB+CCT 4W GU10 plus model (on/off, brightness, color temperature, color) | ![./assets/devices/GL-S-007ZS.jpg](./assets/devices/GL-S-007ZS.jpg) |
 | GL-S-008Z | Gledopto Soposh dual white and color  (on/off, brightness, color temperature, color) | ![./assets/devices/GL-S-008Z.jpg](./assets/devices/GL-S-008Z.jpg) |
 | GL-B-001Z | Gledopto Smart 4W E14 RGB / CCT LED bulb (on/off, brightness, color temperature, color) | ![./assets/devices/GL-B-001Z.jpg](./assets/devices/GL-B-001Z.jpg) |
 | GL-G-001Z | Gledopto Smart garden lamp (on/off, brightness, color temperature, color) | ![./assets/devices/GL-G-001Z.jpg](./assets/devices/GL-G-001Z.jpg) |
@@ -363,9 +380,10 @@ Currently:
 | SGMHM-I1 | HEIMAN Combustible gas sensor (gas) | ![./assets/devices/SGMHM-I1.jpg](./assets/devices/SGMHM-I1.jpg) |
 | STHM-I1H | HEIMAN Heiman temperature & humidity sensor (temperature and humidity) | ![./assets/devices/STHM-I1H.jpg](./assets/devices/STHM-I1H.jpg) |
 | HS1EB | HEIMAN Smart emergency button (click) | ![./assets/devices/HS1EB.jpg](./assets/devices/HS1EB.jpg) |
-| HM-900SW_1 | HEIMAN Smart switch - 1 gang with neutral wire (on/off) | ![./assets/devices/HM-900SW_1.jpg](./assets/devices/HM-900SW_1.jpg) |
-| HM-900SW_2 | HEIMAN Smart switch - 2 gang with neutral wire (on/off) | ![./assets/devices/HM-900SW_2.jpg](./assets/devices/HM-900SW_2.jpg) |
-| HM-900SW_3 | HEIMAN Smart switch - 3 gang with neutral wire (on/off) | ![./assets/devices/HM-900SW_3.jpg](./assets/devices/HM-900SW_3.jpg) |
+| HS1CG-E | HEIMAN Combustible gas sensor (gas) | ![./assets/devices/HS1CG-E.jpg](./assets/devices/HS1CG-E.jpg) |
+| HS2SW1A-N | HEIMAN Smart switch - 1 gang with neutral wire (on/off) | ![./assets/devices/HS2SW1A-N.jpg](./assets/devices/HS2SW1A-N.jpg) |
+| HS2SW2A-N | HEIMAN Smart switch - 2 gang with neutral wire (on/off) | ![./assets/devices/HS2SW2A-N.jpg](./assets/devices/HS2SW2A-N.jpg) |
+| HS2SW3A-N | HEIMAN Smart switch - 3 gang with neutral wire (on/off) | ![./assets/devices/HS2SW3A-N.jpg](./assets/devices/HS2SW3A-N.jpg) |
 
 ## Hej
 
@@ -471,6 +489,9 @@ Currently:
 | 511.201 | Iluminize ZigBee 3.0 Dimm-Aktor mini 1x 230V (on/off, brightness) | ![./assets/devices/511.201.jpg](./assets/devices/511.201.jpg) |
 | 511.012 | Iluminize Zigbee LED-Controller  (on/off, brightness) | ![./assets/devices/511.012.jpg](./assets/devices/511.012.jpg) |
 | 511.202 | Iluminize Zigbee 3.0 Schalt-Aktor mini 1x230V, 200W/400W (on/off) | ![./assets/devices/511.202.jpg](./assets/devices/511.202.jpg) |
+| 511.557 | Iluminize Zigbee 3.0 wall dimmer (action) | ![./assets/devices/511.557.jpg](./assets/devices/511.557.jpg) |
+| 511.040 | Iluminize ZigBee 3.0 LED-controller, 4 channel 5A, RGBW LED (on/off, brightness, color temperature, color xy) | ![./assets/devices/511.040.jpg](./assets/devices/511.040.jpg) |
+| 511.344 | Iluminize Zigbee handheld remote RGBW 4 channels (action) | ![./assets/devices/511.344.jpg](./assets/devices/511.344.jpg) |
 
 ## ilux
 
@@ -528,8 +549,15 @@ Currently:
 | SL 110 M | Innr Spot Flex medium (on/off, brightness) | ![./assets/devices/SL-110-M.jpg](./assets/devices/SL-110-M.jpg) |
 | SL 110 W | Innr Spot Flex wide (on/off, brightness) | ![./assets/devices/SL-110-W.jpg](./assets/devices/SL-110-W.jpg) |
 | SP 120 | Innr Smart plug (on/off, power measurement) | ![./assets/devices/SP-120.jpg](./assets/devices/SP-120.jpg) |
+| SP 220 | Innr Smart plug (on/off) | ![./assets/devices/SP-220.jpg](./assets/devices/SP-220.jpg) |
 | SP 222 | Innr Smart plug (on/off) | ![./assets/devices/SP-222.jpg](./assets/devices/SP-222.jpg) |
 | SP 224 | Innr Smart plug (on/off) | ![./assets/devices/SP-224.jpg](./assets/devices/SP-224.jpg) |
+
+## Insta
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| InstaRemote | Insta ZigBee Light Link wall transmitter (action) | ![./assets/devices/InstaRemote.jpg](./assets/devices/InstaRemote.jpg) |
 
 ## Iris
 
@@ -538,7 +566,9 @@ Currently:
 | 3210-L | Iris Smart plug (on/off, power measurement) | ![./assets/devices/3210-L.jpg](./assets/devices/3210-L.jpg) |
 | 3326-L | Iris Motion and temperature sensor (occupancy and temperature) | ![./assets/devices/3326-L.jpg](./assets/devices/3326-L.jpg) |
 | 3320-L | Iris Contact and temperature sensor (contact and temperature) | ![./assets/devices/3320-L.jpg](./assets/devices/3320-L.jpg) |
+| 3460-L | Iris Smart button (action, temperature) | ![./assets/devices/3460-L.jpg](./assets/devices/3460-L.jpg) |
 | iL07_1 | Iris Motion Sensor (motion, tamper and battery) | ![./assets/devices/iL07_1.jpg](./assets/devices/iL07_1.jpg) |
+| 27087-03 | Iris Hose faucet water timer (on/off) | ![./assets/devices/27087-03.jpg](./assets/devices/27087-03.jpg) |
 
 ## JIAWEN
 
@@ -574,6 +604,7 @@ Currently:
 | Model | Description | Picture |
 | ------------- | ------------- | -------------------------- |
 | 66492-001 | Kwikset Home connect smart lock conversion kit (lock/unlock, battery) | ![./assets/devices/66492-001.jpg](./assets/devices/66492-001.jpg) |
+| 99140-002 | Kwikset SmartCode traditional electronic deadbolt (lock/unlock, battery) | ![./assets/devices/99140-002.jpg](./assets/devices/99140-002.jpg) |
 
 ## Leedarson
 
@@ -601,6 +632,7 @@ Currently:
 | Model | Description | Picture |
 | ------------- | ------------- | -------------------------- |
 | DL15S-1BZ | Leviton Lumina RF 15A switch, 120/277V (on/off) | ![./assets/devices/DL15S-1BZ.jpg](./assets/devices/DL15S-1BZ.jpg) |
+| RC-2000WH | Leviton Omnistat2 wireless thermostat (temperature, heating/cooling system control, fan) | ![./assets/devices/RC-2000WH.jpg](./assets/devices/RC-2000WH.jpg) |
 
 ## LifeControl
 
@@ -695,6 +727,7 @@ Currently:
 | 1402755 | Namron ZigBee LED dimmer (on/off, brightness) | ![./assets/devices/1402755.jpg](./assets/devices/1402755.jpg) |
 | 4512703 | Namron Zigbee 4 channel switch K8 (action) | ![./assets/devices/4512703.jpg](./assets/devices/4512703.jpg) |
 | 4512702 | Namron Zigbee 1 channel switch K4 (action) | ![./assets/devices/4512702.jpg](./assets/devices/4512702.jpg) |
+| 4512706 | Namron Remote control (action) | ![./assets/devices/4512706.jpg](./assets/devices/4512706.jpg) |
 
 ## Nanoleaf
 
@@ -760,10 +793,16 @@ Currently:
 
 | Model | Description | Picture |
 | ------------- | ------------- | -------------------------- |
-| NCZ-3011-HA | Nyce Door/window sensor (motion, humidity and temperature) | ![./assets/devices/NCZ-3011-HA.jpg](./assets/devices/NCZ-3011-HA.jpg) |
+| NCZ-3011-HA | Nyce Door/window sensor (contact) | ![./assets/devices/NCZ-3011-HA.jpg](./assets/devices/NCZ-3011-HA.jpg) |
 | NCZ-3043-HA | Nyce Ceiling motion sensor (motion, humidity and temperature) | ![./assets/devices/NCZ-3043-HA.jpg](./assets/devices/NCZ-3043-HA.jpg) |
 | NCZ-3041-HA | Nyce Wall motion sensor (motion, humidity and temperature) | ![./assets/devices/NCZ-3041-HA.jpg](./assets/devices/NCZ-3041-HA.jpg) |
 | NCZ-3045-HA | Nyce Curtain motion sensor (motion, humidity and temperature) | ![./assets/devices/NCZ-3045-HA.jpg](./assets/devices/NCZ-3045-HA.jpg) |
+
+## Orvibo
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| RL804CZB | Orvibo Zigbee LED controller RGB + CCT or RGBW (on/off, brightness, color temperature, color xy) | ![./assets/devices/RL804CZB.jpg](./assets/devices/RL804CZB.jpg) |
 
 ## ORVIBO
 
@@ -772,6 +811,7 @@ Currently:
 | CR11S8UZ | ORVIBO Smart sticker switch (click, hold, release) | ![./assets/devices/CR11S8UZ.jpg](./assets/devices/CR11S8UZ.jpg) |
 | T18W3Z | ORVIBO Neutral smart switch 3 gang (on/off) | ![./assets/devices/T18W3Z.jpg](./assets/devices/T18W3Z.jpg) |
 | SM10ZW | ORVIBO Door or window contact switch (contact) | ![./assets/devices/SM10ZW.jpg](./assets/devices/SM10ZW.jpg) |
+| RL804QZB | ORVIBO Multi-functional 3 gang relay (on/off) | ![./assets/devices/RL804QZB.jpg](./assets/devices/RL804QZB.jpg) |
 
 ## OSRAM
 
@@ -788,6 +828,7 @@ Currently:
 | AC03647 | OSRAM SMART+ LED CLASSIC E27 RGBW (on/off, brightness, color temperature, color xy) | ![./assets/devices/AC03647.jpg](./assets/devices/AC03647.jpg) |
 | AA70155 | OSRAM LIGHTIFY LED A19 tunable white / Classic A60 TW (on/off, brightness, color temperature) | ![./assets/devices/AA70155.jpg](./assets/devices/AA70155.jpg) |
 | AA68199 | OSRAM LIGHTIFY LED PAR16 50 GU10 tunable white (on/off, brightness, color temperature) | ![./assets/devices/AA68199.jpg](./assets/devices/AA68199.jpg) |
+| 4058075148338 | OSRAM LIGHTIFY LED PAR16 50 GU10 tunable white (on/off, brightness, color temperature) | ![./assets/devices/4058075148338.jpg](./assets/devices/4058075148338.jpg) |
 | AB32840 | OSRAM LIGHTIFY LED Classic B40 tunable white (on/off, brightness, color temperature) | ![./assets/devices/AB32840.jpg](./assets/devices/AB32840.jpg) |
 | 4058075816794 | OSRAM Smart+ Ceiling TW (on/off, brightness, color temperature) | ![./assets/devices/4058075816794.jpg](./assets/devices/4058075816794.jpg) |
 | AC03641 | OSRAM LIGHTIFY LED Classic A60 clear (on/off, brightness) | ![./assets/devices/AC03641.jpg](./assets/devices/AC03641.jpg) |
@@ -859,6 +900,8 @@ Currently:
 | 929002277501 | Philips Hue white A19 bulb E26 bluetooth (on/off, brightness, power-on behavior) | ![./assets/devices/929002277501.jpg](./assets/devices/929002277501.jpg) |
 | 7602031P7 | Philips Hue Go with Bluetooth (on/off, brightness, color temperature, color xy, power-on behavior) | ![./assets/devices/7602031P7.jpg](./assets/devices/7602031P7.jpg) |
 | 8718696167991 | Philips Hue Calla outdoor (on/off, brightness, color temperature, color xy, power-on behavior) | ![./assets/devices/8718696167991.jpg](./assets/devices/8718696167991.jpg) |
+| 1744130P7 | Philips Hue Econic outdoor Pedestal (on/off, brightness, color temperature, color xy, power-on behavior) | ![./assets/devices/1744130P7.jpg](./assets/devices/1744130P7.jpg) |
+| 1743130P7 | Philips Hue Impress outdoor Pedestal (on/off, brightness, color temperature, color xy, power-on behavior) | ![./assets/devices/1743130P7.jpg](./assets/devices/1743130P7.jpg) |
 | 4090531P7 | Philips Hue Flourish white and color ambiance ceiling light (on/off, brightness, color temperature, color xy, power-on behavior) | ![./assets/devices/4090531P7.jpg](./assets/devices/4090531P7.jpg) |
 | 929001953101 | Philips Hue White and Color Ambiance GU10 (on/off, brightness, color temperature, color xy, power-on behavior) | ![./assets/devices/929001953101.jpg](./assets/devices/929001953101.jpg) |
 | 8718699688820 | Philips Hue Filament Standard A60/E27 bluetooth (on/off, brightness, power-on behavior) | ![./assets/devices/8718699688820.jpg](./assets/devices/8718699688820.jpg) |
@@ -908,6 +951,8 @@ Currently:
 | 1742930P7 | Philips Hue outdoor Impress wall lamp (on/off, brightness, color temperature, color xy, power-on behavior) | ![./assets/devices/1742930P7.jpg](./assets/devices/1742930P7.jpg) |
 | 1743230P7 | Philips Hue outdoor Impress lantern (on/off, brightness, color temperature, color xy, power-on behavior) | ![./assets/devices/1743230P7.jpg](./assets/devices/1743230P7.jpg) |
 | 7099930PH | Philips Hue Iris (Generation 2) (on/off, brightness, color xy, power-on behavior) | ![./assets/devices/7099930PH.jpg](./assets/devices/7099930PH.jpg) |
+| 4080248P9 | Philips Hue Signe floor light (on/off, brightness, color temperature, color xy, power-on behavior) | ![./assets/devices/4080248P9.jpg](./assets/devices/4080248P9.jpg) |
+| 4080148P9 | Philips Hue Signe table light (on/off, brightness, color temperature, color xy, power-on behavior) | ![./assets/devices/4080148P9.jpg](./assets/devices/4080148P9.jpg) |
 | 324131092621 | Philips Hue dimmer switch (on/off, brightness, up/down/hold/release, click count) | ![./assets/devices/324131092621.jpg](./assets/devices/324131092621.jpg) |
 | 8718699693985 | Philips Hue smart button (action) | ![./assets/devices/8718699693985.jpg](./assets/devices/8718699693985.jpg) |
 | 9290012607 | Philips Hue motion sensor (occupancy, temperature, illuminance) | ![./assets/devices/9290012607.jpg](./assets/devices/9290012607.jpg) |
@@ -923,12 +968,7 @@ Currently:
 | 929002241201 | Philips Hue white filament Edison E27 LED (on/off, brightness, power-on behavior) | ![./assets/devices/929002241201.jpg](./assets/devices/929002241201.jpg) |
 | 046677551780 | Philips Hue white filament Edison ST19 LED (on/off, brightness, power-on behavior) | ![./assets/devices/046677551780.jpg](./assets/devices/046677551780.jpg) |
 | 3115331PH | Philips Phoenix light (on/off, brightness, color temperature, color xy, power-on behavior) | ![./assets/devices/3115331PH.jpg](./assets/devices/3115331PH.jpg) |
-
-## Piri
-
-| Model | Description | Picture |
-| ------------- | ------------- | -------------------------- |
-| HSIO18008 | Piri Combustible gas sensor (gas) | ![./assets/devices/HSIO18008.jpg](./assets/devices/HSIO18008.jpg) |
+| 7121131PU | Philips Hue Beyond white and color ambiance suspension light (on/off, brightness, color temperature, color xy, power-on behavior) | ![./assets/devices/7121131PU.jpg](./assets/devices/7121131PU.jpg) |
 
 ## RGB Genie
 
@@ -972,6 +1012,7 @@ Currently:
 
 | Model | Description | Picture |
 | ------------- | ------------- | -------------------------- |
+| E12-N1E | Sengled Smart LED multicolor (BR30) (on/off, brightness, color temperature, color xy) | ![./assets/devices/E12-N1E.jpg](./assets/devices/E12-N1E.jpg) |
 | E11-G13 | Sengled Element Classic (A19) (on/off, brightness) | ![./assets/devices/E11-G13.jpg](./assets/devices/E11-G13.jpg) |
 | E11-G23/E11-G33 | Sengled Element Classic (A60) (on/off, brightness) | ![./assets/devices/E11-G23-E11-G33.jpg](./assets/devices/E11-G23-E11-G33.jpg) |
 | Z01-CIA19NAE26 | Sengled Element Touch (A19) (on/off, brightness) | ![./assets/devices/Z01-CIA19NAE26.jpg](./assets/devices/Z01-CIA19NAE26.jpg) |
@@ -1001,6 +1042,7 @@ Currently:
 | HLD812-Z-SC | Shenzhen Homa Smart LED driver (on/off, brightness) | ![./assets/devices/HLD812-Z-SC.jpg](./assets/devices/HLD812-Z-SC.jpg) |
 | HLC610-Z | Shenzhen Homa Wireless dimmable controller (on/off, brightness) | ![./assets/devices/HLC610-Z.jpg](./assets/devices/HLC610-Z.jpg) |
 | HLC821-Z-SC | Shenzhen Homa ZigBee AC phase-cut dimmer (on/off, brightness) | ![./assets/devices/HLC821-Z-SC.jpg](./assets/devices/HLC821-Z-SC.jpg) |
+| HLC614-ZLL | Shenzhen Homa 3 channel relay module (on/off) | ![./assets/devices/HLC614-ZLL.jpg](./assets/devices/HLC614-ZLL.jpg) |
 
 ## Sinope
 
@@ -1008,9 +1050,16 @@ Currently:
 | ------------- | ------------- | -------------------------- |
 | TH1123ZB | Sinope Zigbee line volt thermostat (local temp, units, keypad lockout, mode, state, backlight, outdoor temp, time) | ![./assets/devices/TH1123ZB.jpg](./assets/devices/TH1123ZB.jpg) |
 | TH1124ZB | Sinope Zigbee line volt thermostat (local temp, units, keypad lockout, mode, state, backlight, outdoor temp, time) | ![./assets/devices/TH1124ZB.jpg](./assets/devices/TH1124ZB.jpg) |
+| TH1300ZB | Sinope Zigbee smart floor heating thermostat (local temp, units, keypad lockout, mode, state, backlight, outdoor temp, time) | ![./assets/devices/TH1300ZB.jpg](./assets/devices/TH1300ZB.jpg) |
 | TH1400ZB | Sinope Zigbee low volt thermostat (local temp, units, keypad lockout, mode, state, backlight, outdoor temp, time) | ![./assets/devices/TH1400ZB.jpg](./assets/devices/TH1400ZB.jpg) |
 | TH1500ZB | Sinope Zigbee dual pole line volt thermostat (local temp, units, keypad lockout, mode, state, backlight, outdoor temp, time) | ![./assets/devices/TH1500ZB.jpg](./assets/devices/TH1500ZB.jpg) |
 | SW2500ZB | Sinope Zigbee smart light switch (on/off) | ![./assets/devices/SW2500ZB.jpg](./assets/devices/SW2500ZB.jpg) |
+
+## Siterwell
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| GS361A-H04 | Siterwell Radiator valve with thermostat (thermostat, temperature) | ![./assets/devices/GS361A-H04.jpg](./assets/devices/GS361A-H04.jpg) |
 
 ## Smart Home Pty
 
@@ -1025,6 +1074,13 @@ Currently:
 | ------------- | ------------- | -------------------------- |
 | S9TSZGB_1 | Smart9 Touch switch (1 button) (action) | ![./assets/devices/S9TSZGB_1.jpg](./assets/devices/S9TSZGB_1.jpg) |
 | S9TSZGB_3 | Smart9 Touch switch (3 button) (action) | ![./assets/devices/S9TSZGB_3.jpg](./assets/devices/S9TSZGB_3.jpg) |
+| S9ZGBRC01 | Smart9 Smart remote controller (action) | ![./assets/devices/S9ZGBRC01.jpg](./assets/devices/S9ZGBRC01.jpg) |
+
+## Smartenit
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| 4040B | Smartenit Wireless metering 30A dual-load switch/controller (on/off, power measurements) | ![./assets/devices/4040B.jpg](./assets/devices/4040B.jpg) |
 
 ## SmartThings
 
@@ -1044,7 +1100,7 @@ Currently:
 | 3300-S | SmartThings Door sensor (contact and temperature) | ![./assets/devices/3300-S.jpg](./assets/devices/3300-S.jpg) |
 | F-MLT-US-2 | SmartThings Multipurpose sensor (2016 model) (contact) | ![./assets/devices/F-MLT-US-2.jpg](./assets/devices/F-MLT-US-2.jpg) |
 | IM6001-MPP01 | SmartThings Multipurpose sensor (2018 model) (contact) | ![./assets/devices/IM6001-MPP01.jpg](./assets/devices/IM6001-MPP01.jpg) |
-| 3310-S | SmartThings Temperature and humidity sensor (temperature) | ![./assets/devices/3310-S.jpg](./assets/devices/3310-S.jpg) |
+| 3310-S | SmartThings Temperature and humidity sensor (temperature and humidity) | ![./assets/devices/3310-S.jpg](./assets/devices/3310-S.jpg) |
 | 3315-S | SmartThings Water sensor (water and temperature) | ![./assets/devices/3315-S.jpg](./assets/devices/3315-S.jpg) |
 | WTR-UK-V2 | SmartThings Water leak sensor (2015 model) (water and temperature) | ![./assets/devices/WTR-UK-V2.jpg](./assets/devices/WTR-UK-V2.jpg) |
 | IM6001-WLP01 | SmartThings Water leak sensor (2018 model) (water leak and temperature) | ![./assets/devices/IM6001-WLP01.jpg](./assets/devices/IM6001-WLP01.jpg) |
@@ -1104,6 +1160,8 @@ Currently:
 | 74580 | Sylvania Smart Home soft white PAR38 outdoor bulb (on/off, brightness) | ![./assets/devices/74580.jpg](./assets/devices/74580.jpg) |
 | 72569 | Sylvania SMART+ Zigbee adjustable white edge-lit under cabinet light (on/off, brightness, color temperature) | ![./assets/devices/72569.jpg](./assets/devices/72569.jpg) |
 | 72567 | Sylvania SMART+ Zigbee adjustable white edge-lit flush mount light (on/off, brightness, color temperature) | ![./assets/devices/72567.jpg](./assets/devices/72567.jpg) |
+| 75541 | Sylvania SMART+ Outdoor Accent RGB lighting kit (on/off, brightness, color temperature, color xy) | ![./assets/devices/75541.jpg](./assets/devices/75541.jpg) |
+| 484719 | Sylvania Dimmable soft white BR30 LED flood light bulb (on/off, brightness) | ![./assets/devices/484719.jpg](./assets/devices/484719.jpg) |
 
 ## TERNCY
 
@@ -1170,6 +1228,12 @@ Currently:
 | MCT-340 E | Visonic Magnetic door & window contact sensor (contact, temperature) | ![./assets/devices/MCT-340-E.jpg](./assets/devices/MCT-340-E.jpg) |
 | MCT-340 SMA | Visonic Magnetic door & window contact sensor (contact, temperature) | ![./assets/devices/MCT-340-SMA.jpg](./assets/devices/MCT-340-SMA.jpg) |
 
+## Wally
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| U02I007C.01 | Wally WallyHome multi-sensor (action, contact, water leak, temperature, humidity) | ![./assets/devices/U02I007C.01.jpg](./assets/devices/U02I007C.01.jpg) |
+
 ## Weiser
 
 | Model | Description | Picture |
@@ -1231,6 +1295,7 @@ Currently:
 | YRD210-HA-605 | Yale Real living keyless push button deadbolt lock (lock/unlock, battery) | ![./assets/devices/YRD210-HA-605.jpg](./assets/devices/YRD210-HA-605.jpg) |
 | YRD226/246 TSDB | Yale Assure lock (lock/unlock, battery) | ![./assets/devices/YRD226-246-TSDB.jpg](./assets/devices/YRD226-246-TSDB.jpg) |
 | YRD220/240 TSDB | Yale Lockwood keyless push button deadbolt lock (lock/unlock, battery) | ![./assets/devices/YRD220-240-TSDB.jpg](./assets/devices/YRD220-240-TSDB.jpg) |
+| YRD246HA20BP | Yale Assure lock key free deadbolt with Zigbee (lock/unlock, battery) | ![./assets/devices/YRD246HA20BP.jpg](./assets/devices/YRD246HA20BP.jpg) |
 
 ## Zemismart
 
