@@ -19,7 +19,7 @@ title: Supported devices
 ---
 
 <style type="text/css">
-.main-content table {
+.main-content-devices table {
   table-layout: fixed;
   display: table !important;
 }
