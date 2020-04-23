@@ -25,6 +25,10 @@
         "title": "Welcome to Instathings ♥️",
         "sidebar_label": "Introduction"
       },
+      "guides/working-modbus": {
+        "title": "Working with Modbus 🚌",
+        "sidebar_label": "Working with Modbus"
+      },
       "guides/pairing-device": {
         "title": "Pairing a device 🍒",
         "sidebar_label": "Pairing a device"

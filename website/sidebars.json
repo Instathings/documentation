@@ -5,6 +5,7 @@
       "guides/sandbox-projects",
       "guides/gateway-setup",
       "guides/working-zigbee",
+      "guides/working-modbus",
       "guides/pairing-device",
       "guides/api-access",
       "guides/connectors"
