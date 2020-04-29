@@ -64,7 +64,7 @@ const siteConfig = {
     },
     {
       href: '/en/protocols',
-      label: 'Supported protocols',
+      label: 'Protocols',
     }
   ],
 
