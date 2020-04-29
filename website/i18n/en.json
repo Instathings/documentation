@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "Connect any Zigbee device to the cloud",
+    "tagline": "Connect any Zigbee/Modbus/KNX device to the cloud",
     "docs": {
       "get-started": {
         "title": "Getting Started 🏁",
@@ -47,9 +47,6 @@
       },
       "modbus-devices": {
         "title": "Supported Modbus devices"
-      },
-      "all-devices": {
-        "title": "Supported protocols"
       },
       "zigbee-devices": {
         "title": "Supported Zigbee devices"
