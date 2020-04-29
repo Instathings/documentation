@@ -1,21 +1,19 @@
 /**
  * This script generates the supported devices page.
  */
-
-const zigbeeDevices = require('zigbee-herdsman-converters').devices;
-const modbusDevices = require('@instathings/modbus-herdsman-converters').devices;
 const utils = require('./utils');
+
 
 function onlyUnique(value, index, self) {
   return self.indexOf(value) === index;
 }
 
-const zigbeeVendorsCount = zigbeeDevices.map((d) => d.vendor).filter(onlyUnique).length;
-const modbusVendorsCount = modbusDevices.map((d) => d.vendor).filter(onlyUnique).length;
 
-let template = `---
-id: all-devices
-title: Supported devices
+module.exports = function devicesTable(id, protocol, devices) {
+  const vendorCount = devices.map((d) => d.vendor).filter(onlyUnique).length;
+  let template = `---
+id: ${id}
+title: Supported ${protocol} devices
 ---
 
 <style type="text/css">
@@ -36,8 +34,7 @@ title: Supported devices
 </style>
 
 Currently:
-- **${zigbeeDevices.length}** Zigbee devices are supported from **${zigbeeVendorsCount}** different vendors.
-- **${modbusDevices.length}** Modbus devices are supported from **${modbusVendorsCount}** different vendors.
+- **${devices.length}** ${protocol} devices are supported from **${vendorCount}** different vendors.
 
 <div class="main-content-devices" role="main">
 
@@ -46,39 +43,33 @@ Currently:
 </div>
 `;
 
-const generateTable = (devices) => {
-  let text = '';
-  text += '| Model | Description | Picture |\n';
-  text += '| ------------- | ------------- | -------------------------- |\n';
-  devices = new Map(devices.map((d) => [d.model, d]));
-  devices.forEach((d) => {
-    const image = utils.getImage(d.model);
-    // eslint-disable-next-line
-    // text += `| [${d.model}](/devices/${utils.normalizeModel(d.model)}.md) | ${d.vendor} ${d.description} (${d.supports}) | ![${image}](${image}) |\n`;
-    text += `| ${d.model} | ${d.vendor} ${d.description} (${d.supports}) | ![${image}](${image}) |\n`;
+  const generateTable = (devices) => {
+    let text = '';
+    text += '| Model | Description | Picture |\n';
+    text += '| ------------- | ------------- | -------------------------- |\n';
+    devices = new Map(devices.map((d) => [d.model, d]));
+    devices.forEach((d) => {
+      const image = utils.getImage(d.model);
+      // eslint-disable-next-line
+      // text += `| [${d.model}](/devices/${utils.normalizeModel(d.model)}.md) | ${d.vendor} ${d.description} (${d.supports}) | ![${image}](${image}) |\n`;
+      text += `| ${d.model} | ${d.vendor} ${d.description} (${d.supports}) | ![${image}](${image}) |\n`;
+    });
+
+    return text;
+  };
+  // Generated devices text
+  let devicesText = '';
+  const vendors = Array.from(new Set(devices.map((d) => d.vendor)));
+  vendors.sort((v1, v2) => {
+    return v1.localeCompare(v2);
+  });
+  vendors.forEach((vendor) => {
+    devicesText += `## ${vendor}\n\n`;
+    devicesText += generateTable(devices.filter((d) => d.vendor === vendor));
+    devicesText += '\n';
   });
 
-  return text;
-};
-
-// Generated devices text
-let devicesText = '';
-const zigbeeVendors = Array.from(new Set(zigbeeDevices.map((d) => d.vendor)));
-const modbusVendors = Array.from(new Set(modbusDevices.map((d) => d.vendor)));
-
-const vendors = [...zigbeeVendors, ...modbusVendors];
-const devices = [...zigbeeDevices, ...modbusDevices];
-
-vendors.sort((v1, v2) => {
-  return v1.localeCompare(v2);
-});
-vendors.forEach((vendor) => {
-  devicesText += `## ${vendor}\n\n`;
-  devicesText += generateTable(devices.filter((d) => d.vendor === vendor));
-  devicesText += '\n';
-});
-
-// Insert into template
-template = template.replace('[DEVICES]', devicesText);
-
-module.exports = template;
+  // Insert into template
+  template = template.replace('[DEVICES]', devicesText);
+  return template;
+}
