@@ -2,13 +2,36 @@
 // site configuration options.
 
 // List of projects/orgs using your project for the users page.
-const users = [
+const protocols = [
   {
-    caption: 'User1',
-    // You will need to prepend the image path with your baseUrl
-    // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/img/undraw_open_source.svg',
-    infoLink: 'https://www.facebook.com',
+    caption: 'Zigbee',
+    image: '/docs/assets/all-devices/zigbee.png',
+    infoLink: '/docs/zigbee-devices.html',
+    options: {
+      read: true,
+      write: true,
+    },
+    pinned: true,
+  },
+  {
+    caption: 'Modbus',
+    image: '/docs/assets/all-devices/modbus.png',
+    infoLink: '/docs/modbus-devices.html',
+    options: {
+      read: true,
+      write: false,
+    },
+    pinned: true,
+  },
+  {
+    caption: 'KNX',
+    image: '/docs/assets/all-devices/knx.png',
+    infoLink: 'https://www.knx.org/knx-en/for-professionals/get-started/certified-knx-products/index.php',
+    externalLink: true,
+    options: {
+      read: true,
+      write: false,
+    },
     pinned: true,
   },
 ];
@@ -40,17 +63,17 @@ const siteConfig = {
       label: 'API Reference'
     },
     {
-      doc: 'all-devices',
-      label: 'Supported devices',
+      href: '/en/protocols',
+      label: 'Supported protocols',
     }
   ],
 
   // If you have users set above, you add it here:
-  users,
+  protocols,
 
   /* path to images for header/footer */
   headerIcon: 'img/new-logo-transparent.png',
-  footerIcon: 'img/new-logo-transparent.png',
+  footerIcon: '#',
   favicon: 'img/favicon.ico',
 
   /* Colors for website */

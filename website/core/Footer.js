@@ -50,6 +50,12 @@ class Footer extends React.Component {
           <div>
             <h5>Community</h5>
             <a
+              href="https://forum.instathings.io"
+              target="_blank"
+              rel="noreferrer noopener">
+              Forum
+            </a>
+            <a
               href="https://twitter.com/Instathings_io"
               target="_blank"
               rel="noreferrer noopener">
@@ -64,7 +70,7 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>More</h5>
-            <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
+            <a target="_blank" href={`https://medium.com/instathings`}>Blog</a>
             <a href="https://github.com/Instathings/" target="_blank">GitHub</a>
             {this.props.config.twitterUsername && (
               <div className="social">
