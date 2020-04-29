@@ -25,6 +25,10 @@
         "title": "Welcome to Instathings ♥️",
         "sidebar_label": "Introduction"
       },
+      "guides/working-knx": {
+        "title": "Working with KNX 🔌",
+        "sidebar_label": "Working with KNX"
+      },
       "guides/working-modbus": {
         "title": "Working with Modbus 🚌",
         "sidebar_label": "Working with Modbus"
