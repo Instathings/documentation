@@ -66,7 +66,7 @@ const siteConfig = {
       label: 'API Reference'
     },
     {
-      href: '/en/protocols',
+      href: '/en/protocols.html',
       label: 'Protocols',
     }
   ],
