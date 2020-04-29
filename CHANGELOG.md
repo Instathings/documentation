@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.0] - 2020-04-29
+### Added
+- Protocols page
+- Dynamic supported device page per protocol
+
+
 ## [1.2.1] - 2020-04-28
 ### Added
 - KNX image
