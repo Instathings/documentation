@@ -60,3 +60,30 @@ For pairing a Modbus device you'll need to configure the Modbus ID of your devic
     <img src="/docs/assets/pairing-device/modbus-pairing.png"/>
 </a>
 
+## Pair a KNX device
+
+### Create the subdevice
+Go to the `Hubs` page, select a Gateway and then move to the Devices tab.
+
+Type a name and choose `generic KNX device`.
+
+Press Add.
+
+<a href="/docs/assets/pairing-device/add-knx-device.png" target="_blank">
+    <img src="/docs/assets/pairing-device/add-knx-device.png"/>
+</a>
+### Pair time!
+
+Before pairing a KNX device make sure you have already set its behaviour on ETS environment. In fact you need to provide informations regarding the ETS configuration. 
+
+In particular:
+
+* Individual Address: the configured Individual Address of your KNX device,
+* Group Address: the Group Address your device send data to 
+* Data Point Type: representing the kind of data your device is sending. For the supported DPTs please refer to <a href="https://bitbucket.org/ekarak/knx.js/src/master/README-datapoints.md" target="_blank" class="external-link">knx.js</a>.
+
+Then press on the `Pair` button and your are ready!
+
+<a href="/docs/assets/pairing-device/knx-pairing.png" target="_blank">
+    <img src="/docs/assets/pairing-device/knx-pairing.png"/>
+</a>
