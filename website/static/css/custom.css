@@ -38,3 +38,11 @@
 .main-content-devices table tr:nth-child(2n) {
   background-color: transparent !important;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.mb-8 {
+  margin-bottom: 12px;
+}

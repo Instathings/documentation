@@ -1,10 +1,26 @@
 const fs = require('fs');
 const path = require('path');
-const devices = require('zigbee-herdsman-converters').devices;
+const zigbeeDevices = require('zigbee-herdsman-converters').devices;
+const modbusDevices = require('@instathings/modbus-herdsman-converters').devices;
+
+const supportDevicesFn = require('./supported-devices');
 const utils = require('./utils');
 
 const base = path.join(__dirname, '..', 'docs');
 
-const supportDevices = require('./supported-devices');
+const pages = [
+  {
+    id: 'zigbee-devices',
+    protocol: 'Zigbee',
+    devices: zigbeeDevices
+  }, {
+    id: 'modbus-devices',
+    protocol: 'Modbus',
+    devices: modbusDevices
+  }
+]
 
-fs.writeFileSync(path.join(base, '..', '..', 'docs', 'supported_devices.md'), supportDevices);
+pages.forEach((page) => {
+  const template = supportDevicesFn(page.id, page.protocol, page.devices);
+  fs.writeFileSync(path.join(base, '..', '..', 'docs', `${page.id}.md`), template);
+});

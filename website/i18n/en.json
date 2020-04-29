@@ -41,8 +41,14 @@
         "title": "Working with Zigbee 🐝",
         "sidebar_label": "Working with Zigbee"
       },
+      "modbus-devices": {
+        "title": "Supported Modbus devices"
+      },
       "all-devices": {
-        "title": "Supported devices"
+        "title": "Supported protocols"
+      },
+      "zigbee-devices": {
+        "title": "Supported Zigbee devices"
       }
     },
     "links": {
