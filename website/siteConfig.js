@@ -41,7 +41,7 @@ const protocols = [
 
 const siteConfig = {
   title: '',
-  tagline: 'Connect any Zigbee device to the cloud',
+  tagline: 'Connect any Zigbee/Modbus/KNX device to the cloud',
   url: 'https://instathings.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
