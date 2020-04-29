@@ -4,6 +4,7 @@
 // List of projects/orgs using your project for the users page.
 const protocols = [
   {
+    id: 'zigbee',
     caption: 'Zigbee',
     image: '/docs/assets/all-devices/zigbee.png',
     infoLink: '/docs/zigbee-devices.html',
@@ -14,6 +15,7 @@ const protocols = [
     pinned: true,
   },
   {
+    id: 'modbus',
     caption: 'Modbus',
     image: '/docs/assets/all-devices/modbus.png',
     infoLink: '/docs/modbus-devices.html',
@@ -24,6 +26,7 @@ const protocols = [
     pinned: true,
   },
   {
+    id: 'knx',
     caption: 'KNX',
     image: '/docs/assets/all-devices/knx.png',
     infoLink: 'https://www.knx.org/knx-en/for-professionals/get-started/certified-knx-products/index.php',
