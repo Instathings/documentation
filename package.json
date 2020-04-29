@@ -1,5 +1,5 @@
 {
-  "version": "1.2.1",
+  "version": "1.3.0",
   "scripts": {
     "examples": "docusaurus-examples",
     "start": "docusaurus-start",
@@ -11,7 +11,7 @@
     "docgen": "node devices/docgen/docgen.js && cp -R devices/docs/images/devices docs/assets"
   },
   "devDependencies": {
-    "@instathings/modbus-herdsman-converters": "2.0.2",
+    "@instathings/modbus-herdsman-converters": "2.0.3",
     "docusaurus": "^1.14.4",
     "zigbee-herdsman": "0.12.78",
     "zigbee-herdsman-converters": "12.0.69"
