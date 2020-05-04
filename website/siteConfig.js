@@ -84,7 +84,11 @@ const siteConfig = {
     primaryColor: '#DA4728',
     secondaryColor: '#6d3c5d',
   },
-
+  algolia: {
+    apiKey: '5a742a9f90ab7cc50051798348e8b757',
+    indexName: 'instathings',
+    algoliaOptions: {} // Optional, if provided by Algolia
+  },
   /* Custom fonts for website */
   /*
   fonts: {

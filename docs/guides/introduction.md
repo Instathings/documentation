@@ -17,8 +17,12 @@ Instathings is made of two components:
 
 ## Compatible hardware
 
-There are many IoT protocols and devices that can be used to create a smart environment. The first one that we support is Zigbee, a very versatile and popular standard that gives you the opportunity to use hundreds of low-cost wireless devices to create your smart environment.
+There are many IoT protocols and devices that can be used to create a smart environment. We support Zigbee, Modbus and KNX protocol.
 
-Zigbee is the technology that powers most smart home systems from brands like Samsung SmartThings, Ikea, General Electrics, Xiaomi, BTicino, Philips...
+Zigbee is a very versatile and popular standard that gives you the opportunity to use hundreds of low-cost wireless devices to create your smart environment.
 
-Check the **<a href="/docs/all-devices.html" class="external-link" target="_blank">supported devices page</a>** to get a full list.
+Modbus is a serial communications protocol and has become a de facto standard communication protocol and is now a commonly available means of connecting industrial electronic devices.
+
+KNX is an open standard for commercial and domestic building automation. 
+
+Check the **<a href="/docs/en/protocols.html" class="external-link" target="_blank">supported protocols page</a>** to get a full list.
