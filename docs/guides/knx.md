@@ -17,7 +17,7 @@ To connect you KNX device to Instathings Cloud make sure you have:
 ## Install KNX protocol in your Gateway
 Before following instructions in this section, you need to go back to the previous tutorial and <a href="/docs/guides/gateway-setup.html" target="_blank" class="external-link">configure your Gateway</a> to get the connection with Instathings. If you have already done it, you can go on with the installation of the KNX software into your Gateway. <br> Just a few clicks and you will be ready!
 
-In order to correctly install the KNX protocol you'll have to provide further informations. 
+In order to correctly install the KNX protocol you'll have to provide further information. 
 In particular you'll have to provide:
 * the IP address of the KNX server
 * port of the KNX server
@@ -26,7 +26,7 @@ Once you get these information, follows the steps:
 - navigate in your Gateway detail page
 - make sure it is powered on and connected by checking the connection status (it should be green).
 - click on the `install with options` button of the KNX protocol
-- fill the form with the required informations: `IP address` and `port`
+- fill the form with the required information: `IP address` and `port`
 - click on the `install` button 
 - `installed` will appear as soon as the Gateway completes the installation
 

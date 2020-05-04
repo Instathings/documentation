@@ -74,7 +74,7 @@ Press Add.
 </a>
 ### Pair time!
 
-Before pairing a KNX device make sure you have already set its behaviour on ETS environment. In fact you need to provide informations regarding the ETS configuration. 
+Before pairing a KNX device make sure you have already set its behaviour on ETS environment. In fact you need to provide information regarding the ETS configuration. 
 
 In particular:
 

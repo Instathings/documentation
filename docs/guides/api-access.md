@@ -26,7 +26,7 @@ Let's now make an example to use the API access to control a light bulb. For  <b
 - <a href="/docs/guides/working-zigbee.html" target="_blank" class="external-link">install Zigbee protocol</a> 
 - <a href="/docs/guides/pairing-device.html" target="_blank" class="external-link">pairing a device</a> 
 
-Once the API access has been enabled, copy the following informations to use them in the next step. They are all available in the `Settings` page:
+Once the API access has been enabled, copy the following information to use them in the next step. They are all available in the `Settings` page:
  - `Base url for API access`
  - `Client ID`
  - `Client Secret`  
