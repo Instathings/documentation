@@ -14,7 +14,7 @@ To connect you KNX device to Instathings Cloud make sure you have:
  - KNX server (e.g. `knxd`) with reachable IP address
  - configured KNX network
 
-## Install KNX protocol in your Gateway
+## Install protocol
 Before following instructions in this section, you need to go back to the previous tutorial and <a href="/docs/guides/gateway-setup.html" target="_blank" class="external-link">configure your Gateway</a> to get the connection with Instathings. If you have already done it, you can go on with the installation of the KNX software into your Gateway. <br> Just a few clicks and you will be ready!
 
 In order to correctly install the KNX protocol you'll have to provide further information. 
@@ -32,4 +32,35 @@ Once you get these information, follows the steps:
 
 <a href="/docs/assets/knx/install_knx_protocol.png" target="_blank">
     <img src="/docs/assets/knx/install_knx_protocol.png" width="1000"/>
+</a>
+
+## Pair a device
+
+### Create the subdevice
+Go to the `Hubs` page, select a Gateway and then move to the Devices tab.
+
+Type a name and choose `generic KNX device`.
+
+Press Add.
+
+<a href="/docs/assets/pairing-device/add-knx-device.png" target="_blank">
+    <img src="/docs/assets/pairing-device/add-knx-device.png"/>
+</a>
+
+### Pair time!
+
+Before pairing a KNX device make sure you have already set its behaviour on ETS environment. In fact you need to provide information regarding the ETS configuration. 
+
+In particular:
+
+* Individual Address: the configured Individual Address of your KNX device,
+* Group Address: the Group Address your device send data to 
+* Data Point Type: representing the kind of data your device is sending. For the supported DPTs please refer to <a href="https://bitbucket.org/ekarak/knx.js/src/master/README-datapoints.md" target="_blank" class="external-link">knx.js</a>.
+
+Then press on the `Pair` button and your are ready!
+
+If you want to check the KNX supported device, please refer to the <a href="https://www.knx.org/knx-en/for-professionals/get-started/certified-knx-products/index.php" target="_blank" class="external-link">KNX Certified Products</a> page.
+
+<a href="/docs/assets/pairing-device/knx-pairing.png" target="_blank">
+    <img src="/docs/assets/pairing-device/knx-pairing.png"/>
 </a>
