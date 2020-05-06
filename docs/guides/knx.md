@@ -59,7 +59,7 @@ In particular:
 
 Then press on the `Pair` button and your are ready!
 
-If you want to check the KNX supperted device, please refer to the <a href="https://www.knx.org/knx-en/for-professionals/get-started/certified-knx-products/index.php" target="_blank" class="external-link">KNX Certified Products</a> page.
+If you want to check the KNX supported device, please refer to the <a href="https://www.knx.org/knx-en/for-professionals/get-started/certified-knx-products/index.php" target="_blank" class="external-link">KNX Certified Products</a> page.
 
 <a href="/docs/assets/pairing-device/knx-pairing.png" target="_blank">
     <img src="/docs/assets/pairing-device/knx-pairing.png"/>
