@@ -98,7 +98,7 @@ If everything worked fine, you should see something like this:
 As you can see our dongle is correctly detected on `/dev/ttyACM0` and we can now start using our Zigbee network! 
 
 
-## Install Zigbee protocol in your Gateway
+## Install protocol 
 Before following instructions in this section, you need to go back to the previous tutorial and <a href="/docs/guides/gateway-setup.html" target="_blank" class="external-link">configure your Gateway</a> to get the connection with Instathings. If you have already done it, you can go on with the installation of the Zigbee software into your Gateway. <br> Just a few clicks and you will be ready!
 
 - navigate in your Gateway detail page
@@ -110,7 +110,7 @@ Before following instructions in this section, you need to go back to the previo
     <img src="/docs/assets/gateway-config/GwConnected.png" width="1000"/>
 </a>
 
-## Pair a Zigbee device
+## Pair a device
 
 Once you have installed the Zigbee protocol, you can now pair your Zigbee device to the Instathings Cloud and stat receiving data!
 
