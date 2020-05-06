@@ -126,7 +126,7 @@ Type a name and choose the correct model, in this case we used the model `Xiaomi
 </a>
 
 ### Pair time!
-Once you create a subdevice you'll get a new row that logically represents your device. Now it's time to pair the device.  
+Once you have created a subdevice you'll get a new row that logically represents your device. Now it's time to pair the device.  
 
 Now you have to pair your device to you Gateway by clicking on the `Pair` button on the right side of the page. 
 
