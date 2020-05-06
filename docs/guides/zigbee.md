@@ -112,7 +112,7 @@ Before following instructions in this section, you need to go back to the previo
 
 ## Pair a Zigbee device
 
-Once you have installed the Zigbee protocol, you can now pair your Zigbee device to the Instathing Cloud and stat receiving data!
+Once you have installed the Zigbee protocol, you can now pair your Zigbee device to the Instathings Cloud and stat receiving data!
 
 In the following steps we used a temperature sensor from Xiaomi as example.
 

@@ -34,7 +34,7 @@ Once you have created you project, you can start by creating you first Gateway. 
 
 ### Connect your Gateway
 
-In order to get connected to Instathing and to our Cloud you need generate and download the certificates to secure the connection between the Gateway and the Instathings Cloud. The download will automatically begin as you click on `Download`, unzip the folder and move it into the Gateway. To do this we used the command line, but you can do it the way you prefer.
+In order to get connected to Instathings and to our Cloud you need generate and download the certificates to secure the connection between the Gateway and the Instathings Cloud. The download will automatically begin as you click on `Download`, unzip the folder and move it into the Gateway. To do this we used the command line, but you can do it the way you prefer.
 
 In the Command line type the command `scp -r` followed by the credentials folder and the IP address of your Gateway.
 

@@ -33,7 +33,7 @@ Then connect the wires properly to the USB device.
 
 Finally plug the USB device to the Gateway.
 
-## Install Modbus protocol in your Gateway
+## Install protocol
 Before following instructions in this section, you need to go back to the previous tutorial and <a href="/docs/guides/gateway-setup.html" target="_blank" class="external-link">configure your Gateway</a> to get the connection with Instathings. If you have already done it, you can go on with the installation of the Modbus software into your Gateway. <br> Just a few clicks and you will be ready!
 
 - navigate in your Gateway detail page
@@ -45,8 +45,8 @@ Before following instructions in this section, you need to go back to the previo
     <img src="/docs/assets/modbus/install_protocol.png" width="1000"/>
 </a>
 
-## Pair a Modbus device
-Once you have installed the Modbus protocol, you can now pair your device to the Instathing Cloud and start receiving data!
+## Pair a device
+Once you have installed the Modbus protocol, you can now pair your device to the Instathings Cloud and start receiving data!
 
 ### Create the subdevice
 Go to the `Hubs` page, select a Gateway and then move to the Devices tab.
