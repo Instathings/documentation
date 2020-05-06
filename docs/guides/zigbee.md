@@ -109,3 +109,31 @@ Before following instructions in this section, you need to go back to the previo
 <a href="/docs/assets/gateway-config/GwConnected.png" target="_blank">
     <img src="/docs/assets/gateway-config/GwConnected.png" width="1000"/>
 </a>
+
+## Pair a Zigbee device
+
+Once you have installed the Zigbee protocol, you can now pair your Zigbee device to the Instathing Cloud and stat receiving data!
+
+In the following steps we used a temperature sensor from Xiaomi as example.
+
+### Create the subdevice
+Go to the `Hubs` page, select a Gateway and then move to the Devices tab.
+
+Type a name and choose the correct model, in this case we used the model `Xiaomi WSDCQ11LM`
+
+<a href="/docs/assets/pairing-device/device-selection.png" target="_blank">
+    <img src="/docs/assets/pairing-device/device-selection.png"/>
+</a>
+
+### Pair time!
+Once you create a subdevice you'll get a new row that logically represents your device. Now it's time to pair the device.  
+
+Now you have to pair your device to you Gateway by clicking on the `Pair` button on the right side of the page. 
+
+To pair this device we have to keep a button located at the bottom of the device pressed for about 10 seconds until the LED starts to blink.
+
+If you are not using a Xiaomi device, but you want to pair another kind of device, check the <a href="/docs/zigbee-devices.html" target="_blank" class="external-link">Zigbee supported devices</a> page to know how to do the pairing.
+
+<a href="/docs/assets/pairing-device/pair-successful.png" target="_blank">
+    <img src="/docs/assets/pairing-device/pair-successful.png" width="1000"/>
+</a>
