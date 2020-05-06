@@ -1,5 +1,5 @@
 {
-  "version": "1.4.0",
+  "version": "1.4.1",
   "scripts": {
     "examples": "docusaurus-examples",
     "start": "docusaurus-start",
@@ -13,8 +13,8 @@
   "devDependencies": {
     "@instathings/modbus-herdsman-converters": "2.0.3",
     "docusaurus": "^1.14.4",
-    "zigbee-herdsman": "0.12.78",
-    "zigbee-herdsman-converters": "12.0.69"
+    "zigbee-herdsman": "0.12.83",
+    "zigbee-herdsman-converters": "12.0.81"
   },
   "dependencies": {
     "json2yaml": "^1.1.0"

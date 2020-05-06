@@ -21,7 +21,7 @@ title: Supported Modbus devices
 </style>
 
 Currently:
-- **1** Modbus devices are supported from **1** different vendors.
+- **2** Modbus devices are supported from **2** different vendors.
 
 <div class="main-content-devices" role="main">
 
@@ -29,7 +29,13 @@ Currently:
 
 | Model | Description | Picture |
 | ------------- | ------------- | -------------------------- |
-| XY-MD02 | Arceli Temperature and humidity sensor (temperature and humidity) | ![./assets/devices/XY-MD02.jpg](./assets/devices/XY-MD02.jpg) |
+| xy-md02 | Arceli Temperature and humidity sensor (temperature and humidity) | ![./assets/devices/xy-md02.jpg](./assets/devices/xy-md02.jpg) |
+
+## Eastron
+
+| Model | Description | Picture |
+| ------------- | ------------- | -------------------------- |
+| SDM120 | Eastron Energy meter (voltage, current, power) | ![./assets/devices/SDM120.jpg](./assets/devices/SDM120.jpg) |
 
 
 
