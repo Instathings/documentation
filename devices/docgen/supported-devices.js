@@ -33,8 +33,7 @@ title: Supported ${protocol} devices
 
 </style>
 
-Currently:
-- **${devices.length}** ${protocol} devices are supported from **${vendorCount}** different vendors.
+Currently **${devices.length}** ${protocol} devices are supported from **${vendorCount}** different vendors.
 
 <div class="main-content-devices" role="main">
 

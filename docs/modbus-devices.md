@@ -20,8 +20,7 @@ title: Supported Modbus devices
 
 </style>
 
-Currently:
-- **2** Modbus devices are supported from **2** different vendors.
+Currently **2** Modbus devices are supported from **2** different vendors.
 
 <div class="main-content-devices" role="main">
 

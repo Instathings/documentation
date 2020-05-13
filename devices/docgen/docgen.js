@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const zigbeeDevices = require('zigbee-herdsman-converters').devices;
 const modbusDevices = require('@instathings/modbus-herdsman-converters').devices;
+const httpDevices = require('@instathings/http-herdsman-converters').devices;
 
 const supportDevicesFn = require('./supported-devices');
 const utils = require('./utils');
@@ -13,10 +14,16 @@ const pages = [
     id: 'zigbee-devices',
     protocol: 'Zigbee',
     devices: zigbeeDevices
-  }, {
+  },
+  {
     id: 'modbus-devices',
     protocol: 'Modbus',
     devices: modbusDevices
+  },
+  {
+    id: 'http-devices',
+    protocol: 'HTTP',
+    devices: httpDevices
   }
 ]
 

@@ -1,6 +1,7 @@
 const React = require('react');
 const zigbeeDevices = require('zigbee-herdsman-converters').devices;
 const modbusDevices = require('@instathings/modbus-herdsman-converters').devices;
+const httpDevices = require('@instathings/http-herdsman-converters').devices;
 
 const CompLibrary = require('../../core/CompLibrary.js');
 
@@ -14,11 +15,12 @@ class Protocols extends React.Component {
     }
 
     const showcase = siteConfig.protocols.map(protocol => (
-      <a target={protocol.externalLink ? '_blank' : undefined} style={{ width: '33%' }} className="link" href={protocol.infoLink} key={protocol.infoLink}>
+      <a target={protocol.externalLink ? '_blank' : undefined} style={{ width: '25%' }} className="link" href={protocol.infoLink} key={protocol.infoLink}>
         <img src={protocol.image} alt={protocol.caption} title={protocol.caption} />
         <br />
         {protocol.id === 'zigbee' && <span>{zigbeeDevices.length} </span>}
         {protocol.id === 'modbus' && <span>{modbusDevices.length} </span>}
+        {protocol.id === 'http' && <span>{httpDevices.length} </span>}
         <span className="caption">
           {protocol.caption} devices
         </span>
