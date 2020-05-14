@@ -24,6 +24,16 @@ const protocols = [
       write: false,
     },
     pinned: true,
+  }, {
+    id: 'http',
+    caption: 'HTTP',
+    image: '/docs/assets/all-devices/http.png',
+    infoLink: '/docs/http-devices.html',
+    options: {
+      read: true,
+      write: true,
+    },
+    pinned: true,
   },
   {
     id: 'knx',

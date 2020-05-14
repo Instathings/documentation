@@ -41,6 +41,9 @@
         "title": "Working with Zigbee 🐝",
         "sidebar_label": "Working with Zigbee"
       },
+      "http-devices": {
+        "title": "Supported HTTP devices"
+      },
       "modbus-devices": {
         "title": "Supported Modbus devices"
       },

@@ -14,7 +14,7 @@ class Protocols extends React.Component {
     }
 
     const showcase = siteConfig.protocols.map(protocol => (
-      <a target={protocol.externalLink ? '_blank' : undefined} style={{ width: '33%' }} className="link" href={protocol.infoLink} key={protocol.infoLink}>
+      <a target={protocol.externalLink ? '_blank' : undefined} style={{ width: '25%' }} className="link" href={protocol.infoLink} key={protocol.infoLink}>
         <img src={protocol.image} alt={protocol.caption} title={protocol.caption} />
         <br />
         {protocol.id === 'zigbee' && <span>{zigbeeDevices.length} </span>}

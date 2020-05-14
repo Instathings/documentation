@@ -13,11 +13,12 @@ const pages = [
     id: 'zigbee-devices',
     protocol: 'Zigbee',
     devices: zigbeeDevices
-  }, {
+  },
+  {
     id: 'modbus-devices',
     protocol: 'Modbus',
     devices: modbusDevices
-  }
+  },
 ]
 
 pages.forEach((page) => {

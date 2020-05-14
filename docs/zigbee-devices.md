@@ -20,8 +20,7 @@ title: Supported Zigbee devices
 
 </style>
 
-Currently:
-- **728** Zigbee devices are supported from **126** different vendors.
+Currently **728** Zigbee devices are supported from **126** different vendors.
 
 <div class="main-content-devices" role="main">
 

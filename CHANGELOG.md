@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.5.0] - 2020-05-14
+### Added
+- HTTP protocol
+
 ## [1.4.2] - 2020-05-06
 ### Changed
 - move pairing section to protocols page
