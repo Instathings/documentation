@@ -1,7 +1,6 @@
 const React = require('react');
 const zigbeeDevices = require('zigbee-herdsman-converters').devices;
 const modbusDevices = require('@instathings/modbus-herdsman-converters').devices;
-const httpDevices = require('@instathings/http-herdsman-converters').devices;
 
 const CompLibrary = require('../../core/CompLibrary.js');
 
@@ -20,7 +19,6 @@ class Protocols extends React.Component {
         <br />
         {protocol.id === 'zigbee' && <span>{zigbeeDevices.length} </span>}
         {protocol.id === 'modbus' && <span>{modbusDevices.length} </span>}
-        {protocol.id === 'http' && <span>{httpDevices.length} </span>}
         <span className="caption">
           {protocol.caption} devices
         </span>
