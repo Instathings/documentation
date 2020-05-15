@@ -37,6 +37,10 @@
         "title": "Sandbox Projects 🏖",
         "sidebar_label": "Sandbox Projects"
       },
+      "guides/working-wifi": {
+        "title": "Working with HTTP 🏳️‍🌈",
+        "sidebar_label": "Working with HTTP"
+      },
       "guides/working-zigbee": {
         "title": "Working with Zigbee 🐝",
         "sidebar_label": "Working with Zigbee"
