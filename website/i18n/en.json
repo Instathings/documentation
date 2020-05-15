@@ -38,8 +38,8 @@
         "sidebar_label": "Sandbox Projects"
       },
       "guides/working-wifi": {
-        "title": "Working with Wifi/Ethernet 🏳️‍🌈",
-        "sidebar_label": "Working with Wifi/Ethernet"
+        "title": "Working with HTTP 🏳️‍🌈",
+        "sidebar_label": "Working with HTTP"
       },
       "guides/working-zigbee": {
         "title": "Working with Zigbee 🐝",
