@@ -104,7 +104,7 @@ To turn the plug on/off we need to call the `/relay/0` [endpoint](https://develo
 
 #### Call the endpoint via Instathings
 
-To use the Instathings API to change the device status we'll to call the [Control device status by id](https://developers.instathings.io/#control-a-device-by-id).
+To use the Instathings API to change the device status we'll to call the [Control](https://developers.instathings.io/#control-a-device-by-id) endpoint.
 
 So we have to call the Instathings endpoint `/device/v1/control/:deviceId/set` to set the status of a device as follows:
 
