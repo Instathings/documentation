@@ -19,6 +19,8 @@ class Protocols extends React.Component {
         <br />
         {protocol.id === 'zigbee' && <span>{zigbeeDevices.length} </span>}
         {protocol.id === 'modbus' && <span>{modbusDevices.length} </span>}
+        {protocol.id === 'http' && <span>&infin; </span>}
+        {protocol.id === 'knx' && <span>&infin; </span>}
         <span className="caption">
           {protocol.caption} devices
         </span>
