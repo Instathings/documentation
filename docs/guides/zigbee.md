@@ -7,7 +7,7 @@ In order to use a Zigbee device you need to configure a network with a so called
 
 For this purpose we'll use a USB dongle CC2531, designed by Texas Instrument. <br> However before start using it, the dongle needs to be flashed with a new firmware (a software that allows it to act as a network coordinator). 
 
-This tutorial we will show you how to correctly configure the USB dongle for getting it ready for Instathings. 
+In this tutorial we will show you how to correctly configure the USB dongle for getting it ready for Instathings. 
 
 It will take just 5 minutes, let's start!
 
