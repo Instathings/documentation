@@ -33,6 +33,10 @@
         "title": "Working with Modbus 🚌",
         "sidebar_label": "Working with Modbus"
       },
+      "guides/working-on-premise": {
+        "title": "Working on Premise 🍃",
+        "sidebar_label": "Working on Premise"
+      },
       "guides/sandbox-projects": {
         "title": "Sandbox Projects 🏖",
         "sidebar_label": "Sandbox Projects"
