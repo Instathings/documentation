@@ -18,7 +18,7 @@ In order to enable on-premise functionality you need to have a configured Mongo 
 
 For more information about how to install MongoDb on the Gateway please refer to the <a href="https://docs.mongodb.com/manual/installation/" target="_blank" class="external-link">Mongo documentation</a>
 
-## Enable on-premise funcionality
+## Enable on-premise functionality
 Once you gateway is connected enter via SSH and move into the `config` folder you have previously copied.
 
 ```bash
