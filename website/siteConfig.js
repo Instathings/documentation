@@ -128,7 +128,8 @@ const siteConfig = {
   onPageNav: 'separate',
   // No .html extensions for paths.
   cleanUrl: false,
-
+  // Google analytics
+  gaTrackingId: 'UA-150795503-3',
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',
   twitterImage: 'img/undraw_tweetstorm.svg',
