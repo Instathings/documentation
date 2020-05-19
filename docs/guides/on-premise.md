@@ -14,19 +14,19 @@ Let's start!
 ## Requirements
 Before following instructions in this section, you need to go back to the previous tutorial and <a href="/docs/guides/gateway-setup.html" target="_blank" class="external-link">configure your Gateway</a> to get the connection with Instathings. 
 
-In order to enable on-premise functionality you need to have a configured Mongo database on your Gateway as well as an existing collection which you can save your data on. 
+In order to enable on-premise functionality you need to have a configured Mongo database as well as an existing collection which you can save your data on.
 
-For more information about how to install MongoDb on th Gateway please refer to the <a href="/docs/guides/gateway-setup.html" target="_blank" class="external-link">Mongo documentation</a>
+For more information about how to install MongoDb on the Gateway please refer to the <a href="https://docs.mongodb.com/manual/installation/" target="_blank" class="external-link">Mongo documentation</a>
 
 ## Enable on-premise funcionality
-Once you gateway is connected enter via SSH and move into the credendials folder you have previously copied.
+Once you gateway is connected enter via SSH and move into the `config` folder you have previously copied.
 
 ```bash
 # enter via ssh
 ssh pi@raspberry.local
 
 # move into the credentials directory
-cd device-htBdp3Z9-credentials
+cd device-xxxxx-credentials/config
 ```
 Now you have to edit the `.env` file that should, at first, look like this:
 
@@ -36,7 +36,7 @@ HOST=ab5jida92t4jb-ats.iot.eu-west-1.amazonaws.com
 PARENT_DEVICE_ID=OSja0zzEB
 PROJECT_ID=ZLS75DhL
 ```
-You just have to add to the `env` file the following lines:
+You have to add to the `.env` file the following lines:
 
 ```bash
 MONGO_URL=mongodb://localhost:27017
