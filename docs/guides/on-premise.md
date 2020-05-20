@@ -61,8 +61,15 @@ In order to make these changes effective you have to restart the `gate` docker c
 docker restart gate
 ```
 
-## Express Server
+## HTTP Web Server
 
-By setting `ON_PREMISE_ENABLED` to true an Express Web Server starts and you can send HTTP requests to its public API. 
+By setting `ON_PREMISE_ENABLED` to `true` an Express Web Server starts and you can send HTTP requests to its public API. 
 
-For more information about the available endpoint refer to our <a href="https://developers.instathings.io" target="_blank" class="external-link">API documentation</a>
+For more information about the available endpoints refer to our <a href="https://developers.instathings.io" target="_blank" class="external-link">API documentation</a>
+
+## Websockets
+As the `ON_PREMISE_ENABLED` option is set to `true`, a Websocket Server also starts. 
+
+You can connect to your gateway's IP address and register listeners on the generated events.
+
+For more details about the websocket connection and the available events please refer to our  <a href="https://developers.instathings.io" target="_blank" class="external-link">API documentation</a>
