@@ -13,10 +13,10 @@ In this tutorial we will show you how to enable on-premise functionality. Let's 
 Before following instructions in this section, you need to:
 
 - <a href="/docs/guides/gateway-setup.html" target="_blank" class="external-link">configure your Gateway</a> to get the connection with Instathings so that is connected to the Instathings cloud (this will be used only for managing the Gateway in this case)
-- have a configured Mongo database that is reachable from the Gateway
+- have a configured MongoDb database (version >=4.2) that is reachable from the Gateway
 - configure a MongoDb collection which you can save your data on.
 
-For more information about how to install MongoDb on the Gateway please refer to the <a href="https://docs.mongodb.com/manual/installation/" target="_blank" class="external-link">Mongo documentation</a>
+For more information about how to install MongoDb on the Gateway please refer to the <a href="https://docs.mongodb.com/manual/installation/" target="_blank" class="external-link">MongoDb documentation</a>
 
 ## Enable on-premise functionality
 Once you Gateway is connected enter via SSH and move into the `config` folder that's inside the provided zip.
@@ -73,11 +73,11 @@ And relaunch the `install.sh` script. This way Docker will map the correct port 
 
 By setting `ON_PREMISE_ENABLED` to `true` an Express Web Server starts and you can send HTTP requests to its public API. 
 
-For more information about the available endpoints refer to our <a href="https://developers.instathings.io" target="_blank" class="external-link">API documentation</a>
+For more information about the available endpoints refer to our <a href="https://developers.instathings.io/#on-premise-rest-api" target="_blank" class="external-link">API documentation</a>
 
 ## Websocket server
 As the `ON_PREMISE_ENABLED` option is set to `true`, a Websocket Server also starts. 
 
 You can connect to your gateway's IP address and register listeners on the generated events.
 
-For more details about the websocket connection and the available events please refer to our  <a href="https://developers.instathings.io" target="_blank" class="external-link">API documentation</a>
+For more details about the websocket connection and the available events please refer to our  <a href="https://developers.instathings.io/#on-premise-websocket-api" target="_blank" class="external-link">API documentation</a>
