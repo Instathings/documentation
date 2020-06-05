@@ -18,19 +18,19 @@ Log in to Instathings Editor and start by creating a new project on the `Project
 
 Once you have created you project, you can start by creating you first Gateway. On the top of the page fill the form, choosing the kind of device you are using and a name for your device. Click on `Create` and you will be redirected to `Hubs` page. Here you can see all the information related to your device.
 
-You can choose two different ways for connecting you gateway:
+You can choose two different ways for connecting you Gateway:
 
-* <a href="/docs/guides/gateway-setup.html#method-1---instalink-plugin" target="_blank" class="external-link"> installing the Instalink plugin </a>
-* <a href="/docs/guides/gateway-setup.html#method-2---download-the-certificates" target="_blank" class="external-link"> dowloading the needed files and move them manually to the gateway </a> 
+* <a href="#automated-via-instalink-plugin" class="external-link">automated via Instalink Plugin </a>
+* <a href="#diy-by-managing-the-certificates" class="external-link">DIY by managing the certificates</a> 
 
 
-### Method 1 - Instalink Plugin
+### Automated via Instalink Plugin
 
 Before connecting the Gateway to the Instathings Cloud, you need to install the InstaLink plugin. 
 
-If it is the first time you connect a gateway, the hubs page should ask you to download the Instalink plugin. The software is available for MacOs, Linux and Windows. 
+If it is the first time you connect a Gateway, the hubs page should ask you to download the Instalink plugin. The software is available for MacOs, Linux and Windows. 
 
-Click on your operating system icon and the dowload will automatically start.
+Click on your operating system icon and the download will automatically start.
 
 <a href="/docs/assets/gateway-config/gw_setup1.png" target="_blank">
     <img src="/docs/assets/gateway-config/gw_setup1.png" width="1000"/>
@@ -39,25 +39,25 @@ Click on your operating system icon and the dowload will automatically start.
 Now it's time to install Instalink on your computer. When the installation process is completed the Instathings icon should appear in the menu bar (or in the application bar, depending on the operating system you are working with). 
 You can check the status by clicking on the icon and you shoud see `Instalink ready` if everything is working correctly.
 
-By clicking on `Open debug console` you are redirected on the console where you can check what will be happening on your gateway when you configure it. 
+By clicking on `Open debug console` you are redirected on the console where you can check what will be happening on your Gateway when you configure it. 
 
 You're almost ready let's move to the next step!
 
 #### Connect your Gateway
 
-Now you have to insert the following information to allow the instalink plugin to connect via SSH to your gateway:
+Now you have to insert the following information to allow the instalink plugin to connect via SSH to your Gateway:
 
 * `Hostname`: hostname or IP address of your device 
-* `Username`
-* `Password`
+* `Username`: the user that will be used to connect to the Gateway
+* `Password`: the SSH password related to that user
 
-Click on `Setup Gateway` and wait a few seconds for the gateway to be connected!
+Click on `Setup Gateway` and wait a few seconds for the Gateway to be connected!
 
 <a href="/docs/assets/gateway-config/gw_setup2.png" target="_blank">
     <img src="/docs/assets/gateway-config/gw_setup2.png" width="1000"/>
 </a>
 
-### Method 2 - Download the certificates
+### DIY by managing the certificates
 
 #### Software Requirements 
 Install Docker 🐳 on your Gateway executing the following commands in the command line one by one. <br> They are suitable for Linux, if you have other operating systems please refer to <a href="https://docs.docker.com/install/" target="_blank" class="external-link">Docker documentation</a>.
@@ -73,9 +73,11 @@ sudo usermod -aG docker pi
 
 In order to get connected to Instathings and to our Cloud you need generate and download the certificates to secure the connection between the Gateway and the Instathings Cloud. 
 
-Click on `Show advanced options` and the download will automatically begin as you click on `Download`, unzip the folder and move it into the Gateway. To do this we used the command line, but you can do it the way you prefer.
+Click on `Show advanced options` and the download will automatically begin as you click on `Download`.
 
-In the Command line type the command `scp -r` followed by the credentials folder and the IP address of your Gateway.
+Unzip the folder and move it into the Gateway. To do this we suggest using the command line, but you can do it the way you prefer.
+
+In the terminal type the command `scp -r` followed by the credentials folder and the IP address of your Gateway.
 
 ```bash
 scp -r device-htBdp3Z9-credentials pi@raspberrypi:~
@@ -96,7 +98,7 @@ cd device-htBdp3Z9-credentials
 The script will create the Docker containers you need to interact with your sensors and devices. However you don't need to worry about it, just go back to the `Hubs` page and check the connection.
 
 ## Gateway connected!
-No matter which method you have choosen to connect the gateway, if everything worked fine, you should see the connection status turning into green.
+No matter which method you have chosen to connect the Gateway, if everything worked fine, you should see the connection status turning into green.
 
 <a href="/docs/assets/gateway-config/gw_setup3.png" target="_blank">
     <img src="/docs/assets/gateway-config/gw_setup3.png" width="1000"/>
