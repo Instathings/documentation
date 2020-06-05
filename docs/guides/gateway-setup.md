@@ -32,7 +32,7 @@ Log in to Instathings Editor and start by creating a new project on the `Project
 Once you have created you project, you can start by creating you first Gateway. On the top of the page fill the form, choosing the kind of device you are using and a name for your device. Click on `Create` and you will be redirected to `Hubs` page. Here you can see all the information related to your device.
 
 You can choose two different ways for connecting you Gateway:
-* <a href="#automated" class="external-link">automated</a>
+* <a href="#automated" class="external-link">Automated</a>
 * <a href="#diy" class="external-link">DIY</a> 
 
 ### Automated
