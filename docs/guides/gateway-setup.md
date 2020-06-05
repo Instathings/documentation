@@ -9,7 +9,20 @@ In order to manage all your sensors and devices you will need a Gateway with an 
 
 If you have any question about choosing a Gateway feel free to contact us on our site! 
 
+
+## Software Requirements 
+Install Docker 🐳 on your Gateway executing the following commands in the command line one by one. <br> They are suitable for Linux, if you have other operating systems please refer to <a href="https://docs.docker.com/install/" target="_blank" class="external-link">Docker documentation</a>.
+ 
+
+```
+curl -sSL https://get.docker.com | sh
+
+sudo usermod -aG docker pi
+```
+
 ## Gateway onboarding
+Your Gateway is now ready to be connected to the Instathings Cloud.
+
 Log in to Instathings Editor and start by creating a new project on the `Projects` page. Give your project a name and choose the `live` environment. For more information about `Sandbox` and `Live` environments refer to the  <a href="/docs/guides/sandbox-projects.html" target="_blank" class="external-link"> sanbox project documentation </a> section.
 
 <a href="/docs/assets/gateway-config/createProject.png" target="_blank">
@@ -43,7 +56,8 @@ You're almost ready let's move to the next step!
 
 #### Connect your Gateway
 
-Now you have to insert the following information to allow the instalink plugin to connect via SSH to your Gateway:
+Now you have to insert the following information to allow the InstaLink plugin to connect via SSH to your gateway:
+
 * `Hostname`: hostname or IP address of your device 
 * `Username`: the user that will be used to connect to the Gateway
 * `Password`: the SSH password related to that user
@@ -55,18 +69,6 @@ Click on `Setup Gateway` and wait a few seconds for the Gateway to be connected!
 </a>
 
 ### DIY
-
-#### Software Requirements 
-Install Docker 🐳 on your Gateway executing the following commands in the command line one by one. <br> They are suitable for Linux, if you have other operating systems please refer to <a href="https://docs.docker.com/install/" target="_blank" class="external-link">Docker documentation</a>.
- 
-
-```
-curl -sSL https://get.docker.com | sh
-
-sudo usermod -aG docker pi
-```
-
-#### Connect your Gateway
 
 In order to get connected to Instathings and to our Cloud you need generate and download the certificates to secure the connection between the Gateway and the Instathings Cloud. 
 
