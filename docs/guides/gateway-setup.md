@@ -28,7 +28,7 @@ You can choose two different ways for connecting you Gateway:
 
 Before connecting the Gateway to the Instathings Cloud, you need to install the InstaLink plugin. 
 
-If it is the first time you connect a Gateway, the hubs page should ask you to download the Instalink plugin. The software is available for MacOs, Linux and Windows. 
+If it is the first time you connect a Gateway, the hubs page should ask you to download the Instalink plugin. The software is available for MacOsX, Linux and Windows. 
 
 Click on your operating system icon and the download will automatically start.
 
@@ -36,8 +36,8 @@ Click on your operating system icon and the download will automatically start.
     <img src="/docs/assets/gateway-config/gw_setup1.png" width="1000"/>
 </a>
 
-Now it's time to install Instalink on your computer. When the installation process is completed the Instathings icon should appear in the menu bar (or in the application bar, depending on the operating system you are working with). 
-You can check the status by clicking on the icon and you shoud see `Instalink ready` if everything is working correctly.
+Now it's time to install InstaLink on your computer. When the installation process is completed the Instathings icon should appear in the menu bar (or in the application bar, depending on the operating system you are working with). 
+You can check the status by clicking on the icon and you shoud see `Insta-link ready` if everything is working correctly.
 
 By clicking on `Open debug console` you are redirected on the console where you can check what will be happening on your Gateway when you configure it. 
 
@@ -46,7 +46,6 @@ You're almost ready let's move to the next step!
 #### Connect your Gateway
 
 Now you have to insert the following information to allow the instalink plugin to connect via SSH to your Gateway:
-
 * `Hostname`: hostname or IP address of your device 
 * `Username`: the user that will be used to connect to the Gateway
 * `Password`: the SSH password related to that user
