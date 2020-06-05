@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.7.0] - 2020-06-05
+### Changed
+- Gateway setup updated with InstaLink doc
+
 ## [1.6.0] - 2020-05-21
 ### Added
 - On-premise doc
