@@ -26,7 +26,7 @@ You can choose two different ways for connecting you Gateway:
 
 Before connecting the Gateway to the Instathings Cloud, you need to install the InstaLink plugin. 
 
-If it is the first time you connect a Gateway, the hubs page should ask you to download the Instalink plugin. The software is available for MacOsX, Linux and Windows. 
+If it is the first time you connect a Gateway, the hubs page should ask you to download the InstaLink plugin. The software is available for MacOsX, Linux and Windows. 
 
 Click on your operating system icon and the download will automatically start.
 
