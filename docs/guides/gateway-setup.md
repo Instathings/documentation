@@ -20,15 +20,15 @@ Once you have created you project, you can start by creating you first Gateway. 
 
 You can choose two different ways for connecting you gateway:
 
-* <a href="/docs/guides/gateway-setup.html#method-1---instalink-plugin" target="_blank" class="external-link"> installing the Instalink plugin </a>
+* <a href="/docs/guides/gateway-setup.html#method-1---instalink-plugin" target="_blank" class="external-link"> installing the InstaLink plugin </a>
 * <a href="/docs/guides/gateway-setup.html#method-2---download-the-certificates" target="_blank" class="external-link"> dowloading the needed files and move them manually to the gateway </a> 
 
 
-### Method 1 - Instalink Plugin
+### Method 1 - InstaLink Plugin
 
 Before connecting the Gateway to the Instathings Cloud, you need to install the InstaLink plugin. 
 
-If it is the first time you connect a gateway, the hubs page should ask you to download the Instalink plugin. The software is available for MacOs, Linux and Windows. 
+If it is the first time you connect a gateway, the hubs page should ask you to download the InstaLink plugin. The software is available for MacOs, Linux and Windows. 
 
 Click on your operating system icon and the dowload will automatically start.
 
@@ -36,8 +36,8 @@ Click on your operating system icon and the dowload will automatically start.
     <img src="/docs/assets/gateway-config/gw_setup1.png" width="1000"/>
 </a>
 
-Now it's time to install Instalink on your computer. When the installation process is completed the Instathings icon should appear in the menu bar (or in the application bar, depending on the operating system you are working with). 
-You can check the status by clicking on the icon and you shoud see `Instalink ready` if everything is working correctly.
+Now it's time to install InstaLink on your computer. When the installation process is completed the Instathings icon should appear in the menu bar (or in the application bar, depending on the operating system you are working with). 
+You can check the status by clicking on the icon and you shoud see `Insta-link ready` if everything is working correctly.
 
 By clicking on `Open debug console` you are redirected on the console where you can check what will be happening on your gateway when you configure it. 
 
@@ -45,7 +45,7 @@ You're almost ready let's move to the next step!
 
 #### Connect your Gateway
 
-Now you have to insert the following information to allow the instalink plugin to connect via SSH to your gateway:
+Now you have to insert the following information to allow the instaLink plugin to connect via SSH to your gateway:
 
 * `Hostname`: hostname or IP address of your device 
 * `Username`
