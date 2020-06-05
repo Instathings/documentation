@@ -19,12 +19,10 @@ Log in to Instathings Editor and start by creating a new project on the `Project
 Once you have created you project, you can start by creating you first Gateway. On the top of the page fill the form, choosing the kind of device you are using and a name for your device. Click on `Create` and you will be redirected to `Hubs` page. Here you can see all the information related to your device.
 
 You can choose two different ways for connecting you Gateway:
+* <a href="#automated" class="external-link">automated</a>
+* <a href="#diy" class="external-link">DIY</a> 
 
-* <a href="#automated-via-instalink-plugin" class="external-link">automated via Instalink Plugin </a>
-* <a href="#diy-by-managing-the-certificates" class="external-link">DIY by managing the certificates</a> 
-
-
-### Automated via Instalink Plugin
+### Automated
 
 Before connecting the Gateway to the Instathings Cloud, you need to install the InstaLink plugin. 
 
@@ -56,7 +54,7 @@ Click on `Setup Gateway` and wait a few seconds for the Gateway to be connected!
     <img src="/docs/assets/gateway-config/gw_setup2.png" width="1000"/>
 </a>
 
-### DIY by managing the certificates
+### DIY
 
 #### Software Requirements 
 Install Docker 🐳 on your Gateway executing the following commands in the command line one by one. <br> They are suitable for Linux, if you have other operating systems please refer to <a href="https://docs.docker.com/install/" target="_blank" class="external-link">Docker documentation</a>.
